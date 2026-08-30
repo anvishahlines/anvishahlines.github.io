@@ -49,7 +49,7 @@ a {
 }
 
 .spacer {
-    width: 40px; /* Balances the layout against the menu icon */
+    width: 40px;
 }
 
 /* Full Screen Navigation Menu */
@@ -108,11 +108,15 @@ a {
     align-items: center;
 }
 
+/* Image scaling to prevent blowout on large monitors */
 .gallery-link img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 70vh; 
+    width: auto;
     height: auto;
     display: block;
     margin-bottom: 1rem;
+    object-fit: contain; 
 }
 
 .gallery-label {
@@ -128,26 +132,24 @@ a {
     padding: 0 1.5rem;
 }
 
+/* Profile picture scaling and centering */
 .profile-pic {
+    max-width: 400px; 
     width: 100%;
     height: auto;
-    margin-bottom: 3rem;
+    display: block;
+    margin: 0 auto 3rem auto; 
 }
 
 .text-block {
     margin-bottom: 3rem;
 }
 
-.text-block h2 {
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-}
-
 .text-block p {
     line-height: 1.6;
     font-size: 1rem;
     color: #444444;
+    margin-bottom: 1.5rem; /* Added spacing between paragraphs for the Bio */
 }
 
 .text-center {
