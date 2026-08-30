@@ -1,0 +1,191 @@
+/* Base Styles & Typography */
+:root {
+    --text-primary: #111111;
+    --text-secondary: #777777;
+    --bg-color: #ffffff;
+    --sidebar-width: 280px;
+    --spacing: 2rem;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: var(--text-primary);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--text-secondary);
+}
+
+/* Layout Wrapper */
+.layout-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Fixed Sidebar */
+.sidebar {
+    width: var(--sidebar-width);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 3rem var(--spacing);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    z-index: 100;
+}
+
+.sidebar-header h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 0 3rem 0;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-nav {
+    flex-grow: 1;
+}
+
+.nav-section {
+    margin-bottom: 2.5rem;
+}
+
+.nav-label {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.nav-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-section li {
+    margin-bottom: 0.75rem;
+}
+
+.nav-section a {
+    font-size: 0.95rem;
+}
+
+.sidebar-footer p {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+/* Main Content Area */
+.content {
+    margin-left: var(--sidebar-width);
+    padding: 3rem var(--spacing);
+    flex-grow: 1;
+    max-width: 1200px;
+}
+
+/* Portfolio Sections */
+.portfolio-section {
+    margin-bottom: 6rem;
+}
+
+.portfolio-section h2, .text-section h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.artwork-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* Text Sections (About, Contact) */
+.text-section {
+    max-width: 700px;
+    margin-bottom: 6rem;
+}
+
+.bio-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cv-header {
+    margin-top: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cv-list {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.cv-list li {
+    margin-bottom: 0.5rem;
+}
+
+.email-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid var(--text-primary);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .layout-wrapper {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        position: relative;
+        height: auto;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 2rem;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 2rem;
+    }
+}
