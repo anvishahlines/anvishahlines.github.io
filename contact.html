@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anvi Stevens</title>
+    <title>Contact | Anvi Stevens</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Top Header -->
     <header class="site-header">
         <button class="menu-toggle" aria-label="Open menu">
             <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
@@ -16,7 +15,6 @@
         <div class="spacer"></div>
     </header>
 
-    <!-- Full Screen Navigation Overlay -->
     <div class="mobile-menu">
         <div class="overlay-header">
             <button class="menu-close" aria-label="Close menu">
@@ -32,25 +30,14 @@
         </nav>
     </div>
 
-    <!-- Main Content -->
-    <main class="gallery-stack">
-        <a href="#" class="gallery-link">
-            <img src="https://via.placeholder.com/800x800/eeeeee/999999?text=Drawings" alt="Drawings">
-            <span class="gallery-label">drawings</span>
-        </a>
-        
-        <a href="#" class="gallery-link">
-            <img src="https://via.placeholder.com/800x800/eeeeee/999999?text=Fabric+Paintings" alt="Fabric Paintings">
-            <span class="gallery-label">fabric paintings</span>
-        </a>
-
-        <a href="#" class="gallery-link">
-            <img src="https://via.placeholder.com/800x800/eeeeee/999999?text=Sculpture+Paintings" alt="Sculpture Paintings">
-            <span class="gallery-label">sculpture paintings</span>
-        </a>
+    <main class="page-content">
+        <section class="text-block text-center">
+            <h2>Contact</h2>
+            <p>[For inquiries, please reach out via email. Placeholder text for contact details or studio representation.]</p>
+            <a href="mailto:hello@anvistevens.com" class="email-link">hello@anvistevens.com</a>
+        </section>
     </main>
 
-    <!-- Menu Script -->
     <script>
         const menu = document.querySelector('.mobile-menu');
         document.querySelector('.menu-toggle').addEventListener('click', () => menu.classList.add('active'));
