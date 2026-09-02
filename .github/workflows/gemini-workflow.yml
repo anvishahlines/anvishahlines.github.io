@@ -1,14 +1,15 @@
-name: Gemini Workflow
+name: Auto-Build Website with Gemini
 
 on:
+  workflow_dispatch: # Allows you to click a button on GitHub to trigger it manually
   push:
-    branches: [ main ]
-  pull_request:
     branches: [ main ]
 
 jobs:
-  run-gemini:
+  build-web:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required so the action can commit files back to your repo
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -18,10 +19,21 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Run Gemini Script
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Install Dependencies
         run: |
-          # Install your dependencies or run your code here
-          python -m pip install google-genai
-          python your_script.py
+          python -m pip install --upgrade pip
+          pip install google-genai
+
+      - name: Run Gemini Generator Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/generate_site.py
+
+      - name: Commit and Push Generated Website
+        run: |
+          git config --global user.name "Gemini Bot"
+          git config --global user.email "bot@users.noreply.github.com"
+          git add index.html
+          git commit -m "Automated website update via Gemini API" || exit 0
+          git push
