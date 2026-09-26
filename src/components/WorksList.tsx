@@ -26,7 +26,7 @@ export const WorksList: React.FC<WorksListProps> = ({ categories, onSelectCatego
                 className="group cursor-pointer flex flex-col items-center text-center w-full max-w-[280px] sm:max-w-[340px]"
               >
                 {/* Artwork thumbnail container showcasing the actual work contained in this category */}
-                <div className="relative w-full aspect-[4/3] overflow-hidden bg-stone-100 border border-stone-200/80 shadow-[0_1px_3px_rgba(0,0,0,0.04)] transition-all duration-300 group-hover:border-stone-400 group-hover:shadow-md">
+                <div className="relative w-full aspect-[4/3] overflow-hidden bg-stone-100 transition-all duration-300">
                   <img
                     src={headerImage}
                     alt={category.title}

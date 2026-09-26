@@ -62,7 +62,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
               {/* Full artwork container with equal scaling and uncropped presentation */}
               <div
                 onClick={() => onOpenArtworkModal(artwork)}
-                className="group cursor-zoom-in w-full bg-stone-100/60 p-2 sm:p-3 border border-stone-200/80 shadow-[0_1px_4px_rgba(0,0,0,0.03)] hover:border-stone-400 transition-all"
+                className="group cursor-zoom-in w-full transition-all"
               >
                 <img
                   src={artwork.image}

@@ -14,7 +14,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigateToWorks }) => {
       <div className="w-full max-w-[340px] sm:max-w-[420px] md:max-w-[460px] flex flex-col items-center">
         <div 
           onClick={onNavigateToWorks}
-          className="group cursor-pointer w-full aspect-[3/4] overflow-hidden bg-stone-100 border border-stone-200/90 shadow-[0_2px_12px_rgba(0,0,0,0.05)] hover:border-stone-400 transition-all duration-500"
+          className="group cursor-pointer w-full aspect-[3/4] overflow-hidden bg-stone-100 transition-all duration-500"
         >
           <img
             src="/images/profile_pic.jpg"

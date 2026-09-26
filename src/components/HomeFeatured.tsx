@@ -29,7 +29,7 @@ export const HomeFeatured: React.FC<HomeFeaturedProps> = ({
           onClick={onExploreWorks}
           className="group cursor-pointer w-full max-w-[340px] sm:max-w-[420px] flex flex-col items-center"
         >
-          <div className="relative w-full aspect-[4/3] sm:aspect-[1.15/1] overflow-hidden bg-stone-100 border border-stone-200/90 shadow-[0_2px_12px_rgba(0,0,0,0.04)] group-hover:border-stone-400 group-hover:shadow-md transition-all duration-500">
+          <div className="relative w-full aspect-[4/3] sm:aspect-[1.15/1] overflow-hidden bg-stone-100 transition-all duration-500">
             <img
               src={featuredArtwork.image}
               alt={featuredArtwork.title}

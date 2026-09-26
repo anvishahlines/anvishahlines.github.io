@@ -47,11 +47,11 @@ export const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose }) 
         </button>
 
         {/* High-Resolution Artwork Image */}
-        <div className="w-full flex items-center justify-center bg-stone-100/70 p-2 sm:p-4 border border-stone-200/60 max-h-[68vh]">
+        <div className="w-full flex items-center justify-center max-h-[72vh]">
           <img
             src={artwork.image}
             alt={artwork.title}
-            className="max-h-[64vh] max-w-full object-contain mx-auto"
+            className="max-h-[70vh] max-w-full object-contain mx-auto"
           />
         </div>
 
