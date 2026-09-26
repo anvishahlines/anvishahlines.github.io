@@ -1,0 +1,6 @@
+{
+  "name": "Anvi Stevens — Fine Artist & Painter",
+  "description": "Art portfolio of Anvi Stevens, a gallery visual artist and painter exploring textiles, sculpture, personification, and abstract mark-making.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
