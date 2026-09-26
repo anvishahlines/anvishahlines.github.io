@@ -3,7 +3,7 @@ import { ArtistProfile, WorkCategory } from '../types/portfolio';
 export const ARTIST_PROFILE: ArtistProfile = {
   name: "Anvi Stevens",
   location: "Wakefield, Massachusetts",
-  email: "hello@anvistevens.com",
+  email: "anvishahlines@gmail.com",
   instagramUrl: "https://www.instagram.com/aunvi20/",
   instagramHandle: "aunvi20",
   profileImage: "/images/profile_pic.jpg",

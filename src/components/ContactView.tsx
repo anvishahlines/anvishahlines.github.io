@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 
 interface ContactViewProps {
   email: string;
-  location: string;
+  location?: string;
   instagramUrl?: string;
   instagramHandle?: string;
 }
 
 export const ContactView: React.FC<ContactViewProps> = ({
-  email,
-  location,
+  email = 'anvishahlines@gmail.com',
   instagramUrl = 'https://www.instagram.com/aunvi20/',
   instagramHandle = 'aunvi20'
 }) => {
@@ -19,12 +18,53 @@ export const ContactView: React.FC<ContactViewProps> = ({
     subject: '',
     message: ''
   });
+  const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) return;
-    setSubmitted(true);
+    setLoading(true);
+
+    try {
+      const response = await fetch(`https://formsubmit.co/ajax/${email}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          _replyto: formData.email,
+          subject: formData.subject || `Inquiry from ${formData.name} (via anvistevens.com)`,
+          message: formData.message,
+          _template: 'table'
+        })
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        // Fallback to mailto
+        window.location.href = `mailto:${email}?subject=${encodeURIComponent(
+          formData.subject || 'Artwork Inquiry'
+        )}&body=${encodeURIComponent(
+          `From: ${formData.name} (${formData.email})\n\n${formData.message}`
+        )}`;
+        setSubmitted(true);
+      }
+    } catch {
+      // Direct mailto fallback
+      window.location.href = `mailto:${email}?subject=${encodeURIComponent(
+        formData.subject || 'Artwork Inquiry'
+      )}&body=${encodeURIComponent(
+        `From: ${formData.name} (${formData.email})\n\n${formData.message}`
+      )}`;
+      setSubmitted(true);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -39,11 +79,11 @@ export const ContactView: React.FC<ContactViewProps> = ({
             Contact Anvi Stevens
           </h3>
           <p className="mt-3 text-xs sm:text-sm text-stone-500 font-light max-w-md mx-auto leading-relaxed">
-            For acquisitions, exhibition proposals, catalog inquiries, or studio visits in {location}.
+            For acquisitions, exhibition proposals, or artwork inquiries.
           </p>
         </div>
 
-        {/* Direct Email & Instagram Links */}
+        {/* Direct Email Link */}
         <div className="mb-10 text-center flex flex-col items-center gap-3">
           <a
             href={`mailto:${email}`}
@@ -72,7 +112,7 @@ export const ContactView: React.FC<ContactViewProps> = ({
             <div className="text-center py-8">
               <h4 className="font-gallery text-xl text-stone-900 mb-2">Thank you for your message</h4>
               <p className="text-xs text-stone-500 font-light max-w-sm mx-auto leading-relaxed">
-                Your note has been received. Anvi or her studio representative will respond to your inquiry shortly.
+                Your message has been sent directly to {email}. Anvi will respond to your inquiry shortly.
               </p>
               <button
                 onClick={() => {
@@ -144,19 +184,14 @@ export const ContactView: React.FC<ContactViewProps> = ({
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="w-full py-3 bg-stone-900 text-white text-xs uppercase tracking-[0.2em] font-medium hover:bg-stone-800 transition-colors cursor-pointer"
+                  disabled={loading}
+                  className="w-full py-3 bg-stone-900 text-white text-xs uppercase tracking-[0.2em] font-medium hover:bg-stone-800 transition-colors cursor-pointer disabled:opacity-50"
                 >
-                  Send Inquiry
+                  {loading ? 'Sending...' : 'Send Inquiry'}
                 </button>
               </div>
             </form>
           )}
-        </div>
-
-        {/* Location & Gallery representation note */}
-        <div className="mt-12 text-center text-xs text-stone-400 font-light space-y-1">
-          <p>Studio located in {location}</p>
-          <p>Visits arranged by appointment</p>
         </div>
       </div>
     </div>

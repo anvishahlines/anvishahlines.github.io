@@ -106,9 +106,6 @@ export const AboutView: React.FC<AboutViewProps> = ({ profile }) => {
             <h4 className="text-xs uppercase tracking-[0.2em] font-medium text-stone-800">
               {profile.name}
             </h4>
-            <p className="mt-0.5 text-[11px] text-stone-400 font-light tracking-wide">
-              Wakefield, Massachusetts
-            </p>
             <a
               href={profile.instagramUrl}
               target="_blank"
