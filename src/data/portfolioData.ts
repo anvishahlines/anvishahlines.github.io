@@ -146,7 +146,8 @@ export const ARTIST_PROFILE: ArtistProfile = {
           year: "2023",
           primary: "Create! Magazine (Issue 41)",
           secondary: "Juried by Victoria Fry",
-          details: "Print Feature"
+          details: "Print Feature",
+          url: "https://www.createmagazine.co/artists/anvi-stevens"
         }
       ]
     }

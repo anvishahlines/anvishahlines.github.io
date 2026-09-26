@@ -38,6 +38,7 @@ export interface CVSection {
     primary: string;
     secondary?: string;
     details?: string;
+    url?: string;
   }[];
 }
 

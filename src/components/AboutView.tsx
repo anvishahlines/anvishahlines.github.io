@@ -53,9 +53,21 @@ export const AboutView: React.FC<AboutViewProps> = ({ profile }) => {
                     {section.items.map((item, itemIdx) => (
                       <div key={itemIdx} className="flex flex-col">
                         <div className="flex items-baseline justify-between gap-2">
-                          <span className="font-medium text-stone-800">
-                            {item.primary}
-                          </span>
+                          {item.url ? (
+                            <a
+                              href={item.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="font-medium text-stone-900 underline underline-offset-4 decoration-stone-300 hover:decoration-stone-700 transition-colors inline-flex items-center gap-1 group"
+                            >
+                              <span>{item.primary}</span>
+                              <span className="text-[10px] text-stone-400 group-hover:text-stone-700 transition-colors">↗</span>
+                            </a>
+                          ) : (
+                            <span className="font-medium text-stone-800">
+                              {item.primary}
+                            </span>
+                          )}
                           {item.year && (
                             <span className="text-[11px] text-stone-400 font-mono tracking-tight shrink-0">
                               {item.year}
