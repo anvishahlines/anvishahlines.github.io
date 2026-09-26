@@ -72,8 +72,8 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
                 />
               </div>
 
-              {/* Text goes below each relevant photo: bold title · year · medium · dimensions, left-oriented in centered container */}
-              <div className="mt-3.5 w-full text-left">
+              {/* Text goes below each relevant photo: bold title · year · medium · dimensions, center-aligned */}
+              <div className="mt-3.5 w-full text-center">
                 <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed font-light">
                   <span className="font-semibold text-stone-900">{artwork.title}</span>
                   {artwork.year && (

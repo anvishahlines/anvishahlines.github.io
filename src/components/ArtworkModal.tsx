@@ -56,7 +56,7 @@ export const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose }) 
         </div>
 
         {/* Artwork Details & Captions */}
-        <div className="w-full mt-4 text-left max-w-lg">
+        <div className="w-full mt-4 text-center max-w-lg">
           <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed font-light">
             <span className="font-semibold text-stone-900">{artwork.title}</span>
             {artwork.year && (
