@@ -146,7 +146,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
   {
     id: "landscape",
     title: "Landscape",
-    coverImage: "/images/outside-in.jpg",
+    coverImage: "/images/landscape/06_outside_in.jpg",
     cropPosition: "object-center",
     description:
       "Sensorial terrains rendered through line density, rhythm, and abstracted horizon lines. Chronicling journeys, transitions, and psychological geographies across India and New England.",
@@ -154,13 +154,13 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       "A metaphor for walking through a vast space and becoming lost in the many details. The rhythm and flow serve as a visual navigation through the terrain.",
     works: [
       {
-        id: "land-stand-in",
-        title: "Stand In",
-        medium: "Paint and thread on fabric",
-        dimensions: "42” × 21.5”",
+        id: "land-adrift-ii",
+        title: "Adrift II",
+        medium: "Dyed fabric",
+        dimensions: "47” × 22.5” × 10.5”",
         year: "2023",
-        image: "/images/stand-in.jpg",
-        description: "Exploring the tension between physical presence and psychological surrogate."
+        image: "/images/landscape/01_adrift_2.jpg",
+        description: "Floating navigational markers between terra firma and memory."
       },
       {
         id: "land-another-way",
@@ -168,26 +168,17 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Paint, dye, graphite, and thread on fabric",
         dimensions: "42” × 62”",
         year: "2023",
-        image: "/images/02-another-way-of-response.jpg",
+        image: "/images/landscape/02_another_way_of_response.jpg",
         description: "A dialogue between linear pathways and organic washes."
       },
       {
-        id: "land-adrift-ii",
-        title: "Adrift II",
-        medium: "Dyed fabric",
-        dimensions: "47” × 22.5” × 10.5”",
-        year: "2023",
-        image: "/images/03-adrift-ii.jpg",
-        description: "Floating navigational markers between terra firma and memory."
-      },
-      {
-        id: "land-two-sides",
-        title: "Two Sides of It",
-        medium: "Paint, paper, sand, gold leaf, and thread on fabric",
-        dimensions: "63” × 60”",
+        id: "land-adrift-i",
+        title: "Adrift",
+        medium: "Charcoal, geru, paint, and gold leaf on fabric",
+        dimensions: "41” × 68”",
         year: "2021",
-        image: "/images/two-sides-of-it.jpg",
-        description: "Bifurcating mindsets — innate self versus presented persona."
+        image: "/images/landscape/03_adrift_1.jpg",
+        description: "Expansive fabric terrain exploring transitions and psychological weight."
       },
       {
         id: "land-between-spaces",
@@ -195,8 +186,17 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Dye, paint, and gold leaf on fabric",
         dimensions: "66” × 54”",
         year: "2021",
-        image: "/images/between-the-spaces-through-the-frame.jpg",
+        image: "/images/landscape/04_between_the_spaces_through_the_frame.jpg",
         description: "Constructed thresholds examining how memory filters architectural boundaries."
+      },
+      {
+        id: "land-two-sides",
+        title: "Two Sides of It",
+        medium: "Paint, paper, sand, gold leaf, and thread on fabric",
+        dimensions: "63” × 60”",
+        year: "2021",
+        image: "/images/landscape/05_two_sides_of_it.jpg",
+        description: "Bifurcating mindsets — innate self versus presented persona."
       },
       {
         id: "land-outside-in",
@@ -204,7 +204,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Charcoal, dye, paint, and geru on fabric",
         dimensions: "60” × 66”",
         year: "2021",
-        image: "/images/outside-in.jpg",
+        image: "/images/landscape/06_outside_in.jpg",
         description: "Inversion of private interior reflection into the outward social sphere."
       },
       {
@@ -213,7 +213,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Handmade paper, thread, and earth tones",
         dimensions: "14” × 19”",
         year: "2020",
-        image: "/images/notes.jpg",
+        image: "/images/landscape/07_notes.jpg",
         description: "Subtle annotations and cartographic markings."
       }
     ]
