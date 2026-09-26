@@ -46,15 +46,10 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
         </div>
 
         {/* Category Header */}
-        <div className="text-center max-w-lg mb-12 sm:mb-16">
-          <h2 className="text-base sm:text-lg tracking-[0.2em] uppercase font-medium text-stone-900 mb-3">
+        <div className="text-center max-w-lg mb-10 sm:mb-14">
+          <h2 className="text-base sm:text-lg tracking-[0.2em] uppercase font-medium text-stone-900">
             {category.title}
           </h2>
-          {category.statementSnippet && (
-            <p className="text-xs sm:text-sm text-stone-600 font-serif-gallery italic leading-relaxed">
-              "{category.statementSnippet}"
-            </p>
-          )}
         </div>
 
         {/* Center-aligned stack of images of her works (full images now, but still equal scaling) */}

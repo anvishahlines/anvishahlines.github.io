@@ -66,13 +66,10 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
         {!selectedSubProjectId && (
           <div className="w-full flex flex-col items-center">
             {/* Category Intro */}
-            <div className="text-center max-w-md mb-12">
-              <h2 className="text-sm tracking-[0.25em] uppercase font-medium text-stone-900 mb-2">
+            <div className="text-center max-w-md mb-10 sm:mb-14">
+              <h2 className="text-sm tracking-[0.25em] uppercase font-medium text-stone-900">
                 {category.title}
               </h2>
-              <p className="text-xs text-stone-500 leading-relaxed font-light">
-                {category.description}
-              </p>
             </div>
 
             {/* Photo links to separate projects: "Her Little Black Book", "Story Board", and "New York Poem" */}
@@ -115,14 +112,11 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
         {/* View Mode 2: Contained Single Sub-Project Page with full images & text below */}
         {selectedSubProjectId && currentSubProject && (
           <div className="w-full flex flex-col items-center">
-            {/* Sub-Project Title & Narrative */}
-            <div className="text-center max-w-lg mb-12 sm:mb-16">
-              <h2 className="text-base sm:text-lg tracking-[0.2em] uppercase font-medium text-stone-900 mb-3">
+            {/* Sub-Project Title */}
+            <div className="text-center max-w-lg mb-10 sm:mb-14">
+              <h2 className="text-base sm:text-lg tracking-[0.2em] uppercase font-medium text-stone-900">
                 {currentSubProject.title}
               </h2>
-              <p className="text-xs sm:text-sm text-stone-600 leading-relaxed font-light">
-                {currentSubProject.description}
-              </p>
             </div>
 
             {/* Center-aligned stack of full artwork images with equal scaling */}
