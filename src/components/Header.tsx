@@ -50,7 +50,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onNavigate }) => {
                   : 'text-stone-500 border-b border-transparent hover:border-stone-300'
               }`}
             >
-              Bio + CV
+              About
             </button>
 
             <button
@@ -86,7 +86,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onNavigate }) => {
               {currentView === 'works' || currentView === 'category'
                 ? 'Portfolio / Works'
                 : currentView === 'about'
-                ? 'Biography & CV'
+                ? 'About'
                 : currentView === 'contact'
                 ? 'Contact'
                 : 'Studio Gallery'}
@@ -129,7 +129,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onNavigate }) => {
                     : 'text-stone-600'
                 }`}
               >
-                Bio + CV
+                About
               </button>
               <button
                 onClick={() => handleNav('contact')}
