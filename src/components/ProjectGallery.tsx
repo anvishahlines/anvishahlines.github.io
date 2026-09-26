@@ -1,6 +1,7 @@
 import React from 'react';
 import { WorkCategory, Artwork } from '../types/portfolio';
 import { BookArtDetail } from './BookArtDetail';
+import { FormattedArtworkTitle } from './FormattedArtworkTitle';
 
 interface ProjectGalleryProps {
   category: WorkCategory;
@@ -75,7 +76,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
               {/* Text goes below each relevant photo: bold title · year · medium · dimensions, center-aligned */}
               <div className="mt-3.5 w-full text-center">
                 <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed font-light">
-                  <span className="font-semibold text-stone-900">{artwork.title}</span>
+                  <FormattedArtworkTitle title={artwork.title} />
                   {artwork.year && (
                     <>
                       <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>

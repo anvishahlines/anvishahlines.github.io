@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { WorkCategory, SubProject, Artwork } from '../types/portfolio';
+import { FormattedArtworkTitle } from './FormattedArtworkTitle';
 
 interface BookArtDetailProps {
   category: WorkCategory;
@@ -141,7 +142,7 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
                   {/* Text below relevant photo: bold title · year · medium · dimensions, center-aligned */}
                   <div className="mt-3.5 w-full text-center">
                     <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed font-light">
-                      <span className="font-semibold text-stone-900">{artwork.title}</span>
+                      <FormattedArtworkTitle title={artwork.title} />
                       {artwork.year && (
                         <>
                           <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>

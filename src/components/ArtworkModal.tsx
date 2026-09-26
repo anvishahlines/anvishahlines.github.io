@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Artwork } from '../types/portfolio';
+import { FormattedArtworkTitle } from './FormattedArtworkTitle';
 
 interface ArtworkModalProps {
   artwork: Artwork | null;
@@ -58,7 +59,7 @@ export const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose }) 
         {/* Artwork Details & Captions */}
         <div className="w-full mt-4 text-center max-w-lg">
           <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed font-light">
-            <span className="font-semibold text-stone-900">{artwork.title}</span>
+            <FormattedArtworkTitle title={artwork.title} />
             {artwork.year && (
               <>
                 <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>
