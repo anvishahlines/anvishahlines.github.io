@@ -98,7 +98,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     id: "nature-of-things",
     title: "Nature of Things",
     subtitle: "Chairs as vessels of personification & constructed spaces",
-    coverImage: "/images/stevensanvi05.jpg",
+    coverImage: "/images/01_rooted.jpg",
     cropPosition: "object-center",
     description:
       "A body of work exploring chairs as vessels of personification within imagined, represented, and constructed interior spaces. Exploring the unseen psychological weight carried by individuals in social settings through fabric, pattern, and stitch.",
@@ -106,65 +106,47 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       "‘Nature of being’ is observed in the symbolic ‘nature of things’ carried by the chairs. The subject of my paintings, the chairs, are vessels of personification while providing the comfort and familiarity a place of rest evokes.",
     works: [
       {
-        id: "nature-1",
-        title: "Nature of Things I",
-        medium: "Mixed media, dyed textiles, stitching, and paint on linen",
-        dimensions: "36” × 48”",
-        year: "2023",
-        image: "/images/stevensanvi05.jpg",
-        description: "Personified chairs navigating shared space and residual quietness after a gathering."
+        id: "nature-rooted",
+        title: "Rooted",
+        medium: "Twill tape, embroidery floss, eyelet, watercolor, color pencil, charcoal, dyed cotton and silk fabric on raw canvas",
+        dimensions: "61” × 35”",
+        year: "2026",
+        image: "/images/01_rooted.jpg",
+        description: "Personified chairs navigating shared space and residual quietness."
       },
       {
-        id: "nature-2",
-        title: "Stand In",
-        medium: "Dyed cotton, mother’s collection textile fragments, thread, and acrylic",
-        dimensions: "30” × 44”",
-        year: "2023",
-        image: "/images/stand-in.jpg",
-        description: "Exploring the tension between physical presence and psychological surrogate."
+        id: "nature-adorned",
+        title: "Adorned",
+        medium: "Oil paint and color pencil on canvas and fabric",
+        dimensions: "40” × 16”",
+        year: "2026",
+        image: "/images/02_adorned.jpg",
+        description: "Intimate vessel form exploring surface texture and restraint."
       },
       {
-        id: "nature-3",
-        title: "Outside In",
-        medium: "Fabric painting, applique, and hand-embroidered line work",
-        dimensions: "40” × 40”",
-        year: "2022",
-        image: "/images/outside-in.jpg",
-        description: "Inversion of private interior reflection into the outward social sphere."
+        id: "nature-burden",
+        title: "The Burden of Beauty",
+        medium: "Eco-printed fabric, thread, charcoal and acrylic paint on linen towel",
+        dimensions: "31.5” × 16.5”",
+        year: "2026",
+        image: "/images/03_the_burden_of_beauty.jpg",
+        description: "Residual markings and psychological presence carried within fabric."
       },
       {
-        id: "nature-4",
-        title: "Two Sides of It",
-        medium: "Textile assemblage, natural dye, and machine stitch",
-        dimensions: "34” × 38”",
-        year: "2022",
-        image: "/images/two-sides-of-it.jpg",
-        description: "Bifurcating mindsets — innate self versus presented persona."
-      },
-      {
-        id: "nature-5",
-        title: "Between the Spaces Through the Frame",
-        medium: "Stitched textile collage with dyed panels",
-        dimensions: "28” × 42”",
-        year: "2022",
-        image: "/images/between-the-spaces-through-the-frame.jpg",
-        description: "Constructed thresholds examining how memory filters architectural boundaries."
-      },
-      {
-        id: "nature-6",
-        title: "Fabric Paintings Ensemble",
-        medium: "Dyed cotton, thread, eco-prints and mixed pigments",
-        dimensions: "Variable dimensions",
-        year: "2022–2023",
-        image: "/images/fabric_paintings.jpg",
-        description: "Studio installation of wall-hanging fabric works."
+        id: "nature-ac",
+        title: "Some blame the air conditioning",
+        medium: "Graphite, thread, acrylic paint and fabric",
+        dimensions: "30” × 22”",
+        year: "2026",
+        image: "/images/04_some_blame_the_air_conditioning.jpg",
+        description: "Subtle social awkwardness and environmental tension translated through stitched line."
       }
     ]
   },
   {
     id: "landscape",
     title: "Landscape",
-    coverImage: "/images/anvishah-narrative4.jpg",
+    coverImage: "/images/outside-in.jpg",
     cropPosition: "object-center",
     description:
       "Sensorial terrains rendered through line density, rhythm, and abstracted horizon lines. Chronicling journeys, transitions, and psychological geographies across India and New England.",
@@ -172,43 +154,61 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       "A metaphor for walking through a vast space and becoming lost in the many details. The rhythm and flow serve as a visual navigation through the terrain.",
     works: [
       {
-        id: "land-1",
-        title: "Landscape IV",
-        medium: "Pigment, watercolor, and stitched thread on treated paper",
-        dimensions: "18” × 24”",
-        year: "2021",
-        image: "/images/anvishah-narrative4.jpg",
-        description: "Layered visual chronicles capturing personal geography and domestic horizons."
+        id: "land-stand-in",
+        title: "Stand In",
+        medium: "Paint and thread on fabric",
+        dimensions: "42” × 21.5”",
+        year: "2023",
+        image: "/images/stand-in.jpg",
+        description: "Exploring the tension between physical presence and psychological surrogate."
       },
       {
-        id: "land-2",
-        title: "Adrift II",
-        medium: "Fabric, watercolor, and delicate line work on textured paper",
-        dimensions: "22” × 30”",
-        year: "2021",
-        image: "/images/03-adrift-ii.jpg",
-        description: "Floating navigational markers between terra firma and memory."
-      },
-      {
-        id: "land-3",
+        id: "land-another-way",
         title: "Another Way of Response",
-        medium: "Stitched fabric with watercolor washes and ink",
-        dimensions: "20” × 28”",
-        year: "2021",
+        medium: "Paint, dye, graphite, and thread on fabric",
+        dimensions: "42” × 62”",
+        year: "2023",
         image: "/images/02-another-way-of-response.jpg",
         description: "A dialogue between linear pathways and organic washes."
       },
       {
-        id: "land-4",
-        title: "One Way",
-        medium: "Textile applique and mixed media on archival paper",
-        dimensions: "16” × 20”",
-        year: "2020",
-        image: "/images/09-one-way.jpg",
-        description: "Single-directional contours suggesting movement and transit."
+        id: "land-adrift-ii",
+        title: "Adrift II",
+        medium: "Dyed fabric",
+        dimensions: "47” × 22.5” × 10.5”",
+        year: "2023",
+        image: "/images/03-adrift-ii.jpg",
+        description: "Floating navigational markers between terra firma and memory."
       },
       {
-        id: "land-5",
+        id: "land-two-sides",
+        title: "Two Sides of It",
+        medium: "Paint, paper, sand, gold leaf, and thread on fabric",
+        dimensions: "63” × 60”",
+        year: "2021",
+        image: "/images/two-sides-of-it.jpg",
+        description: "Bifurcating mindsets — innate self versus presented persona."
+      },
+      {
+        id: "land-between-spaces",
+        title: "Between the Spaces – Through the Frame",
+        medium: "Dye, paint, and gold leaf on fabric",
+        dimensions: "66” × 54”",
+        year: "2021",
+        image: "/images/between-the-spaces-through-the-frame.jpg",
+        description: "Constructed thresholds examining how memory filters architectural boundaries."
+      },
+      {
+        id: "land-outside-in",
+        title: "Outside In",
+        medium: "Charcoal, dye, paint, and geru on fabric",
+        dimensions: "60” × 66”",
+        year: "2021",
+        image: "/images/outside-in.jpg",
+        description: "Inversion of private interior reflection into the outward social sphere."
+      },
+      {
+        id: "land-notes",
         title: "Notes on the Terrain",
         medium: "Handmade paper, thread, and earth tones",
         dimensions: "14” × 19”",
