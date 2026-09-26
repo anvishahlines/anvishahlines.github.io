@@ -1,0 +1,5 @@
+# robots.txt for anvistevens.com
+User-agent: *
+Allow: /
+
+Sitemap: https://anvistevens.com/sitemap.xml
