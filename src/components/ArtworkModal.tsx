@@ -56,26 +56,28 @@ export const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose }) 
         </div>
 
         {/* Artwork Details & Captions */}
-        <div className="w-full mt-4 text-center max-w-lg">
-          <h3 className="font-gallery text-xl sm:text-2xl text-stone-900 font-normal">
-            {artwork.title}
-          </h3>
-
-          <div className="mt-1 flex flex-wrap items-center justify-center gap-x-2 text-xs text-stone-500 font-light">
-            {artwork.medium && <span>{artwork.medium}</span>}
-            {artwork.dimensions && (
-              <>
-                <span aria-hidden="true">·</span>
-                <span>{artwork.dimensions}</span>
-              </>
-            )}
+        <div className="w-full mt-4 text-left max-w-lg">
+          <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed font-light">
+            <span className="font-semibold text-stone-900">{artwork.title}</span>
             {artwork.year && (
               <>
-                <span aria-hidden="true">·</span>
+                <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>
                 <span>{artwork.year}</span>
               </>
             )}
-          </div>
+            {artwork.medium && (
+              <>
+                <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>
+                <span>{artwork.medium}</span>
+              </>
+            )}
+            {artwork.dimensions && (
+              <>
+                <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>
+                <span>{artwork.dimensions}</span>
+              </>
+            )}
+          </p>
         </div>
       </div>
     </div>

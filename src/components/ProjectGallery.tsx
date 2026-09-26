@@ -72,27 +72,29 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
                 />
               </div>
 
-              {/* Text goes below each relevant photo */}
-              <div className="mt-4 flex flex-col items-center max-w-md">
-                <h3 className="font-gallery text-lg sm:text-xl text-stone-900 font-normal">
-                  {artwork.title}
-                </h3>
-
-                <div className="mt-1 flex flex-wrap items-center justify-center gap-x-2 text-xs text-stone-500 font-light">
-                  {artwork.medium && <span>{artwork.medium}</span>}
-                  {artwork.dimensions && (
-                    <>
-                      <span aria-hidden="true">·</span>
-                      <span>{artwork.dimensions}</span>
-                    </>
-                  )}
+              {/* Text goes below each relevant photo: bold title · year · medium · dimensions, left-oriented in centered container */}
+              <div className="mt-3.5 w-full text-left">
+                <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed font-light">
+                  <span className="font-semibold text-stone-900">{artwork.title}</span>
                   {artwork.year && (
                     <>
-                      <span aria-hidden="true">·</span>
+                      <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>
                       <span>{artwork.year}</span>
                     </>
                   )}
-                </div>
+                  {artwork.medium && (
+                    <>
+                      <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>
+                      <span>{artwork.medium}</span>
+                    </>
+                  )}
+                  {artwork.dimensions && (
+                    <>
+                      <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>
+                      <span>{artwork.dimensions}</span>
+                    </>
+                  )}
+                </p>
               </div>
             </div>
           ))}
