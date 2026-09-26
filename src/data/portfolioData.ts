@@ -177,7 +177,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Oil paint and color pencil on canvas and fabric",
         dimensions: "40” × 16”",
         year: "2026",
-        image: "/images/02_adorned.jpg",
+        image: "/images/02_adorned_vertical.jpg",
       },
       {
         id: "nature-burden",
