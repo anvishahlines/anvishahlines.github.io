@@ -147,7 +147,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     works: [
       {
         id: "land-adrift-ii",
-        title: "Adrift II",
+        title: "Adrift 2",
         medium: "Dyed fabric",
         dimensions: "47” × 22.5” × 10.5”",
         year: "2023",
@@ -195,10 +195,10 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       },
       {
         id: "land-notes",
-        title: "Notes on the Terrain",
-        medium: "Handmade paper, thread, and earth tones",
-        dimensions: "14” × 19”",
-        year: "2020",
+        title: "Notes",
+        medium: "Thread, watercolor and cotton on fabric",
+        dimensions: "108” × 36”",
+        year: "2019",
         image: "/images/landscape/07_notes.jpg",
       }
     ]
