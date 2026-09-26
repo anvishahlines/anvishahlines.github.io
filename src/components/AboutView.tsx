@@ -7,15 +7,8 @@ interface AboutViewProps {
 
 export const AboutView: React.FC<AboutViewProps> = ({ profile }) => {
   return (
-    <div className="py-10 sm:py-16 px-4">
+    <div className="py-6 sm:py-10 px-4">
       <div className="max-w-4xl mx-auto">
-        {/* Section Title */}
-        <div className="text-center mb-10 sm:mb-12">
-          <h2 className="text-xs sm:text-[13px] tracking-[0.25em] uppercase font-medium text-stone-400">
-            About the Artist
-          </h2>
-        </div>
-
         {/* 1. Horizontal Paragraph that contains her Biography */}
         <div className="max-w-3xl mx-auto">
           <p className="text-[15px] sm:text-[16px] text-stone-800 leading-relaxed sm:leading-[1.8] font-normal tracking-normal text-justify sm:text-left">
@@ -31,7 +24,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ profile }) => {
           {/* Left Column: Statement */}
           <div className="md:border-r md:border-stone-200/80 md:pr-10 lg:pr-12">
             <h3 className="text-xs tracking-[0.25em] uppercase font-semibold text-stone-900 mb-6 pb-2 border-b border-stone-200/60 inline-block">
-              Artist Statement
+              Statement
             </h3>
 
             <div className="space-y-5 text-[14px] sm:text-[15px] text-stone-700 leading-relaxed font-light">
