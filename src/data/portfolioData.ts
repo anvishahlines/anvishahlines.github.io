@@ -100,8 +100,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     subtitle: "Chairs as vessels of personification & constructed spaces",
     coverImage: "/images/01_rooted.jpg",
     cropPosition: "object-center",
-    description:
-      "A body of work exploring chairs as vessels of personification within imagined, represented, and constructed interior spaces. Exploring the unseen psychological weight carried by individuals in social settings through fabric, pattern, and stitch.",
     statementSnippet:
       "‘Nature of being’ is observed in the symbolic ‘nature of things’ carried by the chairs. The subject of my paintings, the chairs, are vessels of personification while providing the comfort and familiarity a place of rest evokes.",
     works: [
@@ -112,7 +110,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "61” × 35”",
         year: "2026",
         image: "/images/01_rooted.jpg",
-        description: "Personified chairs navigating shared space and residual quietness."
       },
       {
         id: "nature-adorned",
@@ -121,7 +118,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "40” × 16”",
         year: "2026",
         image: "/images/02_adorned.jpg",
-        description: "Intimate vessel form exploring surface texture and restraint."
       },
       {
         id: "nature-burden",
@@ -130,7 +126,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "31.5” × 16.5”",
         year: "2026",
         image: "/images/03_the_burden_of_beauty.jpg",
-        description: "Residual markings and psychological presence carried within fabric."
       },
       {
         id: "nature-ac",
@@ -139,7 +134,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "30” × 22”",
         year: "2026",
         image: "/images/04_some_blame_the_air_conditioning.jpg",
-        description: "Subtle social awkwardness and environmental tension translated through stitched line."
       }
     ]
   },
@@ -148,8 +142,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     title: "Landscape",
     coverImage: "/images/landscape/01_adrift_2.jpg",
     cropPosition: "object-center",
-    description:
-      "Sensorial terrains rendered through line density, rhythm, and abstracted horizon lines. Chronicling journeys, transitions, and psychological geographies across India and New England.",
     statementSnippet:
       "A metaphor for walking through a vast space and becoming lost in the many details. The rhythm and flow serve as a visual navigation through the terrain.",
     works: [
@@ -160,7 +152,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "47” × 22.5” × 10.5”",
         year: "2023",
         image: "/images/landscape/01_adrift_2.jpg",
-        description: "Floating navigational markers between terra firma and memory."
       },
       {
         id: "land-another-way",
@@ -169,7 +160,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "42” × 62”",
         year: "2023",
         image: "/images/landscape/02_another_way_of_response.jpg",
-        description: "A dialogue between linear pathways and organic washes."
       },
       {
         id: "land-adrift-i",
@@ -178,7 +168,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "41” × 68”",
         year: "2021",
         image: "/images/landscape/03_adrift_1.jpg",
-        description: "Expansive fabric terrain exploring transitions and psychological weight."
       },
       {
         id: "land-between-spaces",
@@ -187,7 +176,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "66” × 54”",
         year: "2021",
         image: "/images/landscape/04_between_the_spaces_through_the_frame.jpg",
-        description: "Constructed thresholds examining how memory filters architectural boundaries."
       },
       {
         id: "land-two-sides",
@@ -196,7 +184,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "63” × 60”",
         year: "2021",
         image: "/images/landscape/05_two_sides_of_it.jpg",
-        description: "Bifurcating mindsets — innate self versus presented persona."
       },
       {
         id: "land-outside-in",
@@ -205,7 +192,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "60” × 66”",
         year: "2021",
         image: "/images/landscape/06_outside_in.jpg",
-        description: "Inversion of private interior reflection into the outward social sphere."
       },
       {
         id: "land-notes",
@@ -214,7 +200,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "14” × 19”",
         year: "2020",
         image: "/images/landscape/07_notes.jpg",
-        description: "Subtle annotations and cartographic markings."
       }
     ]
   },
@@ -224,8 +209,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     subtitle: "Three-dimensional fabric paintings & storehouses of memory",
     coverImage: "/images/stevensanvi01.jpg",
     cropPosition: "object-center",
-    description:
-      "Wall-hanging fabric pieces and freestanding sculptural paintings acting as storehouses of lived experiences. Commonplace materials acquired from antique stores and family textile collections personified with a sculptural 'showcase-life'.",
     statementSnippet:
       "These wall-hanging fabric pieces and sculptural paintings are storehouses of memories and lived experiences. I am personifying them to have a 'showcase-life' for us to revisit memories or reveal something new about themselves.",
     works: [
@@ -236,7 +219,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "24” × 26” × 6”",
         year: "2020",
         image: "/images/stevensanvi01.jpg",
-        description: "Pliable three-dimensional forms exploring tactility and layered mass."
       },
       {
         id: "sculpt-2",
@@ -245,7 +227,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "22” × 28” × 5”",
         year: "2020",
         image: "/images/stevensanvi02.jpg",
-        description: "Textile assemblage projecting outward from the picture plane."
       },
       {
         id: "sculpt-3",
@@ -254,7 +235,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "26” × 30” × 7”",
         year: "2020",
         image: "/images/stevensanvi03.jpg",
-        description: "A vessel of memory retaining tactile traces of used garments."
       },
       {
         id: "sculpt-4",
@@ -263,7 +243,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "20” × 24” × 4”",
         year: "2020",
         image: "/images/stevensanvi04.jpg",
-        description: "Subtle folds capturing shadows and ambient gallery illumination."
       },
       {
         id: "sculpt-5",
@@ -272,7 +251,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "18” × 20” × 5”",
         year: "2019",
         image: "/images/20191105-114908.jpg",
-        description: "Study of physical volumetric relief and raw fabric edges."
       },
       {
         id: "sculpt-6",
@@ -281,7 +259,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "Variable room dimensions",
         year: "2019–2020",
         image: "/images/sculpture_paintings.jpg",
-        description: "Gallery overview of sculptural wall works."
       }
     ]
   },
@@ -291,8 +268,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     subtitle: "Site-responsive architectural & spatial interventions",
     coverImage: "/images/101a2334.jpg",
     cropPosition: "object-center",
-    description:
-      "Immersive, site-responsive installations that explore bodily movement, social proximity, and shared spatial nuances. Includes collaborations with Aisling Wilson exploring suspended textiles, light, and architectural dialog.",
     statementSnippet:
       "The abstract and fragmented memories of rituals performed are vesseled within the movements around the space and the involved furnishings.",
     works: [
@@ -303,7 +278,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "Site-specific installation",
         year: "2021",
         image: "/images/101a2334.jpg",
-        description: "Site-specific collaboration examining spatial division and fluid boundaries."
       },
       {
         id: "inst-2",
@@ -312,7 +286,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "Detail shot",
         year: "2021",
         image: "/images/101a2339.jpg",
-        description: "Detail of tactile junction between translucent and opaque dyed panels."
       },
       {
         id: "inst-3",
@@ -321,7 +294,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "Gallery room scale",
         year: "2021",
         image: "/images/101a2485.jpg",
-        description: "Constructed corridors inviting viewers to navigate cloth partitions."
       },
       {
         id: "inst-4",
@@ -330,7 +302,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "Gallery room scale",
         year: "2021",
         image: "/images/101a2488.jpg",
-        description: "Alternative viewpoint capturing light filtering through textile screens."
       }
     ]
   },
@@ -340,8 +311,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     subtitle: "Khadiya powder, watercolors, thread & intimate paper studies",
     coverImage: "/images/occupied-and-navigated.jpeg",
     cropPosition: "object-center",
-    description:
-      "Intimate works on paper utilizing Khadiya powder, watercolors, cotton, and thread. Investigates mark making, linear density, and delicate moments of absurdity frozen for contemplation.",
     statementSnippet:
       "Tactility of the materials, density of the lines, and their arrangements on the surface evoke a sensorial interpretation.",
     works: [
@@ -352,7 +321,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "7” × 10”",
         year: "2019",
         image: "/images/occupied-and-navigated.jpeg",
-        description: "Intimate study of linear density and tactile stitches over handmade paper."
       },
       {
         id: "draw-2",
@@ -361,7 +329,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "8” × 10”",
         year: "2019",
         image: "/images/trying-to-draw-parallels.jpeg",
-        description: "Parallel stitches seeking alignment across uneven surfaces."
       },
       {
         id: "draw-3",
@@ -370,7 +337,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "9” × 12”",
         year: "2019",
         image: "/images/space-1.jpeg",
-        description: "Minimalist spatial demarcation with powder and washes."
       },
       {
         id: "draw-4",
@@ -379,7 +345,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "8” × 11”",
         year: "2019",
         image: "/images/a-lump-in-the-throat-copy.jpg",
-        description: "Visceral representation of suppressed emotion and physical constraint."
       },
       {
         id: "draw-5",
@@ -388,7 +353,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "7” × 10”",
         year: "2019",
         image: "/images/anvi-shah-12.jpg",
-        description: "Contour investigation on rough-edge paper."
       },
       {
         id: "draw-6",
@@ -397,7 +361,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "7” × 10”",
         year: "2019",
         image: "/images/anvi-shah-11.jpg",
-        description: "Delicate stitches creating structural texture."
       },
       {
         id: "draw-7",
@@ -406,7 +369,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "7” × 10”",
         year: "2019",
         image: "/images/anvi-shah-05.jpg",
-        description: "Rhythm of small recurring hand-drawn motifs."
       },
       {
         id: "draw-8",
@@ -415,7 +377,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "Folio collection",
         year: "2019–2020",
         image: "/images/drawings.jpg",
-        description: "Collection of works on paper displayed together."
       }
     ]
   },
@@ -425,8 +386,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     subtitle: "Accordion structures, sequential fabric leaves & poetic narratives",
     coverImage: "/images/new-year-poem.jpg",
     cropPosition: "object-center",
-    description:
-      "Handmade artist books exploring touch, unfolding sequences, and poetic narratives. Houses three primary projects: 'Her Little Black Book', 'Story Board', and 'New York Poem'.",
     statementSnippet:
       "Can a discarded piece of cloth be beautiful? Who wrote this note? What would have happened if...?",
     hasSubProjects: true,
@@ -436,8 +395,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         title: "Her Little Black Book",
         coverImage: "/images/img-5621.jpg",
         cropPosition: "object-center",
-        description:
-          "An intimate artist book bound in dark cloth featuring tactile fabric leaves, private stitched annotations, and collected fragments that evoke secretive, cherished reflections.",
         works: [
           {
             id: "hlbb-1",
@@ -446,7 +403,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
             dimensions: "6” × 8” × 1.5” (closed)",
             year: "2020",
             image: "/images/img-5621.jpg",
-            description: "Hand-stitched spine and textured fabric casing."
           },
           {
             id: "hlbb-2",
@@ -455,7 +411,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
             dimensions: "6” × 8” (each leaf)",
             year: "2020",
             image: "/images/notes.jpg",
-            description: "Opening spread exploring tactile mark making and confidential notes."
           },
           {
             id: "hlbb-3",
@@ -464,7 +419,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
             dimensions: "12” × 8” (open)",
             year: "2020",
             image: "/images/02-another-way-of-response.jpg",
-            description: "Tactile dialogue between hand stitching and text remnants."
           }
         ]
       },
@@ -473,8 +427,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         title: "Story Board",
         coverImage: "/images/anvishah-narrative4.jpg",
         cropPosition: "object-center",
-        description:
-          "A continuous accordion-fold sequence of visual vignettes. Narrating awkward, complex, and humorous moments from social gatherings through sequential panels.",
         works: [
           {
             id: "sb-1",
@@ -483,7 +435,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
             dimensions: "8” × 36” (extended)",
             year: "2021",
             image: "/images/anvishah-narrative4.jpg",
-            description: "Panels mapping unfolding movement through a social gathering."
           },
           {
             id: "sb-2",
@@ -492,7 +443,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
             dimensions: "8” × 12”",
             year: "2021",
             image: "/images/trying-to-draw-parallels.jpeg",
-            description: "Close-up of characters and personified objects interacting."
           },
           {
             id: "sb-3",
@@ -501,7 +451,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
             dimensions: "8” × 12”",
             year: "2021",
             image: "/images/space-1.jpeg",
-            description: "Transitional spaces and pauses in conversation."
           }
         ]
       },
@@ -510,8 +459,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         title: "New York Poem",
         coverImage: "/images/new-year-poem.jpg",
         cropPosition: "object-center",
-        description:
-          "A poetic textile work and artist book capturing urban cadence, verses of relocation, and rhythmic reflections across fabric lines and stitched syllables.",
         works: [
           {
             id: "nyp-1",
@@ -520,7 +467,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
             dimensions: "24” × 32”",
             year: "2022",
             image: "/images/new-year-poem.jpg",
-            description: "Stitched poetic lines traversing vibrant dyed fabric strips."
           },
           {
             id: "nyp-2",
@@ -529,7 +475,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
             dimensions: "Detail view",
             year: "2022",
             image: "/images/between-the-spaces-through-the-frame.jpg",
-            description: "Close-up of tactile stitches mimicking handwriting and lyrical cadence."
           }
         ]
       }
@@ -542,7 +487,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "24” × 32”",
         year: "2022",
         image: "/images/new-year-poem.jpg",
-        description: "Stitched poetic lines traversing vibrant dyed fabric strips."
       },
       {
         id: "ba-overview-2",
@@ -551,7 +495,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "6” × 8”",
         year: "2020",
         image: "/images/img-5621.jpg",
-        description: "Intimate artist book of memories and fabric swatches."
       },
       {
         id: "ba-overview-3",
@@ -560,7 +503,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "8” × 36”",
         year: "2021",
         image: "/images/anvishah-narrative4.jpg",
-        description: "Sequential domestic vignettes and social observations."
       }
     ]
   }

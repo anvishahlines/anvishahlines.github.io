@@ -159,12 +159,6 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
                         </>
                       )}
                     </div>
-
-                    {artwork.description && (
-                      <p className="mt-2 text-xs text-stone-600 font-light leading-relaxed italic">
-                        {artwork.description}
-                      </p>
-                    )}
                   </div>
                 </div>
               ))}

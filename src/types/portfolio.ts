@@ -5,7 +5,6 @@ export interface Artwork {
   dimensions?: string;
   year?: string;
   image: string;
-  description?: string;
   subProject?: string;
 }
 
@@ -16,7 +15,7 @@ export interface WorkCategory {
   coverImage: string;
   // Detail crop position (e.g. object-center, object-top, 60% center)
   cropPosition?: string;
-  description: string;
+  description?: string;
   statementSnippet?: string;
   works: Artwork[];
   hasSubProjects?: boolean;
@@ -28,7 +27,7 @@ export interface SubProject {
   title: string;
   coverImage: string;
   cropPosition?: string;
-  description: string;
+  description?: string;
   works: Artwork[];
 }
 

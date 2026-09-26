@@ -76,12 +76,6 @@ export const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose }) 
               </>
             )}
           </div>
-
-          {artwork.description && (
-            <p className="mt-2 text-xs text-stone-600 font-light italic leading-relaxed">
-              {artwork.description}
-            </p>
-          )}
         </div>
       </div>
     </div>
