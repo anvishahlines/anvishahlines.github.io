@@ -21,72 +21,132 @@ export const ARTIST_PROFILE: ArtistProfile = {
       title: "Education",
       items: [
         {
-          year: "MFA",
-          primary: "Boston University",
-          secondary: "Master of Fine Arts in Painting",
-          details: "Boston, Massachusetts"
-        },
-        {
-          year: "BVA",
-          primary: "Maharaja Sayajirao University of Vadodara",
-          secondary: "Bachelor of Visual Arts in Painting",
-          details: "Faculty of Fine Arts, Vadodara, Gujarat, India"
-        }
-      ]
-    },
-    {
-      title: "Selected Exhibitions & Installations",
-      items: [
-        {
-          year: "Recent",
-          primary: "Arts Collaborative of Wakefield",
-          secondary: "Group Exhibition & Member Showcase",
-          details: "Wakefield, MA"
-        },
-        {
-          year: "Recent",
-          primary: "Collaborative Site Installation",
-          secondary: "Installation & spatial collaboration with Aisling Wilson",
-          details: "Mixed fibers, suspended textiles & structured assemblage"
-        },
-        {
-          year: "Alumni",
-          primary: "Boston University 808 Gallery",
-          secondary: "MFA Thesis Exhibition",
+          year: "2021",
+          primary: "Master of Fine Arts in Painting",
+          secondary: "College of Fine Arts, Boston University",
           details: "Boston, MA"
         },
         {
-          year: "Alumni",
-          primary: "Faculty of Fine Arts Gallery",
-          secondary: "Annual Exhibition of Fine Arts",
-          details: "MSU Vadodara, Gujarat, India"
+          year: "2017",
+          primary: "Bachelor of Visual Arts in Painting",
+          secondary: "Faculty of Fine Arts, Maharaja Sayajirao University of Baroda",
+          details: "Vadodara, Gujarat, India"
         }
       ]
     },
     {
-      title: "Artistic Mediums & Studio Practice",
+      title: "Two-Person Exhibitions",
       items: [
         {
-          primary: "Textiles & Fiber Art",
-          secondary: "Dyeing, eco printing, applique, hand & machine stitchery, reclaimed vintage fabrics"
-        },
-        {
-          primary: "Painting & Drawing",
-          secondary: "Khadiya powder, natural earth pigments, watercolor, gouache, oils on paper and canvas"
-        },
-        {
-          primary: "Sculptural Works & Artist Books",
-          secondary: "Three-dimensional painted fabric constructions, bookbinding, narrative accordions"
+          year: "2021",
+          primary: "re·trace",
+          secondary: "Two-person exhibition with Aisling Wilson, Commonwealth Gallery, Boston University",
+          details: "Boston, MA"
         }
       ]
     },
     {
-      title: "Affiliations",
+      title: "Group Exhibitions",
       items: [
         {
-          primary: "Arts Collaborative of Wakefield",
-          secondary: "Artist Member",
-          details: "Wakefield, MA"
+          year: "2023",
+          primary: "New Language: Contemporary Abstraction",
+          secondary: "Gallery 263",
+          details: "Cambridge, MA"
+        },
+        {
+          year: "2021",
+          primary: "Characters, All",
+          secondary: "Tiger Strikes Asteroid",
+          details: "Brooklyn, NY"
+        },
+        {
+          year: "2021",
+          primary: "Krik? Krak! (Creatives of Color Boston)",
+          secondary: "Multicultural Arts Center",
+          details: "Cambridge, MA"
+        },
+        {
+          year: "2021",
+          primary: "MFA Painting Thesis Exhibition",
+          secondary: "Stone Gallery, Boston University",
+          details: "Boston, MA"
+        },
+        {
+          year: "2020",
+          primary: "MFA Painting and Sculpture",
+          secondary: "Commonwealth Gallery, Boston University",
+          details: "Boston, MA"
+        },
+        {
+          year: "2018",
+          primary: "Face To Face 3",
+          secondary: "L. & P. Hutheesing Visual Art Center",
+          details: "Ahmedabad, Gujarat, India"
+        },
+        {
+          year: "2018",
+          primary: "First Take",
+          secondary: "Abir Foundation",
+          details: "Ahmedabad, Gujarat, India"
+        },
+        {
+          year: "2017",
+          primary: "Interlude 1",
+          secondary: "Knots Art Collective, Exhibition Hall, Faculty of Fine Arts, M.S.U.",
+          details: "Vadodara, Gujarat, India"
+        },
+        {
+          year: "2017",
+          primary: "Envisage",
+          secondary: "Kanoria Gallery for Arts",
+          details: "Ahmedabad, Gujarat, India"
+        },
+        {
+          year: "2017",
+          primary: "Zarra",
+          secondary: "Exhibition Hall, Faculty of Fine Arts, M.S.U.",
+          details: "Vadodara, Gujarat, India"
+        },
+        {
+          year: "2016",
+          primary: "Wat-R-color",
+          secondary: "Hub Vadodara, Exhibition Hall, Faculty of Fine Arts, M.S.U.",
+          details: "Vadodara, Gujarat, India"
+        }
+      ]
+    },
+    {
+      title: "Awards & Scholarships",
+      items: [
+        {
+          year: "2021",
+          primary: "Howard Gotlieb Writer Artist Book Project Award",
+          secondary: "Boston University",
+          details: "Boston, MA"
+        },
+        {
+          year: "2019–2021",
+          primary: "Constantin Alajalov Scholarship",
+          secondary: "School of Visual Arts, Boston University",
+          details: "Boston, MA"
+        },
+        {
+          year: "2017",
+          primary: "99th Annual Art Exhibition Award",
+          secondary: "The Art Society of India",
+          details: "Mumbai, India"
+        }
+      ]
+    },
+    {
+      title: "Print Media & Publications",
+      items: [
+        {
+          year: "2023",
+          primary: "Create! Magazine (Issue 41)",
+          secondary: "Juried by Victoria Fry",
+          details: "Print Feature"
         }
       ]
     }
@@ -266,14 +326,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "Installation view detail",
         year: "2019",
         image: "/images/sculptures/calendar_retrace_3_detail.jpg",
-      },
-      {
-        id: "sculpt-stand-in",
-        title: "Stand In",
-        medium: "Paint, and thread on fabric",
-        dimensions: "42” × 21.5”",
-        year: "2023",
-        image: "/images/sculptures/01_stand_in.jpg",
       }
     ]
   }
