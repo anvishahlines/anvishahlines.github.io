@@ -308,7 +308,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         id: "sculpt-calendar-retrace-1",
         title: "Calendar (installation view of re:trace)",
         medium: "Mulch, Thread, and Ink",
-        dimensions: "Installation view",
         year: "2019",
         image: "/images/sculptures/calendar_retrace_1.jpg",
       },
@@ -316,7 +315,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         id: "sculpt-calendar-retrace-2",
         title: "Calendar (installation view of re:trace - detail 1)",
         medium: "Mulch, Thread, and Ink",
-        dimensions: "Installation view detail",
         year: "2019",
         image: "/images/sculptures/calendar_retrace_2.jpg",
       },
@@ -324,7 +322,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         id: "sculpt-calendar-retrace-3",
         title: "Calendar (installation view of re:trace - detail 2)",
         medium: "Mulch, Thread, and Ink",
-        dimensions: "Installation view detail",
         year: "2019",
         image: "/images/sculptures/calendar_retrace_3_detail.jpg",
       }
