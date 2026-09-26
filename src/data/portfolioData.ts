@@ -202,5 +202,79 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         image: "/images/landscape/07_notes.jpg",
       }
     ]
+  },
+  {
+    id: "sculptures",
+    title: "Sculptures",
+    coverImage: "/images/sculptures/01_shelf_1.jpg",
+    cropPosition: "object-center",
+    statementSnippet:
+      "Wall-hanging fabric pieces and sculptural works that personify materials and lived memories.",
+    works: [
+      {
+        id: "sculpt-shelf-1",
+        title: "Shelf 1",
+        medium: "Acrylic paint, air drying clay, graphite, found objects, and thread on wood",
+        dimensions: "11.5” × 13” × 1.5”",
+        year: "2022",
+        image: "/images/sculptures/01_shelf_1.jpg",
+      },
+      {
+        id: "sculpt-shelf-2",
+        title: "Shelf 2",
+        medium: "Paint, graphite, found objects, and lace on wood",
+        dimensions: "11.5” × 12.5” × 8.5”",
+        year: "2022",
+        image: "/images/sculptures/02_shelf_2.jpg",
+      },
+      {
+        id: "sculpt-shelf-3",
+        title: "Shelf 3",
+        medium: "Acrylic paint, wood stain, and found objects on wood",
+        dimensions: "15.5” × 10” × 1”",
+        year: "2022",
+        image: "/images/sculptures/03_shelf_3.jpg",
+      },
+      {
+        id: "sculpt-calendar-detail",
+        title: "Calendar (detail)",
+        medium: "Mulch, thread, and ink",
+        dimensions: "3” × 1.5”",
+        year: "2019",
+        image: "/images/sculptures/calendar_detail.jpg",
+      },
+      {
+        id: "sculpt-calendar-retrace-1",
+        title: "Calendar (installation view of re:trace)",
+        medium: "Mulch, thread, and ink",
+        dimensions: "Installation view",
+        year: "2019",
+        image: "/images/sculptures/calendar_retrace_1.jpg",
+      },
+      {
+        id: "sculpt-calendar-retrace-2",
+        title: "Calendar (installation view of re:trace - detail 1)",
+        medium: "Mulch, thread, and ink",
+        dimensions: "Installation view detail",
+        year: "2019",
+        image: "/images/sculptures/calendar_retrace_2.jpg",
+      },
+      {
+        id: "sculpt-calendar-retrace-3",
+        title: "Calendar (installation view of re:trace - detail 2)",
+        medium: "Mulch, thread, and ink",
+        dimensions: "Installation view detail",
+        year: "2019",
+        image: "/images/sculptures/calendar_retrace_3_detail.jpg",
+      },
+      {
+        id: "sculpt-stand-in",
+        title: "Stand In",
+        medium: "Paint, and thread on fabric",
+        dimensions: "42” × 21.5”",
+        year: "2023",
+        image: "/images/sculptures/01_stand_in.jpg",
+      }
+    ]
   }
 ];
