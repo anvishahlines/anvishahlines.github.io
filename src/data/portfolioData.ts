@@ -182,7 +182,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       },
       {
         id: "nature-burden",
-        title: "The Burden of Beauty",
+        title: "The Burden You Carry",
         medium: "eco-printed fabric, thread, charcoal and acrylic paint on linen towel",
         dimensions: "31.5\" x 16.5\"",
         year: "2026",
