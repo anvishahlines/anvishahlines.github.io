@@ -72,15 +72,9 @@ export const ContactView: React.FC<ContactViewProps> = ({
       <div className="max-w-xl mx-auto flex flex-col items-center">
         {/* Title */}
         <div className="text-center mb-10">
-          <h2 className="text-xs sm:text-[13px] tracking-[0.25em] uppercase font-medium text-stone-400 mb-2">
-            Inquiries
-          </h2>
           <h3 className="font-gallery text-2xl sm:text-3xl text-stone-900 font-normal">
             Contact Anvi Stevens
           </h3>
-          <p className="mt-3 text-xs sm:text-sm text-stone-500 font-light max-w-md mx-auto leading-relaxed">
-            For acquisitions, exhibition proposals, or artwork inquiries.
-          </p>
         </div>
 
         {/* Direct Email Link */}

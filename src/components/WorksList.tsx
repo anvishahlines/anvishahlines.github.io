@@ -43,11 +43,6 @@ export const WorksList: React.FC<WorksListProps> = ({ categories, onSelectCatego
                   <h3 className="text-xs sm:text-[13px] tracking-[0.2em] uppercase font-medium text-stone-800 group-hover:text-stone-950 transition-colors">
                     {category.title}
                   </h3>
-                  {category.subtitle && (
-                    <p className="mt-1 text-[11px] text-stone-400 tracking-wide font-light max-w-[260px] line-clamp-1">
-                      {category.subtitle}
-                    </p>
-                  )}
                 </div>
               </div>
             );
