@@ -87,40 +87,6 @@ export const AboutView: React.FC<AboutViewProps> = ({ profile }) => {
             </div>
           </div>
         </div>
-
-        {/* Clean Horizontal Dividing Line before Profile Image */}
-        <div className="my-14 sm:my-20 border-t border-stone-200/80 w-full" />
-
-        {/* 3. The profile image that is currently on the about of the current page at the bottom of that page */}
-        <div className="flex flex-col items-center text-center">
-          <div className="w-48 sm:w-56 aspect-[3/4] overflow-hidden bg-stone-100 border border-stone-200/80 shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
-            <img
-              src={profile.profileImage}
-              alt="Anvi Stevens"
-              className="w-full h-full object-cover grayscale-[10%]"
-              loading="lazy"
-            />
-          </div>
-          
-          <div className="mt-4 flex flex-col items-center">
-            <h4 className="text-xs uppercase tracking-[0.2em] font-medium text-stone-800">
-              {profile.name}
-            </h4>
-            <a
-              href={profile.instagramUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-2 text-xs text-stone-500 hover:text-stone-900 flex items-center gap-1 transition-colors"
-            >
-              <span>@{profile.instagramHandle}</span>
-              <svg className="w-3 h-3 text-stone-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                <polyline points="15 3 21 3 21 9"></polyline>
-                <line x1="10" y1="14" x2="21" y2="3"></line>
-              </svg>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
