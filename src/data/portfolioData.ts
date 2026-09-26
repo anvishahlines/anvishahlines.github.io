@@ -146,7 +146,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
   {
     id: "landscape",
     title: "Landscape",
-    coverImage: "/images/landscape/06_outside_in.jpg",
+    coverImage: "/images/landscape/01_adrift_2.jpg",
     cropPosition: "object-center",
     description:
       "Sensorial terrains rendered through line density, rhythm, and abstracted horizon lines. Chronicling journeys, transitions, and psychological geographies across India and New England.",
@@ -222,7 +222,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     id: "sculptures",
     title: "Sculptures",
     subtitle: "Three-dimensional fabric paintings & storehouses of memory",
-    coverImage: "/images/sculpture_paintings.jpg",
+    coverImage: "/images/stevensanvi01.jpg",
     cropPosition: "object-center",
     description:
       "Wall-hanging fabric pieces and freestanding sculptural paintings acting as storehouses of lived experiences. Commonplace materials acquired from antique stores and family textile collections personified with a sculptural 'showcase-life'.",
