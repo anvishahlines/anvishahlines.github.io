@@ -5,6 +5,7 @@ export interface Artwork {
   dimensions?: string;
   year?: string;
   image: string;
+  alt?: string;
   subProject?: string;
 }
 

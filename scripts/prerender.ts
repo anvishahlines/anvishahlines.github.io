@@ -122,7 +122,7 @@ function generateStaticPages() {
           <div class="space-y-12">
             ${category.works.map((w: Artwork) => `
               <article class="text-center">
-                <img src="${w.image}" alt="${w.title} by Anvi Stevens" class="max-h-[600px] mx-auto mb-4" />
+                <img src="${w.image}" alt="${w.alt || `${w.title} by Anvi Stevens`}" class="max-h-[600px] mx-auto mb-4" />
                 <h2 class="text-base font-semibold">${w.title}</h2>
                 <p class="text-xs text-stone-500">${w.year ? `${w.year} · ` : ''}${w.medium || ''}${w.dimensions ? ` · ${w.dimensions}` : ''}</p>
               </article>

@@ -51,7 +51,7 @@ export const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose }) 
         <div className="w-full flex items-center justify-center max-h-[72vh]">
           <img
             src={artwork.image}
-            alt={artwork.title}
+            alt={artwork.alt || artwork.title}
             className="max-h-[70vh] max-w-full object-contain mx-auto"
           />
         </div>

@@ -171,6 +171,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "61x35 inches",
         year: "2026",
         image: "/images/01_rooted.jpg",
+        alt: "Mixed-media textile collage, Rooted, showing a tall deconstructed chair form in earthy beige, ochre, and charcoal with stitched fabric strips and twill tape on raw canvas.",
       },
       {
         id: "nature-adorned",
@@ -179,6 +180,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "40x16 inches",
         year: "2026",
         image: "/images/02_adorned_vertical.jpg",
+        alt: "Mixed-media painting, Adorned, depicting a vertical chair silhouette in muted blue, sage green, and cream with visible pencil lines and sewn fabric panels.",
       },
       {
         id: "nature-burden",
@@ -187,6 +189,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "31.5\" x 16.5\"",
         year: "2026",
         image: "/images/03_the_burden_of_beauty.jpg",
+        alt: "Mixed-media textile piece, The Burden You Carry, showing an upright chair motif across eco-printed linen in warm taupe, charcoal lines, and sewn botanical patches.",
       },
       {
         id: "nature-ac",
@@ -195,6 +198,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "30x22 inches",
         year: "2026",
         image: "/images/04_some_blame_the_air_conditioning.jpg",
+        alt: "Mixed-media drawing on fabric, Some blame the air conditioning, featuring graphite chair contours, stitched dark thread, and beige and olive fabric accents.",
       }
     ]
   },
@@ -213,6 +217,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "47x22.5x10.5 inches",
         year: "2023",
         image: "/images/landscape/01_adrift_2.jpg",
+        alt: "Sculptural fiber installation, Adrift 2, showing dyed blue and indigo fabric lengths suspended and draped in undulating folds in an open gallery space.",
       },
       {
         id: "land-another-way",
@@ -221,6 +226,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "42x62 inches",
         year: "2023",
         image: "/images/landscape/02_another_way_of_response.jpg",
+        alt: "Large fabric painting, Another Way of Response, showing horizontal landscape bands in muted olive, terracotta, and indigo with graphite markings and visible seam stitching.",
       },
       {
         id: "land-adrift-i",
@@ -229,6 +235,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "41x68 inches",
         year: "2021",
         image: "/images/landscape/03_adrift_1.jpg",
+        alt: "Mixed-media textile painting, Adrift, featuring sweeping washes of warm rust, ochre, and charcoal across draped fabric with delicate accents of gold leaf.",
       },
       {
         id: "land-between-spaces",
@@ -237,6 +244,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "66x54 inches",
         year: "2021",
         image: "/images/landscape/04_between_the_spaces_through_the_frame.jpg",
+        alt: "Dyed fabric painting, Between the Spaces – Through the Frame, composed of geometric rectangular color fields in sage, rose, and amber with gold leaf highlights.",
       },
       {
         id: "land-two-sides",
@@ -245,6 +253,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "63x60 inches",
         year: "2021",
         image: "/images/landscape/05_two_sides_of_it.jpg",
+        alt: "Textured mixed-media fabric work, Two Sides of It, featuring layered paper collages, sandy mineral textures, and running stitches across a warm earth-toned canvas.",
       },
       {
         id: "land-outside-in",
@@ -253,6 +262,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "60x66 inches",
         year: "2021",
         image: "/images/landscape/06_outside_in.jpg",
+        alt: "Textile painting, Outside In, showing broad washes of red geru pigment, charcoal shading, and sewn patches across a large neutral fabric surface.",
       },
       {
         id: "land-notes",
@@ -261,6 +271,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "108x36 inches",
         year: "2019",
         image: "/images/landscape/07_notes.jpg",
+        alt: "Long vertical textile scroll, Notes, featuring repetitive linear columns of dark hand stitching and delicate watercolor washes on off-white cotton fabric.",
       }
     ]
   },
@@ -279,6 +290,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "11.5x13x1.5 inches",
         year: "2022",
         image: "/images/sculptures/01_shelf_1.jpg",
+        alt: "Small mixed-media wall sculpture, Shelf 1, with air-drying clay forms, thread, and found objects arranged across a light natural wood shelf.",
       },
       {
         id: "sculpt-shelf-2",
@@ -287,6 +299,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "11.5x12.5x8.5 inches",
         year: "2022",
         image: "/images/sculptures/02_shelf_2.jpg",
+        alt: "Mixed-media wall sculpture, Shelf 2, featuring off-white clay shapes, graphite markings, and lace draped over a pale wooden shelf.",
       },
       {
         id: "sculpt-shelf-3",
@@ -295,6 +308,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "15.5x10x1 inches",
         year: "2022",
         image: "/images/sculptures/03_shelf_3.jpg",
+        alt: "Wooden wall assemblage, Shelf 3, with stained wood surfaces, painted geometric elements, and found natural materials clustered on a shallow ledge.",
       },
       {
         id: "sculpt-calendar-detail",
@@ -303,6 +317,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "3x1.5 inches",
         year: "2019",
         image: "/images/sculptures/calendar_detail.jpg",
+        alt: "Detail view showing Calendar, with compact rectangular rows of organic mulch bound with fine dark thread and ink marks on paper.",
       },
       {
         id: "sculpt-calendar-retrace-1",
@@ -310,6 +325,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Mulch, Thread, and Ink",
         year: "2019",
         image: "/images/sculptures/calendar_retrace_1.jpg",
+        alt: "Installation view of re:trace showing the Calendar artwork mounted against a white gallery wall alongside suspended sculptures and thread works.",
       },
       {
         id: "sculpt-calendar-retrace-2",
@@ -317,6 +333,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Mulch, Thread, and Ink",
         year: "2019",
         image: "/images/sculptures/calendar_retrace_2.jpg",
+        alt: "Detail view showing the Calendar installation in re:trace, highlighting small mulch-and-thread grid units pinned in a horizontal sequence on the wall.",
       },
       {
         id: "sculpt-calendar-retrace-3",
@@ -324,6 +341,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Mulch, Thread, and Ink",
         year: "2019",
         image: "/images/sculptures/calendar_retrace_3_detail.jpg",
+        alt: "Close-up detail view of the Calendar installation in re:trace, displaying textured mulch bundles bound with fine hand stitching on a white wall surface.",
       }
     ]
   }

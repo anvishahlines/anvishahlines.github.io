@@ -67,7 +67,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
               >
                 <img
                   src={artwork.image}
-                  alt={artwork.title}
+                  alt={artwork.alt || artwork.title}
                   className="w-full max-h-[500px] object-contain mx-auto transition-transform duration-300 group-hover:scale-[1.01]"
                   loading="lazy"
                 />
