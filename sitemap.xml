@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Core Pages -->
+  <url>
+    <loc>https://anvistevens.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://anvistevens.com/works</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://anvistevens.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anvistevens.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Work Category Pages with Image Metadata -->
+  <url>
+    <loc>https://anvistevens.com/works/nature-of-things</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/01_rooted.jpg</image:loc>
+      <image:title>Rooted by Anvi Stevens</image:title>
+      <image:caption>Rooted, 2026. Twill tape, embroidery floss, eyelet, water color, color pencil, charcoal, dyed cotton and silk fabric on raw canvas, 61x35 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/02_adorned_vertical.jpg</image:loc>
+      <image:title>Adorned by Anvi Stevens</image:title>
+      <image:caption>Adorned, 2026. Oil paint and color pencil on canvas and fabric, 40x16 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/03_the_burden_of_beauty.jpg</image:loc>
+      <image:title>The Burden You Carry by Anvi Stevens</image:title>
+      <image:caption>The Burden You Carry, 2026. Eco-printed fabric, thread, charcoal and acrylic paint on linen towel, 31.5" x 16.5".</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/04_some_blame_the_air_conditioning.jpg</image:loc>
+      <image:title>Some blame the air conditioning by Anvi Stevens</image:title>
+      <image:caption>Some blame the air conditioning, 2026. Graphite, thread, acrylic paint and fabric, 30x22 inches.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://anvistevens.com/works/landscape</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/landscape/01_adrift_2.jpg</image:loc>
+      <image:title>Adrift 2 by Anvi Stevens</image:title>
+      <image:caption>Adrift 2, 2023. Dyed fabric, 47x22.5x10.5 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/landscape/02_another_way_of_response.jpg</image:loc>
+      <image:title>Another Way of Response by Anvi Stevens</image:title>
+      <image:caption>Another Way of Response, 2023. Paint, dye, graphite, and thread on fabric, 42x62 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/landscape/03_adrift_1.jpg</image:loc>
+      <image:title>Adrift by Anvi Stevens</image:title>
+      <image:caption>Adrift, 2021. Charcoal, geru, paint, and gold leaf on fabric, 41x68 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/landscape/04_between_the_spaces_through_the_frame.jpg</image:loc>
+      <image:title>Between the Spaces – Through the Frame by Anvi Stevens</image:title>
+      <image:caption>Between the Spaces – Through the Frame, 2021. Dye, paint, and gold leaf on fabric, 66x54 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/landscape/05_two_sides_of_it.jpg</image:loc>
+      <image:title>Two Sides of It by Anvi Stevens</image:title>
+      <image:caption>Two Sides of It, 2021. Paint, paper, sand, gold leaf, and thread on fabric, 63x60 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/landscape/06_outside_in.jpg</image:loc>
+      <image:title>Outside In by Anvi Stevens</image:title>
+      <image:caption>Outside In, 2021. Charcoal, dye, paint, and geru on fabric, 60x66 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/landscape/07_notes.jpg</image:loc>
+      <image:title>Notes by Anvi Stevens</image:title>
+      <image:caption>Notes, 2019. Thread, watercolor and cotton on fabric, 108x36 inches.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://anvistevens.com/works/sculptures</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/sculptures/01_shelf_1.jpg</image:loc>
+      <image:title>Shelf 1 by Anvi Stevens</image:title>
+      <image:caption>Shelf 1, 2022. Acrylic paint, air drying clay, graphite, found objects, and thread on wood, 11.5x13x1.5 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/sculptures/02_shelf_2.jpg</image:loc>
+      <image:title>Shelf 2 by Anvi Stevens</image:title>
+      <image:caption>Shelf 2, 2022. Paint, graphite, found objects, and lace on wood, 11.5x12.5x8.5 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/sculptures/03_shelf_3.jpg</image:loc>
+      <image:title>Shelf 3 by Anvi Stevens</image:title>
+      <image:caption>Shelf 3, 2022. Acrylic paint, wood stain, and found objects on wood, 15.5x10x1 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/sculptures/calendar_detail.jpg</image:loc>
+      <image:title>Calendar (detail) by Anvi Stevens</image:title>
+      <image:caption>Calendar (detail), 2019. Mulch, thread, and ink, 3x1.5 inches.</image:caption>
+    </image:image>
+  </url>
+</urlset>
