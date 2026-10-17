@@ -170,18 +170,48 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     id: "nature-of-things",
     title: "Nature of Things",
     subtitle: "Chairs as vessels of personification & constructed spaces",
-    coverImage: "/images/01_rooted.jpg",
+    coverImage: "/images/nature-of-things/02_Pull the curtain.JPG",
     cropPosition: "object-center",
     statementSnippet:
       "‘Nature of being’ is observed in the symbolic ‘nature of things’ carried by the chairs. The subject of my paintings, the chairs, are vessels of personification while providing the comfort and familiarity a place of rest evokes.",
     works: [
+      {
+        id: "nature-modular",
+        title: "Modular",
+        medium: "yarn, acrylic paint, graphite, and eco printed fabric",
+        dimensions: "30.5x38.5 inches",
+        year: "2026",
+        image: "/images/nature-of-things/01_Modular.JPG",
+        alt: "Modular, 2026. Yarn, acrylic paint, graphite, and eco printed fabric, 30.5x38.5 inches.",
+        poem: "We imagine a living room, as a living room should be.\nWith couches to sit on, comfortably.\nAnd enough space for a social gathering."
+      },
+      {
+        id: "nature-pull-the-curtain",
+        title: "Pull the curtain",
+        medium: "gold leaf, thread, water color, and various collected and eco printed fabric",
+        dimensions: "29.5x21.5 inches",
+        year: "2026",
+        image: "/images/nature-of-things/02_Pull the curtain.JPG",
+        alt: "Pull the curtain, 2026. Gold leaf, thread, water color, and various collected and eco printed fabric, 29.5x21.5 inches.",
+        poem: "Peak in\nTo the hidden alcove\nSit down\nAnd gently approve."
+      },
+      {
+        id: "nature-triggering-olfaction",
+        title: "Triggering Olfaction",
+        medium: "embroidery floss, acrylic paint, and various collected and eco printed fabric",
+        dimensions: "25.5x22.5 inches",
+        year: "2026",
+        image: "/images/nature-of-things/03_Triggering Olfaction.JPG",
+        alt: "Triggering Olfaction, 2026. Embroidery floss, acrylic paint, and various collected and eco printed fabric, 25.5x22.5 inches.",
+        poem: "You smell like coriander, he said.\nYou smell like yourself, I said."
+      },
       {
         id: "nature-rooted",
         title: "Rooted",
         medium: "twill tape, embroidery floss, eyelet, water color, color pencil, charcoal, dyed cotton and silk fabric on raw canvas",
         dimensions: "61x35 inches",
         year: "2026",
-        image: "/images/01_rooted.jpg",
+        image: "/images/nature-of-things/04_rooted.JPG",
         alt: "Mixed-media textile collage, Rooted, showing a tall deconstructed chair form in earthy beige, ochre, and charcoal with stitched fabric strips and twill tape on raw canvas.",
         poem: "The vines are as much under the ground as they are above."
       },
@@ -191,7 +221,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Oil paint and color pencil on canvas and fabric",
         dimensions: "40x16 inches",
         year: "2026",
-        image: "/images/02_adorned_vertical.jpg",
+        image: "/images/nature-of-things/05_Adorned.JPG",
         alt: "Mixed-media painting, Adorned, depicting a vertical chair silhouette in muted blue, sage green, and cream with visible pencil lines and sewn fabric panels.",
         poem: "I prepared the table\nDecorated the shelves;\nI cooked the food\nArranged the flowers;\nRemind me again,\nWhat we talked about that day?"
       },
@@ -201,7 +231,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "eco-printed fabric, thread, charcoal and acrylic paint on linen towel",
         dimensions: "31.5\" x 16.5\"",
         year: "2026",
-        image: "/images/03_the_burden_of_beauty.jpg",
+        image: "/images/nature-of-things/06_The Burden You Carry.JPG",
         alt: "Mixed-media textile piece, The Burden You Carry, showing an upright chair motif across eco-printed linen in warm taupe, charcoal lines, and sewn botanical patches.",
         poem: "The coral is pretty\nYet it hides in plain sight."
       },
@@ -211,11 +241,10 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "graphite, embroidery floss, acrylic paint and fabric",
         dimensions: "30x22 inches",
         year: "2026",
-        image: "/images/04_some_blame_the_air_conditioning.jpg",
+        image: "/images/nature-of-things/07_Some blame the air conditioning.JPG",
         alt: "Mixed-media drawing on fabric, Some blame the air conditioning, featuring graphite chair contours, stitched dark thread, and beige and olive fabric accents.",
         poem: "I make the bed on the terrace,\nGet a pot of water from the kitchen. All this\nRunning up and down the stairs, briskly.\nI lay down to find Orion’s Belt\nAnd fall asleep\nThe bed is like the night -\nCool and crisp."
-      }
-    ]
+      }    ]
   },
   {
     id: "landscape",
@@ -372,77 +401,70 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     works: [
       {
         id: "inst-collab-1",
-        title: "Collaboration with Aisling Wilson I",
+        title: "Collaboration with Aisling Wilson 1",
         image: "/images/installation/Collaboration with Aisling Wilson 1.jpg",
-        alt: "Collaborative installation with Aisling Wilson featuring suspended textiles and constructed spatial planes."
+        alt: "Collaboration with Aisling Wilson 1."
       },
       {
         id: "inst-collab-2",
-        title: "Collaboration with Aisling Wilson II",
+        title: "Collaboration with Aisling Wilson 2",
         image: "/images/installation/Collaboration with Aisling Wilson 2.jpg",
-        alt: "Installation view of collaborative textile environment in gallery space."
+        alt: "Collaboration with Aisling Wilson 2."
       },
       {
         id: "inst-collab-3",
-        title: "Collaboration with Aisling Wilson III",
+        title: "Collaboration with Aisling Wilson 3",
         image: "/images/installation/Collaboration with Aisling Wilson 3.jpg",
-        alt: "Wide installation perspective showing suspended dyed fabrics and spatial tension lines."
+        alt: "Collaboration with Aisling Wilson 3."
       },
       {
         id: "inst-collab-3-detail",
-        title: "Collaboration with Aisling Wilson (Detail)",
+        title: "Collaboration with Aisling Wilson 3 (Detail)",
         image: "/images/installation/Collaboration with Aisling Wilson 3_detail.jpg",
-        alt: "Detail view of collaborative textile suspension highlighting seamwork and fabric texture."
+        alt: "Collaboration with Aisling Wilson 3 detail."
       },
       {
         id: "inst-collab-4",
-        title: "Collaboration with Aisling Wilson IV",
+        title: "Collaboration with Aisling Wilson 4",
         image: "/images/installation/Collaboration with Aisling Wilson 4.jpg",
-        alt: "Collaborative installation view with atmospheric lighting and draped fabrics."
+        alt: "Collaboration with Aisling Wilson 4."
       },
       {
         id: "inst-collab-5",
-        title: "Collaboration with Aisling Wilson V",
+        title: "Collaboration with Aisling Wilson 5",
         image: "/images/installation/Collaboration with Aisling Wilson 5.jpg",
-        alt: "Sculptural textile environment in gallery showing intersecting suspended layers."
+        alt: "Collaboration with Aisling Wilson 5."
       },
       {
         id: "inst-101a2298",
-        title: "Spatial Intervention I",
         image: "/images/installation/101A2298.JPG",
-        alt: "Installation view with suspended translucent dyed fabric and delicate ceiling cables."
+        alt: "Installation view."
       },
       {
         id: "inst-101a2299",
-        title: "Spatial Intervention II",
         image: "/images/installation/101A2299.JPG",
-        alt: "Gallery installation perspective showing dyed textile drape and architectural lighting."
+        alt: "Installation view."
       },
       {
         id: "inst-1163",
-        title: "Installation Study I",
         image: "/images/installation/IMG_1163-1.jpg",
-        alt: "Installation shot showing fabric structures interacting with wall surfaces."
+        alt: "Installation view."
       },
       {
         id: "inst-1165",
-        title: "Installation Study II",
         image: "/images/installation/IMG_1165-1.jpg",
-        alt: "Installation view documenting draped textiles and subtle shadows in exhibition space."
+        alt: "Installation view."
       },
       {
         id: "inst-1195",
-        title: "Installation Study III",
         image: "/images/installation/IMG_1195-1.jpg",
-        alt: "Exhibition perspective showing three-dimensional fiber work suspended in open space."
+        alt: "Installation view."
       },
       {
         id: "inst-shahanvi-05",
-        title: "Installation Overview",
         image: "/images/installation/ShahAnvi_05.jpg",
-        alt: "Comprehensive gallery view showcasing spatial installation and visitor interaction."
-      }
-    ]
+        alt: "Installation view."
+      }    ]
   },
   {
     id: "drawings",
@@ -584,9 +606,10 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         alt: "Work on paper with subtle tonal gradations and stitched details."
       },
       {
-        id: "draw-15",
-        image: "/images/drawings/15.jpeg",
-        alt: "Paper study with delicate organic gestures and textural accents."
+        id: "draw-bumped-into",
+        title: "Bumped Into",
+        image: "/images/drawings/15_Bumped Into.jpeg",
+        alt: "Bumped Into."
       },
       {
         id: "draw-16",

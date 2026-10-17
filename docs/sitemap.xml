@@ -28,22 +28,37 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://anvistevens.com/images/01_rooted.jpg</image:loc>
+      <image:loc>https://anvistevens.com/images/nature-of-things/01_Modular.JPG</image:loc>
+      <image:title>Modular by Anvi Stevens</image:title>
+      <image:caption>Modular, 2026. yarn, acrylic paint, graphite, and eco printed fabric, 30.5x38.5 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/nature-of-things/02_Pull the curtain.JPG</image:loc>
+      <image:title>Pull the curtain by Anvi Stevens</image:title>
+      <image:caption>Pull the curtain, 2026. gold leaf, thread, water color, and various collected and eco printed fabric, 29.5x21.5 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/nature-of-things/03_Triggering Olfaction.JPG</image:loc>
+      <image:title>Triggering Olfaction by Anvi Stevens</image:title>
+      <image:caption>Triggering Olfaction, 2026. embroidery floss, acrylic paint, and various collected and eco printed fabric, 25.5x22.5 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/nature-of-things/04_rooted.JPG</image:loc>
       <image:title>Rooted by Anvi Stevens</image:title>
       <image:caption>Rooted, 2026. twill tape, embroidery floss, eyelet, water color, color pencil, charcoal, dyed cotton and silk fabric on raw canvas, 61x35 inches.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://anvistevens.com/images/02_adorned_vertical.jpg</image:loc>
+      <image:loc>https://anvistevens.com/images/nature-of-things/05_Adorned.JPG</image:loc>
       <image:title>Adorned by Anvi Stevens</image:title>
       <image:caption>Adorned, 2026. Oil paint and color pencil on canvas and fabric, 40x16 inches.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://anvistevens.com/images/03_the_burden_of_beauty.jpg</image:loc>
+      <image:loc>https://anvistevens.com/images/nature-of-things/06_The Burden You Carry.JPG</image:loc>
       <image:title>The Burden You Carry by Anvi Stevens</image:title>
       <image:caption>The Burden You Carry, 2026. eco-printed fabric, thread, charcoal and acrylic paint on linen towel, 31.5&quot; x 16.5&quot;.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://anvistevens.com/images/04_some_blame_the_air_conditioning.jpg</image:loc>
+      <image:loc>https://anvistevens.com/images/nature-of-things/07_Some blame the air conditioning.JPG</image:loc>
       <image:title>Some blame the air conditioning by Anvi Stevens</image:title>
       <image:caption>Some blame the air conditioning, 2026. graphite, embroidery floss, acrylic paint and fabric, 30x22 inches.</image:caption>
     </image:image>
@@ -137,63 +152,63 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 1.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson I by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson I.</image:caption>
+      <image:title>Collaboration with Aisling Wilson 1 by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson 1.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 2.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson II by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson II.</image:caption>
+      <image:title>Collaboration with Aisling Wilson 2 by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson 2.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 3.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson III by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson III.</image:caption>
+      <image:title>Collaboration with Aisling Wilson 3 by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson 3.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 3_detail.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson (Detail) by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson (Detail).</image:caption>
+      <image:title>Collaboration with Aisling Wilson 3 (Detail) by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson 3 (Detail).</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 4.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson IV by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson IV.</image:caption>
+      <image:title>Collaboration with Aisling Wilson 4 by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson 4.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 5.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson V by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson V.</image:caption>
+      <image:title>Collaboration with Aisling Wilson 5 by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson 5.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/101A2298.JPG</image:loc>
-      <image:title>Spatial Intervention I by Anvi Stevens</image:title>
-      <image:caption>Spatial Intervention I.</image:caption>
+      <image:title>Installation Artwork by Anvi Stevens</image:title>
+      <image:caption>Installation Artwork.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/101A2299.JPG</image:loc>
-      <image:title>Spatial Intervention II by Anvi Stevens</image:title>
-      <image:caption>Spatial Intervention II.</image:caption>
+      <image:title>Installation Artwork by Anvi Stevens</image:title>
+      <image:caption>Installation Artwork.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/IMG_1163-1.jpg</image:loc>
-      <image:title>Installation Study I by Anvi Stevens</image:title>
-      <image:caption>Installation Study I.</image:caption>
+      <image:title>Installation Artwork by Anvi Stevens</image:title>
+      <image:caption>Installation Artwork.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/IMG_1165-1.jpg</image:loc>
-      <image:title>Installation Study II by Anvi Stevens</image:title>
-      <image:caption>Installation Study II.</image:caption>
+      <image:title>Installation Artwork by Anvi Stevens</image:title>
+      <image:caption>Installation Artwork.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/IMG_1195-1.jpg</image:loc>
-      <image:title>Installation Study III by Anvi Stevens</image:title>
-      <image:caption>Installation Study III.</image:caption>
+      <image:title>Installation Artwork by Anvi Stevens</image:title>
+      <image:caption>Installation Artwork.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/installation/ShahAnvi_05.jpg</image:loc>
-      <image:title>Installation Overview by Anvi Stevens</image:title>
-      <image:caption>Installation Overview.</image:caption>
+      <image:title>Installation Artwork by Anvi Stevens</image:title>
+      <image:caption>Installation Artwork.</image:caption>
     </image:image>
   </url>
   <!-- Drawings Category Page -->
@@ -297,9 +312,9 @@
       <image:caption>Drawings Artwork.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://anvistevens.com/images/drawings/15.jpeg</image:loc>
-      <image:title>Drawings Artwork by Anvi Stevens</image:title>
-      <image:caption>Drawings Artwork.</image:caption>
+      <image:loc>https://anvistevens.com/images/drawings/15_Bumped Into.jpeg</image:loc>
+      <image:title>Bumped Into by Anvi Stevens</image:title>
+      <image:caption>Bumped Into.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/drawings/16.jpg</image:loc>
