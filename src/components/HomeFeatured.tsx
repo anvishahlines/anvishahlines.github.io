@@ -17,6 +17,7 @@ export const HomeFeatured: React.FC<HomeFeaturedProps> = ({
     title: "Nature of Things",
     subtitle: "Chairs as vessels of personification & residual social space",
     image: "/images/stevensanvi05.jpg",
+    alt: "Pieced textile wall hanging made of vertical green, sage, and beige fabric strips with a stitched orange leaf, above a fringe of multicolored fabric ribbons pinned to a wall.",
     medium: "Dyed textiles, stitching, and paint on linen",
     year: "2023"
   };
@@ -32,8 +33,9 @@ export const HomeFeatured: React.FC<HomeFeaturedProps> = ({
           <div className="relative w-full aspect-[4/3] sm:aspect-[1.15/1] overflow-hidden bg-stone-100 transition-all duration-500">
             <img
               src={featuredArtwork.image}
-              alt={featuredArtwork.title}
+              alt={featuredArtwork.alt || featuredArtwork.title}
               className="w-full h-full object-cover scale-[1.05] transition-transform duration-700 ease-out group-hover:scale-[1.10]"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/[0.04] transition-colors" />
           </div>

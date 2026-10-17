@@ -104,6 +104,7 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
                       alt={project.title}
                       className="w-full h-full object-cover scale-[1.26] transition-transform duration-700 ease-out group-hover:scale-[1.34]"
                       loading="lazy"
+                      decoding="async"
                     />
                     <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/[0.04] transition-colors" />
                   </div>
@@ -147,8 +148,10 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
                   >
                     <img
                       src={artwork.image}
-                      alt={artwork.title}
+                      alt={artwork.alt || artwork.title}
                       className="w-full max-h-[500px] object-contain mx-auto transition-transform duration-300 group-hover:scale-[1.01]"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
 

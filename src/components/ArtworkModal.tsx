@@ -53,6 +53,7 @@ export const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose }) 
             src={artwork.image}
             alt={artwork.alt || artwork.title}
             className="max-h-[70vh] max-w-full object-contain mx-auto"
+            decoding="async"
           />
         </div>
 

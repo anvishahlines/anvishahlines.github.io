@@ -182,7 +182,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "30.5x38.5 inches",
         year: "2026",
         image: "/images/nature-of-things/01_Modular.JPG",
-        alt: "Modular, 2026. Yarn, acrylic paint, graphite, and eco printed fabric, 30.5x38.5 inches.",
+        alt: "Rectangular textile hanging with red-brown painted borders, divided into dyed tan, mottled gray, and yellow-green panels, with an irregular patch of green tufted yarn at the lower center, a purple mesh scrap on the left, curved charcoal lines, and a pale blue wireframe cube outline on the right.",
         poem: "We imagine a living room, as a living room should be.\nWith couches to sit on, comfortably.\nAnd enough space for a social gathering."
       },
       {
@@ -192,7 +192,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "29.5x21.5 inches",
         year: "2026",
         image: "/images/nature-of-things/02_Pull the curtain.JPG",
-        alt: "Pull the curtain, 2026. Gold leaf, thread, water color, and various collected and eco printed fabric, 29.5x21.5 inches.",
+        alt: "Vertical textile hanging on a wooden dowel with tea-stained ground: red vine scrollwork and running stitches on a peach wash at upper left, a chartreuse strip with scalloped edge on the right, and a central chair silhouette with white stenciled backrest and dark navy seat bearing gold leaf flecks.",
         poem: "Peak in\nTo the hidden alcove\nSit down\nAnd gently approve."
       },
       {
@@ -202,7 +202,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "25.5x22.5 inches",
         year: "2026",
         image: "/images/nature-of-things/03_Triggering Olfaction.JPG",
-        alt: "Triggering Olfaction, 2026. Embroidery floss, acrylic paint, and various collected and eco printed fabric, 25.5x22.5 inches.",
+        alt: "Square textile hanging on a wooden dowel: gray central panel with a red embroidered outline of a wingback armchair, surrounded by painted white dashed clusters and yellow four-petaled flowers, bordered by a patchwork of paisley, blue cyanotype, and pink embroidered fabrics.",
         poem: "You smell like coriander, he said.\nYou smell like yourself, I said."
       },
       {
@@ -212,7 +212,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "61x35 inches",
         year: "2026",
         image: "/images/nature-of-things/04_rooted.JPG",
-        alt: "Mixed-media textile collage, Rooted, showing a tall deconstructed chair form in earthy beige, ochre, and charcoal with stitched fabric strips and twill tape on raw canvas.",
+        alt: "Tall vertical textile on raw canvas: chair frame outlined in black-and-white linear woodgrain hatching, backrest formed of green and sage fabric strips with stitched leaf-shaped cord loops and an orange stitched leaf, and lower fringe of vertical fabric ribbons in ochre, purple, blue, beige, and black with metal eyelets.",
         poem: "The vines are as much under the ground as they are above."
       },
       {
@@ -222,7 +222,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "40x16 inches",
         year: "2026",
         image: "/images/nature-of-things/05_Adorned.JPG",
-        alt: "Mixed-media painting, Adorned, depicting a vertical chair silhouette in muted blue, sage green, and cream with visible pencil lines and sewn fabric panels.",
+        alt: "Painting on canvas divided into two sections: left side shows mottled periwinkle blue with a linear axonometric wireframe outline of a table or chair; right side shows a green wall with an arched blue niche holding wooden shelves displaying a green vase, coral fan, dark teapot, and pottery vessels.",
         poem: "I prepared the table\nDecorated the shelves;\nI cooked the food\nArranged the flowers;\nRemind me again,\nWhat we talked about that day?"
       },
       {
@@ -232,7 +232,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "31.5\" x 16.5\"",
         year: "2026",
         image: "/images/nature-of-things/06_The Burden You Carry.JPG",
-        alt: "Mixed-media textile piece, The Burden You Carry, showing an upright chair motif across eco-printed linen in warm taupe, charcoal lines, and sewn botanical patches.",
+        alt: "Vertical coarse linen towel with blue and yellow edge stripes, featuring a black line drawing of a chair with a large circular white patch on the seat filled with yellow honeycomb patterns, and horizontal charcoal shading across the base.",
         poem: "The coral is pretty\nYet it hides in plain sight."
       },
       {
@@ -242,7 +242,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "30x22 inches",
         year: "2026",
         image: "/images/nature-of-things/07_Some blame the air conditioning.JPG",
-        alt: "Mixed-media drawing on fabric, Some blame the air conditioning, featuring graphite chair contours, stitched dark thread, and beige and olive fabric accents.",
+        alt: "Three-tier textile piece: black upper panel with gold manufacturer text and silver embroidered four-point star constellations, middle white painted horizontal band, and beige lower fabric with a blue chair outline over woven denim grid, white cross-stitches, an orange vase silhouette, and folded striped fabric.",
         poem: "I make the bed on the terrace,\nGet a pot of water from the kitchen. All this\nRunning up and down the stairs, briskly.\nI lay down to find Orion’s Belt\nAnd fall asleep\nThe bed is like the night -\nCool and crisp."
       }    ]
   },
@@ -261,7 +261,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "47x22.5x10.5 inches",
         year: "2023",
         image: "/images/landscape/01_adrift_2.jpg",
-        alt: "Sculptural fiber installation, Adrift 2, showing dyed blue and indigo fabric lengths suspended and draped in undulating folds in an open gallery space.",
+        alt: "Dyed fabric lengths in peach, terracotta-orange, pale yellow, and beige with a small teal-blue rectangular fabric patch, suspended from the ceiling in undulating folds in front of a white staircase with wooden balusters.",
       },
       {
         id: "land-another-way",
@@ -270,7 +270,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "42x62 inches",
         year: "2023",
         image: "/images/landscape/02_another_way_of_response.jpg",
-        alt: "Large fabric painting, Another Way of Response, showing horizontal landscape bands in muted olive, terracotta, and indigo with graphite markings and visible seam stitching.",
+        alt: "Wide pieced textile pinned to a wall: botanical dye panel on the left, gray panel with white painted loop spirals, red-orange-yellow silk vertical stripe, large off-white center covered in dense small black pen arcs around a pink square with a neon peach cord loop outline, tie-dyed shirt fabric draped across the top, and green panel with cut holes on the right.",
       },
       {
         id: "land-adrift-i",
@@ -279,7 +279,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "41x68 inches",
         year: "2021",
         image: "/images/landscape/03_adrift_1.jpg",
-        alt: "Mixed-media textile painting, Adrift, featuring sweeping washes of warm rust, ochre, and charcoal across draped fabric with delicate accents of gold leaf.",
+        alt: "Vertical textile hanging on off-white linen with red running stitch along the top: large center field of dense horizontal charcoal marks with a gold leaf patch near the lower left, a solid reddish-brown painted band beneath, and a lower patchwork hem of dyed fabric strips in teal, gray, lavender, and green.",
       },
       {
         id: "land-between-spaces",
@@ -288,7 +288,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "66x54 inches",
         year: "2021",
         image: "/images/landscape/04_between_the_spaces_through_the_frame.jpg",
-        alt: "Dyed fabric painting, Between the Spaces – Through the Frame, composed of geometric rectangular color fields in sage, rose, and amber with gold leaf highlights.",
+        alt: "Vertical textile hanging: upper section has an L-shaped black corner border, an embroidered blue yarn border line, and a wide band of purple starburst tie-dye over light brown wash; lower half has a dark green panel with an appliquéd yellow translucent polygon, gold leaf flecks, white painted twig lines, and a side panel with a terracotta rectangle.",
       },
       {
         id: "land-two-sides",
@@ -297,7 +297,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "63x60 inches",
         year: "2021",
         image: "/images/landscape/05_two_sides_of_it.jpg",
-        alt: "Textured mixed-media fabric work, Two Sides of It, featuring layered paper collages, sandy mineral textures, and running stitches across a warm earth-toned canvas.",
+        alt: "Multi-panel textile piece: left side has a black fabric panel with silver right-angle band and white stitches above gray linen and cream silk; right side has a large periwinkle-blue field with an orange-striped hatch rectangle, pencil loops, and gold leaf flecks, over cream paper with torn horizontal brown and black paper strips.",
       },
       {
         id: "land-outside-in",
@@ -306,7 +306,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "60x66 inches",
         year: "2021",
         image: "/images/landscape/06_outside_in.jpg",
-        alt: "Textile painting, Outside In, showing broad washes of red geru pigment, charcoal shading, and sewn patches across a large neutral fabric surface.",
+        alt: "Pieced textile assemblage: black fabric on the left with pinstripes and four silver embroidered discs curling open; central white square with yellow pigment; right framed cream panel above a pink field and dark brown horizontal wash band with yellow ladder stripes; and a horizontal gray fabric strip along the bottom right.",
       },
       {
         id: "land-notes",
@@ -315,7 +315,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "108x36 inches",
         year: "2019",
         image: "/images/landscape/07_notes.jpg",
-        alt: "Long vertical textile scroll, Notes, featuring repetitive linear columns of dark hand stitching and delicate watercolor washes on off-white cotton fabric.",
+        alt: "Long vertical off-white cotton scroll suspended from ceiling pipes, showing scattered pale amber and rust watercolor stains and multiple spaced horizontal lines of hand-embroidered black thread resembling abstract text or script.",
       }
     ]
   },
@@ -334,7 +334,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "11.5x13x1.5 inches",
         year: "2022",
         image: "/images/sculptures/01_shelf_1.jpg",
-        alt: "Small mixed-media wall sculpture, Shelf 1, with air-drying clay forms, thread, and found objects arranged across a light natural wood shelf.",
+        alt: "Rectangular pine wood board with a left ruler edge: attached to the surface are a circular clump of frayed pink and red embroidery thread, a rounded white clay slab, an angled dark green paper scrap, a purple paper rectangle, six horizontal blue painted wavy stripes, pencil lines, and a small metal watch link.",
         poem: "The carpet in my house is pink;\nAnd the rock in my yard is white.\nBut what are these marks on the windows?\nIt’s the cats’ nose."
       },
       {
@@ -344,7 +344,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "11.5x12.5x8.5 inches",
         year: "2022",
         image: "/images/sculptures/02_shelf_2.jpg",
-        alt: "Mixed-media wall sculpture, Shelf 2, featuring off-white clay shapes, graphite markings, and lace draped over a pale wooden shelf.",
+        alt: "Rectangular pine wood board: upper left has a galvanized metal bucket over a black painted circle; below is a small clear plastic bag containing a looped black rubber band taped with white paper; right side features arranged vertical wooden shims painted with white stripes, a green painted grass cluster, and a horizontal pink twill ribbon.",
         poem: "I am wrapping curtains like I wrap gifts;\nAdding colors and hanging plants.\nWhile we balance the vines fill the gap."
       },
       {
@@ -354,7 +354,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "15.5x10x1 inches",
         year: "2022",
         image: "/images/sculptures/03_shelf_3.jpg",
-        alt: "Wooden wall assemblage, Shelf 3, with stained wood surfaces, painted geometric elements, and found natural materials clustered on a shallow ledge.",
+        alt: "White painted wood panel with swirling golden-brown wood stain along the left side: top edge holds arranged found fragments of ceramic, chalk, and glass shards; two brass hanging brackets are attached on the right; center features arched black ink lines over a painted sky-blue pool with a cluster of pink and beige thread stitches.",
       },
       {
         id: "sculpt-calendar-detail",
@@ -363,7 +363,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "3x1.5 inches",
         year: "2019",
         image: "/images/sculptures/calendar_detail.jpg",
-        alt: "Detail view showing Calendar, with compact rectangular rows of organic mulch bound with fine dark thread and ink marks on paper.",
+        alt: "Two vertical white cards mounted on a wall: left card holds a tapered reddish-brown mulch wood chunk wrapped with white string over black ink dotted loops and splatters; right card holds a horizontal cylinder of reddish wood bound with white string and two black thread bands.",
       },
       {
         id: "sculpt-calendar-retrace-1",
@@ -371,7 +371,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Mulch, Thread, and Ink",
         year: "2019",
         image: "/images/sculptures/calendar_retrace_1.jpg",
-        alt: "Installation view of re:trace showing the Calendar artwork mounted against a white gallery wall alongside suspended sculptures and thread works.",
+        alt: "Tall vertical column of small white paper cards pinned one above another on a white gallery wall, each bearing a string-wrapped mulch wood fragment with ink markings, leading down to a light wood wall shelf holding seven silver pebble-shaped metallic bells.",
       },
       {
         id: "sculpt-calendar-retrace-2",
@@ -379,7 +379,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Mulch, Thread, and Ink",
         year: "2019",
         image: "/images/sculptures/calendar_retrace_2.jpg",
-        alt: "Detail view showing the Calendar installation in re:trace, highlighting small mulch-and-thread grid units pinned in a horizontal sequence on the wall.",
+        alt: "Vertical sequence of eight stacked cream cards pinned to a white gallery wall, each featuring a wrapped reddish mulch wood segment bound with black or white thread and accompanied by dashed ink loops and dotted marks.",
       },
       {
         id: "sculpt-calendar-retrace-3",
@@ -387,7 +387,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         medium: "Mulch, Thread, and Ink",
         year: "2019",
         image: "/images/sculptures/calendar_retrace_3_detail.jpg",
-        alt: "Close-up detail view of the Calendar installation in re:trace, displaying textured mulch bundles bound with fine hand stitching on a white wall surface.",
+        alt: "Close-up of four stacked vertical white cards on a wall above a wooden shelf: the center card has an oval reddish mulch wood chunk bound with white thread over black ink dotted loops and splatters, with a torn paper strip and stitch lines on the card below.",
       }
     ]
   },
@@ -481,7 +481,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "5.5 x 8.5 inches",
         year: "2026",
         image: "/images/drawings/02_Nurture.JPG",
-        alt: "Mixed-media drawing, Nurture, featuring watercolor, color pencil, graphite, stitched thread, and gold leaf on cold pressed watercolor paper.",
+        alt: "Graphite outline drawing of a spindle-back wooden chair on white paper, standing on an oval rug rendered in turquoise and maroon pastel strokes, with a dark red painted flower on the seat, white gesso relief and stitched thread below, and a gold leaf patch at the lower right.",
         poem: "I put some rocks around the hibiscus plant\nto stop the weeds from growing. I painted a flower,\ntook one to temple, and added several to the house\nDecoration."
       },
       {
@@ -491,26 +491,26 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "8.5x11 inches",
         year: "2025",
         image: "/images/drawings/01_by yourself.jpg",
-        alt: "Drawing, By yourself, with expressive graphite marks, oil pastels, and ink on paper.",
+        alt: "Drawing on white paper of a shaded graphite wingback armchair on a blue stippled rug shape with pink patches, under a rectangular yellow-orange oil pastel frame outline, with an olive-gold scribbled circle on the left and a potted plant in a bowl on the lower right.",
         poem: "I smile at the pictures they sent\nfrom the celebration from back home."
       },
       {
         id: "draw-retrace",
         title: "re:trace",
         image: "/images/drawings/03_retrace.JPG",
-        alt: "Work on paper from the re:trace series."
+        alt: "Deckle-edged sheet of off-white handmade paper with a rectangular wax or oil wash in the center bordered by fine hand-drawn brown ink botanical or grass-like sprigs along its perimeter and vertical centerline."
       },
       {
         id: "draw-script",
         title: "Script",
         image: "/images/drawings/04_script.jpg",
-        alt: "Linear drawing with delicate ink and pencil script-like marks on paper."
+        alt: "White paper featuring a centered square composed of horizontal black ink bands separated by thin white gaps, with a small yellow watercolor oval mark in the lower right corner."
       },
       {
         id: "draw-peak-trough",
         title: "Peak and Trough",
         image: "/images/drawings/05_peak and trough.jpg",
-        alt: "Abstract drawing with rising and falling linear contours on paper."
+        alt: "White rectangular paper with layered embossed and incised horizontal relief curves forming undulating wave-like contours across the surface."
       },
       {
         id: "draw-occupied-navigated",
@@ -519,7 +519,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "7” × 10”",
         year: "2019",
         image: "/images/drawings/06_Occupied and Navigated.JPEG",
-        alt: "Drawing on handmade paper, Occupied and Navigated, with white khadiya powder, watercolor, and hand-stitched cotton thread."
+        alt: "Deckle-edged tan handmade paper with a white cotton tuft atop an ochre watercolor shape and red band, a central pencil-drawn cube outline, curved dotted golden trails, a knot of white thread at the cube's upper edge, and white gesso and teal brushstrokes at the base."
       },
       {
         id: "draw-space-1",
@@ -528,7 +528,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "9” × 12”",
         year: "2019",
         image: "/images/drawings/07_Space 1.JPEG",
-        alt: "Mixed-media drawing, Space 1, with subtle graphite geometry, watercolor washes, and khadiya powder on paper."
+        alt: "Deckle-edged cream paper with a torn fibrous gray paper scrap at upper left, a vertical row of brown marker strokes, a pale pink painted rectangle overlaid with a ring of yellow-ochre stippled dots, textured white powder at lower left, and a pencil border."
       },
       {
         id: "draw-lump-in-throat",
@@ -537,54 +537,54 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "8” × 11”",
         year: "2019",
         image: "/images/drawings/08_a lump in the throat.jpg",
-        alt: "Work on handmade paper, A Lump in the Throat, featuring layered ink washes, gouache, and embedded thread."
+        alt: "Drawing on off-white paper with curved pencil contour lines suggesting a neck profile, a large solid terracotta-pink bean-shaped gouache form in the center, and handwritten pencil text 'A LUMP IN THE THROAT.' in the lower right."
       },
       {
         id: "draw-pink",
         title: "Pink",
         image: "/images/drawings/09_pink.jpg",
-        alt: "Drawing study featuring soft pink washes, graphite, and textural paper surface."
+        alt: "Square white stretched canvas mounted on a wall, featuring a large thick circular pink impasto shape with cracked surface texture layered over a curved patch of gold paint at the left edge."
       },
       {
         id: "draw-10",
         image: "/images/drawings/10.jpg",
-        alt: "Abstract study on paper with delicate linear elements."
+        alt: "Sheet of cream paper pinned to a wall with brown paper taped along the right edge: contains a dotted graphite oval labeled '(centered)', handwritten text 'Never tried to look beyond.', adhered mesh square, small wood and stone fragments, pink painted strip with looped thread, and collage scraps."
       },
       {
         id: "draw-narrative-1",
         title: "Narrative 1",
         image: "/images/drawings/10_Narrative1.jpg",
-        alt: "Narrative sequence panel 1 with drawings and collected marks on paper."
+        alt: "Off-white paper with two raw white cotton tufts pinned in the upper left above dashed vertical pencil lines, a horizontal yellow collage scrap and red painted rectangle at the bottom, and a curved black painted arch on the right."
       },
       {
         id: "draw-narrative-2",
         title: "Narrative 2",
         image: "/images/drawings/10_Narrative2.jpg",
-        alt: "Narrative sequence panel 2 with expressive stitched elements and line drawings on paper."
+        alt: "Off-white paper featuring a thick curved black ink brushstroke arching over a horizontal terracotta wash, with a textured tan collage piece, a small gray graphite patch, and clustered pen marks in the lower right."
       },
       {
         id: "draw-narrative-3",
         title: "Narrative 3",
         image: "/images/drawings/10_Narrative3.jpg",
-        alt: "Narrative sequence panel 3 with textural pigment and linear ink drawings on paper."
+        alt: "Cream paper with a textured bright yellow-orange pastel band, a pale yellow wash circle above, a small magenta pen hatching mark, a looped blue yarn stitch anchored across a diagonal liquid stain, and a torn tan paper scrap over a pink square in the lower right."
       },
       {
         id: "draw-narrative-4",
         title: "Narrative 4",
         image: "/images/drawings/10_Narrative4.jpg",
-        alt: "Narrative sequence panel 4 with layered drawings, collage, and ink on paper."
+        alt: "Off-white sheet with a vertical dashed pencil line on the left, an olive-green pencil oval, a white painted cloud-like patch beside a torn blue print scrap, a curved diagonal black pencil line, and a blue watercolor stroke along the bottom right."
       },
       {
         id: "draw-narrative-5",
         title: "Narrative 5",
         image: "/images/drawings/10_Narrative5.jpg",
-        alt: "Narrative sequence panel 5 with delicate mark-making on paper."
+        alt: "Off-white sheet with a horizontal gray pencil hatch band across the lower third, an angled brown paper scrap, a pale yellow wax spot, a small red v-shaped paint mark, and a thin diagonal pencil line extending to the right edge."
       },
       {
         id: "draw-overlap",
         title: "Overlap",
         image: "/images/drawings/11_overlap.jpg",
-        alt: "Drawing on paper exploring overlapping translucent tones and lines."
+        alt: "Two stacked rectangular sheets: the top sheet shows torn pink, mauve, and black paper collage shapes encircled by a thin silver wire or drawn loop; the bottom sheet has a bright yellow field with layered cream and gray shapes and stitched thread contours."
       },
       {
         id: "draw-trying-to-draw-parallels",
@@ -593,38 +593,38 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "8” × 10”",
         year: "2019",
         image: "/images/drawings/12_Trying to Draw Parallels.jpeg",
-        alt: "Mixed-media drawing on handmade paper, Trying to Draw Parallels, with watercolor washes, ink, and sewn thread."
+        alt: "Vertical red-orange painted stripe flanked by a dark blue band on the left and white paper on the right, overlaid with two joined irregular torn patches of thick cream papier-mâché relief and parallel strands of coarse white stitched string emerging horizontally."
       },
       {
         id: "draw-13",
         image: "/images/drawings/13.jpg",
-        alt: "Study on paper with intricate linear markings and pigment washes."
+        alt: "Vertical charcoal drawing on cream paper showing elongated undulating columnar forms with tonal shading and a solid black tapered leaf-like shape on the right."
       },
       {
         id: "draw-14",
         image: "/images/drawings/14.jpg",
-        alt: "Work on paper with subtle tonal gradations and stitched details."
+        alt: "Textured paper filled with dense horizontal rows of small dashed pencil marks, bisected by a single yellow dashed horizontal line and a smooth curved die-cut slit."
       },
       {
         id: "draw-bumped-into",
         title: "Bumped Into",
         image: "/images/drawings/15_Bumped Into.jpeg",
-        alt: "Bumped Into."
+        alt: "White paper with an adhered crumpled white paper disc overlapping a drawn asymmetrical oval outlined in parallel black and magenta dashed lines, with handwritten text 'Bumped into' in the lower left."
       },
       {
         id: "draw-16",
         image: "/images/drawings/16.jpg",
-        alt: "Drawing on paper featuring fine lines and balanced spatial arrangement."
+        alt: "Brown watercolor wash ground overlaid on the left with a translucent sheet featuring cut-out geometric cross motifs, a white painted L-shaped structural beam on the right, and coarse white scrim fabric adhered at the bottom."
       },
       {
         id: "draw-17",
         image: "/images/drawings/17.jpg",
-        alt: "Study on paper with dynamic linear marks and washed pigments."
+        alt: "Two-panel composition on pink watercolor ground: the left side depicts a wooden high-backed bench with a floral tile inset over blue-gray brick floor; the right side depicts a geometric diamond-patterned screen above a matching brick floor."
       },
       {
         id: "draw-18",
         image: "/images/drawings/18.jpg",
-        alt: "Work on paper exploring geometric spatial relationships and texture."
+        alt: "Warm terra cotta and ochre watercolor wash on deckle-edged paper, depicting a dark linear outline of a tall cabinet or shelves filled with jars, with white floral dot patterns clustered in the lower right and a red patterned fabric border along the top edge."
       }
     ]
   },
@@ -683,17 +683,17 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         cropPosition: "object-center",
         description: "Accordion fold narrative series on handmade paper with pigments and thread.",
         works: [
-          { id: "sb-4174", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Story Board accordion book view." },
-          { id: "sb-4176", image: "/images/book-art/story-board/IMG_4176.jpeg", alt: "Story Board accordion book view." },
-          { id: "sb-4177", image: "/images/book-art/story-board/IMG_4177.jpeg", alt: "Story Board accordion book view." },
-          { id: "sb-4178", image: "/images/book-art/story-board/IMG_4178.jpeg", alt: "Story Board accordion book view." }
+          { id: "sb-4174", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Etching print on cream paper showing a pale blue rectangular ground with a dense cloud of small blue ink flecks clustered on the right side, labeled '2/3 Etching Storyboard #1' in pencil." },
+          { id: "sb-4176", image: "/images/book-art/story-board/IMG_4176.jpeg", alt: "Etching print on cream paper showing a pale blue rectangular ground with a small solid dark blue cluster on the left and a larger pink and gray cloud of dense ink stippling on the right, labeled '2/3 Etching Storyboard #3' in pencil." },
+          { id: "sb-4177", image: "/images/book-art/story-board/IMG_4177.jpeg", alt: "Etching print on cream paper showing a dark blue cluster and a larger pink stippled cloud, encircled by intersecting continuous and dashed loop lines, labeled '2/3 Etching Storyboard #4' in pencil." },
+          { id: "sb-4178", image: "/images/book-art/story-board/IMG_4178.jpeg", alt: "Etching print on cream paper with a woven textile texture pressed into the lower blue background, a dark blue cluster, a rose-pink stippled form, and intersecting dashed loops, labeled '2/3 Etching Storyboard #5' in pencil." }
         ]
       }
     ],
     works: [
-      { id: "ba-hlbb", title: "Her Little Black Book", image: "/images/book-art/her-little-black-book/cover.jpg", alt: "Her Little Black Book cover." },
-      { id: "ba-nyp", title: "New Year Poem", image: "/images/book-art/new-year-poem/New Year Poem.jpg", alt: "New Year Poem spread." },
-      { id: "ba-sb", title: "Story Board", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Story Board accordion view." }
+      { id: "ba-hlbb", title: "Her Little Black Book", image: "/images/book-art/her-little-black-book/cover.jpg", alt: "Dark navy cloth notebook cover with elastic band, showing crossed-out handwritten title text." },
+      { id: "ba-nyp", title: "New Year Poem", image: "/images/book-art/new-year-poem/New Year Poem.jpg", alt: "Large wall-hanging fabric artwork with stitched text, eco-dyed panels, and an appliquéd navy moth motif." },
+      { id: "ba-sb", title: "Story Board", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Printed etching plate on cream paper displaying a pale blue field and fine ink flecks, labeled Storyboard #1." }
     ]
   },
   {
