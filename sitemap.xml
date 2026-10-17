@@ -22,16 +22,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Work Category Pages with Image Metadata -->
+  <!-- Nature of Things Category Page -->
   <url>
     <loc>https://anvistevens.com/works/nature-of-things</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://anvistevens.com/images/01_rooted.jpg</image:loc>
       <image:title>Rooted by Anvi Stevens</image:title>
-      <image:caption>Rooted, 2026. Twill tape, embroidery floss, eyelet, water color, color pencil, charcoal, dyed cotton and silk fabric on raw canvas, 61x35 inches.</image:caption>
+      <image:caption>Rooted, 2026. twill tape, embroidery floss, eyelet, water color, color pencil, charcoal, dyed cotton and silk fabric on raw canvas, 61x35 inches.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/02_adorned_vertical.jpg</image:loc>
@@ -41,15 +40,15 @@
     <image:image>
       <image:loc>https://anvistevens.com/images/03_the_burden_of_beauty.jpg</image:loc>
       <image:title>The Burden You Carry by Anvi Stevens</image:title>
-      <image:caption>The Burden You Carry, 2026. Eco-printed fabric, thread, charcoal and acrylic paint on linen towel, 31.5" x 16.5".</image:caption>
+      <image:caption>The Burden You Carry, 2026. eco-printed fabric, thread, charcoal and acrylic paint on linen towel, 31.5&quot; x 16.5&quot;.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/04_some_blame_the_air_conditioning.jpg</image:loc>
       <image:title>Some blame the air conditioning by Anvi Stevens</image:title>
-      <image:caption>Some blame the air conditioning, 2026. Graphite, thread, acrylic paint and fabric, 30x22 inches.</image:caption>
+      <image:caption>Some blame the air conditioning, 2026. graphite, embroidery floss, acrylic paint and fabric, 30x22 inches.</image:caption>
     </image:image>
   </url>
-
+  <!-- Landscape Category Page -->
   <url>
     <loc>https://anvistevens.com/works/landscape</loc>
     <changefreq>monthly</changefreq>
@@ -62,35 +61,35 @@
     <image:image>
       <image:loc>https://anvistevens.com/images/landscape/02_another_way_of_response.jpg</image:loc>
       <image:title>Another Way of Response by Anvi Stevens</image:title>
-      <image:caption>Another Way of Response, 2023. Paint, dye, graphite, and thread on fabric, 42x62 inches.</image:caption>
+      <image:caption>Another Way of Response, 2023. Paint, Dye, Graphite, and Thread on Fabric, 42x62 inches.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/landscape/03_adrift_1.jpg</image:loc>
       <image:title>Adrift by Anvi Stevens</image:title>
-      <image:caption>Adrift, 2021. Charcoal, geru, paint, and gold leaf on fabric, 41x68 inches.</image:caption>
+      <image:caption>Adrift, 2021. Charcoal, Geru, Paint, and Gold Leaf on Fabric, 41x68 inches.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/landscape/04_between_the_spaces_through_the_frame.jpg</image:loc>
       <image:title>Between the Spaces – Through the Frame by Anvi Stevens</image:title>
-      <image:caption>Between the Spaces – Through the Frame, 2021. Dye, paint, and gold leaf on fabric, 66x54 inches.</image:caption>
+      <image:caption>Between the Spaces – Through the Frame, 2021. Dye, Paint, and Gold Leaf on Fabric, 66x54 inches.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/landscape/05_two_sides_of_it.jpg</image:loc>
       <image:title>Two Sides of It by Anvi Stevens</image:title>
-      <image:caption>Two Sides of It, 2021. Paint, paper, sand, gold leaf, and thread on fabric, 63x60 inches.</image:caption>
+      <image:caption>Two Sides of It, 2021. Paint, Paper, Sand, Gold Leaf, and Thread on Fabric, 63x60 inches.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/landscape/06_outside_in.jpg</image:loc>
       <image:title>Outside In by Anvi Stevens</image:title>
-      <image:caption>Outside In, 2021. Charcoal, dye, paint, and geru on fabric, 60x66 inches.</image:caption>
+      <image:caption>Outside In, 2021. Charcoal, Dye, Paint, and Geru on Fabric, 60x66 inches.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/landscape/07_notes.jpg</image:loc>
       <image:title>Notes by Anvi Stevens</image:title>
-      <image:caption>Notes, 2019. Thread, watercolor and cotton on fabric, 108x36 inches.</image:caption>
+      <image:caption>Notes, 2019. Thread, Watercolor and Cotton on Fabric, 108x36 inches.</image:caption>
     </image:image>
   </url>
-
+  <!-- Sculptures Category Page -->
   <url>
     <loc>https://anvistevens.com/works/sculptures</loc>
     <changefreq>monthly</changefreq>
@@ -98,22 +97,316 @@
     <image:image>
       <image:loc>https://anvistevens.com/images/sculptures/01_shelf_1.jpg</image:loc>
       <image:title>Shelf 1 by Anvi Stevens</image:title>
-      <image:caption>Shelf 1, 2022. Acrylic paint, air drying clay, graphite, found objects, and thread on wood, 11.5x13x1.5 inches.</image:caption>
+      <image:caption>Shelf 1, 2022. Acrylic paint, Air drying clay, Graphite, Found Objects, and Thread on Wood, 11.5x13x1.5 inches.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/sculptures/02_shelf_2.jpg</image:loc>
       <image:title>Shelf 2 by Anvi Stevens</image:title>
-      <image:caption>Shelf 2, 2022. Paint, graphite, found objects, and lace on wood, 11.5x12.5x8.5 inches.</image:caption>
+      <image:caption>Shelf 2, 2022. Paint, Graphite, Found Objects, and Lace on Wood, 11.5x12.5x8.5 inches.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/sculptures/03_shelf_3.jpg</image:loc>
       <image:title>Shelf 3 by Anvi Stevens</image:title>
-      <image:caption>Shelf 3, 2022. Acrylic paint, wood stain, and found objects on wood, 15.5x10x1 inches.</image:caption>
+      <image:caption>Shelf 3, 2022. Acrylic Paint, Wood Stain, and Found Objects on Wood, 15.5x10x1 inches.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://anvistevens.com/images/sculptures/calendar_detail.jpg</image:loc>
       <image:title>Calendar (detail) by Anvi Stevens</image:title>
-      <image:caption>Calendar (detail), 2019. Mulch, thread, and ink, 3x1.5 inches.</image:caption>
+      <image:caption>Calendar (detail), 2019. Mulch, Thread, and Ink, 3x1.5 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/sculptures/calendar_retrace_1.jpg</image:loc>
+      <image:title>Calendar (installation view of re:trace) by Anvi Stevens</image:title>
+      <image:caption>Calendar (installation view of re:trace), 2019. Mulch, Thread, and Ink.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/sculptures/calendar_retrace_2.jpg</image:loc>
+      <image:title>Calendar (installation view of re:trace - detail 1) by Anvi Stevens</image:title>
+      <image:caption>Calendar (installation view of re:trace - detail 1), 2019. Mulch, Thread, and Ink.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/sculptures/calendar_retrace_3_detail.jpg</image:loc>
+      <image:title>Calendar (installation view of re:trace - detail 2) by Anvi Stevens</image:title>
+      <image:caption>Calendar (installation view of re:trace - detail 2), 2019. Mulch, Thread, and Ink.</image:caption>
+    </image:image>
+  </url>
+  <!-- Drawings Category Page -->
+  <url>
+    <loc>https://anvistevens.com/works/drawings</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/02_Nurture.JPG</image:loc>
+      <image:title>Nurture by Anvi Stevens</image:title>
+      <image:caption>Nurture, 2026. watercolor, color pencil, oil pastel, graphite, thread, gesso, and gold leaf on cold pressed archival watercolor paper, 5.5 x 8.5 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/01_by yourself.jpg</image:loc>
+      <image:title>By yourself by Anvi Stevens</image:title>
+      <image:caption>By yourself, 2025. graphite, oil pastels, and ink on paper, 8.5x11 inches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/03_retrace.JPG</image:loc>
+      <image:title>re:trace by Anvi Stevens</image:title>
+      <image:caption>re:trace.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/04_script.jpg</image:loc>
+      <image:title>Script by Anvi Stevens</image:title>
+      <image:caption>Script.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/05_peak and trough.jpg</image:loc>
+      <image:title>Peak and Trough by Anvi Stevens</image:title>
+      <image:caption>Peak and Trough.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/06_Occupied and Navigated.JPEG</image:loc>
+      <image:title>Occupied and Navigated by Anvi Stevens</image:title>
+      <image:caption>Occupied and Navigated, 2019. Khadiya powder, watercolor, cotton, and thread on handmade paper, 7” × 10”.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/07_Space 1.JPEG</image:loc>
+      <image:title>Space 1 by Anvi Stevens</image:title>
+      <image:caption>Space 1, 2019. Khadiya powder, graphite, and watercolor on paper, 9” × 12”.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/08_a lump in the throat.jpg</image:loc>
+      <image:title>A Lump in the Throat by Anvi Stevens</image:title>
+      <image:caption>A Lump in the Throat, 2019. Ink, gouache, and thread on handmade paper, 8” × 11”.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/09_pink.jpg</image:loc>
+      <image:title>Pink by Anvi Stevens</image:title>
+      <image:caption>Pink.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/10.jpg</image:loc>
+      <image:title>Drawing 10 by Anvi Stevens</image:title>
+      <image:caption>Drawing 10.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/10_Narrative1.jpg</image:loc>
+      <image:title>Narrative 1 by Anvi Stevens</image:title>
+      <image:caption>Narrative 1.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/10_Narrative2.jpg</image:loc>
+      <image:title>Narrative 2 by Anvi Stevens</image:title>
+      <image:caption>Narrative 2.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/10_Narrative3.jpg</image:loc>
+      <image:title>Narrative 3 by Anvi Stevens</image:title>
+      <image:caption>Narrative 3.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/10_Narrative4.jpg</image:loc>
+      <image:title>Narrative 4 by Anvi Stevens</image:title>
+      <image:caption>Narrative 4.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/10_Narrative5.jpg</image:loc>
+      <image:title>Narrative 5 by Anvi Stevens</image:title>
+      <image:caption>Narrative 5.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/11_overlap.jpg</image:loc>
+      <image:title>Overlap by Anvi Stevens</image:title>
+      <image:caption>Overlap.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/12_Trying to Draw Parallels.jpeg</image:loc>
+      <image:title>Trying to Draw Parallels by Anvi Stevens</image:title>
+      <image:caption>Trying to Draw Parallels, 2019. Watercolors, ink, and cotton thread on handmade paper, 8” × 10”.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/13.jpg</image:loc>
+      <image:title>Drawing 13 by Anvi Stevens</image:title>
+      <image:caption>Drawing 13.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/14.jpg</image:loc>
+      <image:title>Drawing 14 by Anvi Stevens</image:title>
+      <image:caption>Drawing 14.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/15.jpeg</image:loc>
+      <image:title>Drawing 15 by Anvi Stevens</image:title>
+      <image:caption>Drawing 15.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/16.jpg</image:loc>
+      <image:title>Drawing 16 by Anvi Stevens</image:title>
+      <image:caption>Drawing 16.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/17.jpg</image:loc>
+      <image:title>Drawing 17 by Anvi Stevens</image:title>
+      <image:caption>Drawing 17.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/drawings/18.jpg</image:loc>
+      <image:title>Drawing 18 by Anvi Stevens</image:title>
+      <image:caption>Drawing 18.</image:caption>
+    </image:image>
+  </url>
+  <!-- Installation Category Page -->
+  <url>
+    <loc>https://anvistevens.com/works/installation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 1.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson I by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson I.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 2.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson II by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson II.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 3.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson III by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson III.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 3_detail.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson (Detail) by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson (Detail).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 4.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson IV by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson IV.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 5.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson V by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson V.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/101A2298.JPG</image:loc>
+      <image:title>Spatial Intervention I by Anvi Stevens</image:title>
+      <image:caption>Spatial Intervention I.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/101A2299.JPG</image:loc>
+      <image:title>Spatial Intervention II by Anvi Stevens</image:title>
+      <image:caption>Spatial Intervention II.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/IMG_1163-1.jpg</image:loc>
+      <image:title>Installation Study I by Anvi Stevens</image:title>
+      <image:caption>Installation Study I.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/IMG_1165-1.jpg</image:loc>
+      <image:title>Installation Study II by Anvi Stevens</image:title>
+      <image:caption>Installation Study II.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/IMG_1195-1.jpg</image:loc>
+      <image:title>Installation Study III by Anvi Stevens</image:title>
+      <image:caption>Installation Study III.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/ShahAnvi_05.jpg</image:loc>
+      <image:title>Installation Overview by Anvi Stevens</image:title>
+      <image:caption>Installation Overview.</image:caption>
+    </image:image>
+  </url>
+  <!-- Remnants of the Everyday Category Page -->
+  <url>
+    <loc>https://anvistevens.com/works/remnants-of-the-everyday</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/1.jpg</image:loc>
+      <image:title>Remnants of the Everyday 1 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 1.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/2.jpg</image:loc>
+      <image:title>Remnants of the Everyday 2 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 2.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/3.jpg</image:loc>
+      <image:title>Remnants of the Everyday 3 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 3.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/4.jpg</image:loc>
+      <image:title>Remnants of the Everyday 4 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 4.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/5.jpg</image:loc>
+      <image:title>Remnants of the Everyday 5 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 5.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/6.jpg</image:loc>
+      <image:title>Remnants of the Everyday 6 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 6.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/7.jpg</image:loc>
+      <image:title>Remnants of the Everyday 7 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 7.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/8.jpg</image:loc>
+      <image:title>Remnants of the Everyday 8 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 8.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/9.jpg</image:loc>
+      <image:title>Remnants of the Everyday 9 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 9.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/10.jpg</image:loc>
+      <image:title>Remnants of the Everyday 10 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 10.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/11.jpg</image:loc>
+      <image:title>Remnants of the Everyday 11 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 11.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/12.jpg</image:loc>
+      <image:title>Remnants of the Everyday 12 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 12.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/remnants/13.jpg</image:loc>
+      <image:title>Remnants of the Everyday 13 by Anvi Stevens</image:title>
+      <image:caption>Remnants of the Everyday 13.</image:caption>
+    </image:image>
+  </url>
+  <!-- Book Art Category Page -->
+  <url>
+    <loc>https://anvistevens.com/works/book-art</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/her-little-black-book/cover.jpg</image:loc>
+      <image:title>Her Little Black Book by Anvi Stevens</image:title>
+      <image:caption>Her Little Black Book.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/New Year Poem.jpg</image:loc>
+      <image:title>New Year Poem by Anvi Stevens</image:title>
+      <image:caption>New Year Poem.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/story-board/IMG_4174.jpeg</image:loc>
+      <image:title>Story Board by Anvi Stevens</image:title>
+      <image:caption>Story Board.</image:caption>
     </image:image>
   </url>
 </urlset>
