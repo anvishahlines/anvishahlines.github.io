@@ -130,6 +130,72 @@
       <image:caption>Calendar (installation view of re:trace - detail 2), 2019. Mulch, Thread, and Ink.</image:caption>
     </image:image>
   </url>
+  <!-- Installation Category Page -->
+  <url>
+    <loc>https://anvistevens.com/works/installation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 1.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson I by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson I.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 2.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson II by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson II.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 3.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson III by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson III.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 3_detail.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson (Detail) by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson (Detail).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 4.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson IV by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson IV.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 5.jpg</image:loc>
+      <image:title>Collaboration with Aisling Wilson V by Anvi Stevens</image:title>
+      <image:caption>Collaboration with Aisling Wilson V.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/101A2298.JPG</image:loc>
+      <image:title>Spatial Intervention I by Anvi Stevens</image:title>
+      <image:caption>Spatial Intervention I.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/101A2299.JPG</image:loc>
+      <image:title>Spatial Intervention II by Anvi Stevens</image:title>
+      <image:caption>Spatial Intervention II.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/IMG_1163-1.jpg</image:loc>
+      <image:title>Installation Study I by Anvi Stevens</image:title>
+      <image:caption>Installation Study I.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/IMG_1165-1.jpg</image:loc>
+      <image:title>Installation Study II by Anvi Stevens</image:title>
+      <image:caption>Installation Study II.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/IMG_1195-1.jpg</image:loc>
+      <image:title>Installation Study III by Anvi Stevens</image:title>
+      <image:caption>Installation Study III.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/installation/ShahAnvi_05.jpg</image:loc>
+      <image:title>Installation Overview by Anvi Stevens</image:title>
+      <image:caption>Installation Overview.</image:caption>
+    </image:image>
+  </url>
   <!-- Drawings Category Page -->
   <url>
     <loc>https://anvistevens.com/works/drawings</loc>
@@ -251,143 +317,6 @@
       <image:caption>Drawing 18.</image:caption>
     </image:image>
   </url>
-  <!-- Installation Category Page -->
-  <url>
-    <loc>https://anvistevens.com/works/installation</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 1.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson I by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson I.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 2.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson II by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson II.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 3.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson III by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson III.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 3_detail.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson (Detail) by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson (Detail).</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 4.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson IV by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson IV.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/Collaboration with Aisling Wilson 5.jpg</image:loc>
-      <image:title>Collaboration with Aisling Wilson V by Anvi Stevens</image:title>
-      <image:caption>Collaboration with Aisling Wilson V.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/101A2298.JPG</image:loc>
-      <image:title>Spatial Intervention I by Anvi Stevens</image:title>
-      <image:caption>Spatial Intervention I.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/101A2299.JPG</image:loc>
-      <image:title>Spatial Intervention II by Anvi Stevens</image:title>
-      <image:caption>Spatial Intervention II.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/IMG_1163-1.jpg</image:loc>
-      <image:title>Installation Study I by Anvi Stevens</image:title>
-      <image:caption>Installation Study I.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/IMG_1165-1.jpg</image:loc>
-      <image:title>Installation Study II by Anvi Stevens</image:title>
-      <image:caption>Installation Study II.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/IMG_1195-1.jpg</image:loc>
-      <image:title>Installation Study III by Anvi Stevens</image:title>
-      <image:caption>Installation Study III.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/installation/ShahAnvi_05.jpg</image:loc>
-      <image:title>Installation Overview by Anvi Stevens</image:title>
-      <image:caption>Installation Overview.</image:caption>
-    </image:image>
-  </url>
-  <!-- Remnants of the Everyday Category Page -->
-  <url>
-    <loc>https://anvistevens.com/works/remnants-of-the-everyday</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/1.jpg</image:loc>
-      <image:title>Remnants of the Everyday 1 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 1.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/2.jpg</image:loc>
-      <image:title>Remnants of the Everyday 2 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 2.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/3.jpg</image:loc>
-      <image:title>Remnants of the Everyday 3 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 3.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/4.jpg</image:loc>
-      <image:title>Remnants of the Everyday 4 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 4.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/5.jpg</image:loc>
-      <image:title>Remnants of the Everyday 5 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 5.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/6.jpg</image:loc>
-      <image:title>Remnants of the Everyday 6 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 6.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/7.jpg</image:loc>
-      <image:title>Remnants of the Everyday 7 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 7.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/8.jpg</image:loc>
-      <image:title>Remnants of the Everyday 8 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 8.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/9.jpg</image:loc>
-      <image:title>Remnants of the Everyday 9 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 9.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/10.jpg</image:loc>
-      <image:title>Remnants of the Everyday 10 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 10.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/11.jpg</image:loc>
-      <image:title>Remnants of the Everyday 11 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 11.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/12.jpg</image:loc>
-      <image:title>Remnants of the Everyday 12 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 12.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://anvistevens.com/images/remnants/13.jpg</image:loc>
-      <image:title>Remnants of the Everyday 13 by Anvi Stevens</image:title>
-      <image:caption>Remnants of the Everyday 13.</image:caption>
-    </image:image>
-  </url>
   <!-- Book Art Category Page -->
   <url>
     <loc>https://anvistevens.com/works/book-art</loc>
@@ -407,6 +336,154 @@
       <image:loc>https://anvistevens.com/images/book-art/story-board/IMG_4174.jpeg</image:loc>
       <image:title>Story Board by Anvi Stevens</image:title>
       <image:caption>Story Board.</image:caption>
+    </image:image>
+  </url>
+  <!-- Her Little Black Book (Book Art) Page -->
+  <url>
+    <loc>https://anvistevens.com/works/book-art/her-little-black-book</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/her-little-black-book/cover.jpg</image:loc>
+      <image:title>Her Little Black Book (Cover) by Anvi Stevens</image:title>
+      <image:caption>Her Little Black Book (Cover).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/her-little-black-book/open book view.jpg</image:loc>
+      <image:title>Her Little Black Book (Open View) by Anvi Stevens</image:title>
+      <image:caption>Her Little Black Book (Open View).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/her-little-black-book/inside snapshot 1.jpg</image:loc>
+      <image:title>Inside Snapshot 1 by Anvi Stevens</image:title>
+      <image:caption>Inside Snapshot 1.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/her-little-black-book/inside snapshot 2.jpg</image:loc>
+      <image:title>Inside Snapshot 2 by Anvi Stevens</image:title>
+      <image:caption>Inside Snapshot 2.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/her-little-black-book/inside snapshot 3.jpg</image:loc>
+      <image:title>Inside Snapshot 3 by Anvi Stevens</image:title>
+      <image:caption>Inside Snapshot 3.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/her-little-black-book/inside snapshot 4.jpg</image:loc>
+      <image:title>Inside Snapshot 4 by Anvi Stevens</image:title>
+      <image:caption>Inside Snapshot 4.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/her-little-black-book/inside snapshot 5.jpg</image:loc>
+      <image:title>Inside Snapshot 5 by Anvi Stevens</image:title>
+      <image:caption>Inside Snapshot 5.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/her-little-black-book/inside snapshot 6.jpg</image:loc>
+      <image:title>Inside Snapshot 6 by Anvi Stevens</image:title>
+      <image:caption>Inside Snapshot 6.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/her-little-black-book/inside snapshot 7.jpg</image:loc>
+      <image:title>Inside Snapshot 7 by Anvi Stevens</image:title>
+      <image:caption>Inside Snapshot 7.</image:caption>
+    </image:image>
+  </url>
+  <!-- New Year Poem (Book Art) Page -->
+  <url>
+    <loc>https://anvistevens.com/works/book-art/new-year-poem</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/New Year Poem.jpg</image:loc>
+      <image:title>New Year Poem by Anvi Stevens</image:title>
+      <image:caption>New Year Poem.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5611.jpg</image:loc>
+      <image:title>New Year Poem (View 1) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 1).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5612.jpg</image:loc>
+      <image:title>New Year Poem (View 2) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 2).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5613.jpg</image:loc>
+      <image:title>New Year Poem (View 3) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 3).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5614.jpg</image:loc>
+      <image:title>New Year Poem (View 4) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 4).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5615.jpg</image:loc>
+      <image:title>New Year Poem (View 5) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 5).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5621.jpg</image:loc>
+      <image:title>New Year Poem (View 6) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 6).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5622.jpg</image:loc>
+      <image:title>New Year Poem (View 7) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 7).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5623.jpg</image:loc>
+      <image:title>New Year Poem (View 8) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 8).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5624.jpg</image:loc>
+      <image:title>New Year Poem (View 9) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 9).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5625.jpg</image:loc>
+      <image:title>New Year Poem (View 10) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 10).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/new-year-poem/IMG_5627.jpg</image:loc>
+      <image:title>New Year Poem (View 11) by Anvi Stevens</image:title>
+      <image:caption>New Year Poem (View 11).</image:caption>
+    </image:image>
+  </url>
+  <!-- Story Board (Book Art) Page -->
+  <url>
+    <loc>https://anvistevens.com/works/book-art/story-board</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/story-board/IMG_4174.jpeg</image:loc>
+      <image:title>Story Board (View 1) by Anvi Stevens</image:title>
+      <image:caption>Story Board (View 1).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/story-board/IMG_4176.jpeg</image:loc>
+      <image:title>Story Board (View 2) by Anvi Stevens</image:title>
+      <image:caption>Story Board (View 2).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/story-board/IMG_4177.jpeg</image:loc>
+      <image:title>Story Board (View 3) by Anvi Stevens</image:title>
+      <image:caption>Story Board (View 3).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/story-board/IMG_4178.jpeg</image:loc>
+      <image:title>Story Board (View 4) by Anvi Stevens</image:title>
+      <image:caption>Story Board (View 4).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anvistevens.com/images/book-art/story-board/IMG_4179.jpeg</image:loc>
+      <image:title>Story Board (View 5) by Anvi Stevens</image:title>
+      <image:caption>Story Board (View 5).</image:caption>
     </image:image>
   </url>
 </urlset>
