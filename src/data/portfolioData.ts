@@ -686,8 +686,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
           { id: "sb-4174", title: "Story Board (View 1)", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Story Board accordion book view 1." },
           { id: "sb-4176", title: "Story Board (View 2)", image: "/images/book-art/story-board/IMG_4176.jpeg", alt: "Story Board accordion book view 2." },
           { id: "sb-4177", title: "Story Board (View 3)", image: "/images/book-art/story-board/IMG_4177.jpeg", alt: "Story Board accordion book view 3." },
-          { id: "sb-4178", title: "Story Board (View 4)", image: "/images/book-art/story-board/IMG_4178.jpeg", alt: "Story Board accordion book view 4." },
-          { id: "sb-4179", title: "Story Board (View 5)", image: "/images/book-art/story-board/IMG_4179.jpeg", alt: "Story Board accordion book view 5." }
+          { id: "sb-4178", title: "Story Board (View 4)", image: "/images/book-art/story-board/IMG_4178.jpeg", alt: "Story Board accordion book view 4." }
         ]
       }
     ],
