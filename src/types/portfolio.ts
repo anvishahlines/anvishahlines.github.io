@@ -6,6 +6,7 @@ export interface Artwork {
   year?: string;
   image: string;
   alt?: string;
+  poem?: string;
   subProject?: string;
 }
 

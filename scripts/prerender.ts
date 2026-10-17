@@ -121,10 +121,13 @@ function generateStaticPages() {
           <p class="text-sm text-stone-600 mb-8">${category.statementSnippet || ''}</p>
           <div class="space-y-12">
             ${category.works.map((w: Artwork) => `
-              <article class="text-center">
-                <img src="${w.image}" alt="${w.alt || `${w.title} by Anvi Stevens`}" class="max-h-[600px] mx-auto mb-4" />
-                <h2 class="text-base font-semibold">${w.title}</h2>
-                <p class="text-xs text-stone-500">${w.year ? `${w.year} · ` : ''}${w.medium || ''}${w.dimensions ? ` · ${w.dimensions}` : ''}</p>
+              <article class="text-center mb-8">
+                <img src="${w.image}" alt="${w.alt || `${w.title || 'Artwork'} by Anvi Stevens`}" class="max-h-[600px] mx-auto mb-4" />
+                ${w.title ? `<h2 class="text-base font-semibold">${w.title}</h2>` : ''}
+                ${(w.year || w.medium || w.dimensions) ? `
+                  <p class="text-xs text-stone-500">${w.year ? `${w.year} · ` : ''}${w.medium || ''}${w.dimensions ? ` · ${w.dimensions}` : ''}</p>
+                ` : ''}
+                ${w.poem ? `<p class="mt-2 text-xs text-stone-500 italic max-w-md mx-auto whitespace-pre-line">${w.poem}</p>` : ''}
               </article>
             `).join('')}
           </div>

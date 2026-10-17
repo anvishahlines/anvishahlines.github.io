@@ -74,29 +74,38 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
               </div>
 
               {/* Text goes below each relevant photo: bold title · year · medium · dimensions, center-aligned */}
-              <div className="mt-3.5 w-full text-center">
-                <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed font-light">
-                  <FormattedArtworkTitle title={artwork.title} />
-                  {artwork.year && (
-                    <>
-                      <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>
-                      <span>{artwork.year}</span>
-                    </>
+              {(artwork.title || artwork.year || artwork.medium || artwork.dimensions || artwork.poem) && (
+                <div className="mt-3.5 w-full text-center">
+                  {(artwork.title || artwork.year || artwork.medium || artwork.dimensions) && (
+                    <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed font-light">
+                      {artwork.title && <FormattedArtworkTitle title={artwork.title} />}
+                      {artwork.year && (
+                        <>
+                          {artwork.title && <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>}
+                          <span>{artwork.year}</span>
+                        </>
+                      )}
+                      {artwork.medium && (
+                        <>
+                          {(artwork.title || artwork.year) && <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>}
+                          <span>{artwork.medium}</span>
+                        </>
+                      )}
+                      {artwork.dimensions && (
+                        <>
+                          {(artwork.title || artwork.year || artwork.medium) && <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>}
+                          <span>{artwork.dimensions}</span>
+                        </>
+                      )}
+                    </p>
                   )}
-                  {artwork.medium && (
-                    <>
-                      <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>
-                      <span>{artwork.medium}</span>
-                    </>
+                  {artwork.poem && (
+                    <p className="mt-2 text-xs sm:text-[13px] text-stone-500 italic font-light whitespace-pre-line leading-relaxed max-w-md mx-auto">
+                      {artwork.poem}
+                    </p>
                   )}
-                  {artwork.dimensions && (
-                    <>
-                      <span className="text-stone-400 mx-1.5" aria-hidden="true">·</span>
-                      <span>{artwork.dimensions}</span>
-                    </>
-                  )}
-                </p>
-              </div>
+                </div>
+              )}
             </div>
           ))}
         </div>

@@ -117,6 +117,17 @@ export const ARTIST_PROFILE: ArtistProfile = {
       ]
     },
     {
+      title: "Residencies",
+      items: [
+        {
+          year: "2027",
+          primary: "Elf School of the Arts",
+          secondary: "Artist Residency",
+          details: "Upcoming"
+        }
+      ]
+    },
+    {
       title: "Awards & Scholarships",
       items: [
         {
@@ -172,6 +183,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         year: "2026",
         image: "/images/01_rooted.jpg",
         alt: "Mixed-media textile collage, Rooted, showing a tall deconstructed chair form in earthy beige, ochre, and charcoal with stitched fabric strips and twill tape on raw canvas.",
+        poem: "The vines are as much under the ground as they are above."
       },
       {
         id: "nature-adorned",
@@ -181,6 +193,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         year: "2026",
         image: "/images/02_adorned_vertical.jpg",
         alt: "Mixed-media painting, Adorned, depicting a vertical chair silhouette in muted blue, sage green, and cream with visible pencil lines and sewn fabric panels.",
+        poem: "I prepared the table\nDecorated the shelves;\nI cooked the food\nArranged the flowers;\nRemind me again,\nWhat we talked about that day?"
       },
       {
         id: "nature-burden",
@@ -190,15 +203,17 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         year: "2026",
         image: "/images/03_the_burden_of_beauty.jpg",
         alt: "Mixed-media textile piece, The Burden You Carry, showing an upright chair motif across eco-printed linen in warm taupe, charcoal lines, and sewn botanical patches.",
+        poem: "The coral is pretty\nYet it hides in plain sight."
       },
       {
         id: "nature-ac",
         title: "Some blame the air conditioning",
-        medium: "Graphite, Thread, Acrylic Paint and Fabric",
+        medium: "graphite, embroidery floss, acrylic paint and fabric",
         dimensions: "30x22 inches",
         year: "2026",
         image: "/images/04_some_blame_the_air_conditioning.jpg",
         alt: "Mixed-media drawing on fabric, Some blame the air conditioning, featuring graphite chair contours, stitched dark thread, and beige and olive fabric accents.",
+        poem: "I make the bed on the terrace,\nGet a pot of water from the kitchen. All this\nRunning up and down the stairs, briskly.\nI lay down to find Orion’s Belt\nAnd fall asleep\nThe bed is like the night -\nCool and crisp."
       }
     ]
   },
@@ -291,6 +306,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         year: "2022",
         image: "/images/sculptures/01_shelf_1.jpg",
         alt: "Small mixed-media wall sculpture, Shelf 1, with air-drying clay forms, thread, and found objects arranged across a light natural wood shelf.",
+        poem: "The carpet in my house is pink;\nAnd the rock in my yard is white.\nBut what are these marks on the windows?\nIt’s the cats’ nose."
       },
       {
         id: "sculpt-shelf-2",
@@ -300,6 +316,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         year: "2022",
         image: "/images/sculptures/02_shelf_2.jpg",
         alt: "Mixed-media wall sculpture, Shelf 2, featuring off-white clay shapes, graphite markings, and lace draped over a pale wooden shelf.",
+        poem: "I am wrapping curtains like I wrap gifts;\nAdding colors and hanging plants.\nWhile we balance the vines fill the gap."
       },
       {
         id: "sculpt-shelf-3",
@@ -343,6 +360,348 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         image: "/images/sculptures/calendar_retrace_3_detail.jpg",
         alt: "Close-up detail view of the Calendar installation in re:trace, displaying textured mulch bundles bound with fine hand stitching on a white wall surface.",
       }
+    ]
+  },
+  {
+    id: "drawings",
+    title: "Drawings",
+    coverImage: "/images/drawings/02_Nurture.JPG",
+    cropPosition: "object-center",
+    statementSnippet:
+      "Works on paper examining personal memory, natural gestures, delicate hand-stitching, and organic linear contours.",
+    works: [
+      {
+        id: "draw-nurture",
+        title: "Nurture",
+        medium: "watercolor, color pencil, oil pastel, graphite, thread, gesso, and gold leaf on cold pressed archival watercolor paper",
+        dimensions: "5.5 x 8.5 inches",
+        year: "2026",
+        image: "/images/drawings/02_Nurture.JPG",
+        alt: "Mixed-media drawing, Nurture, featuring watercolor, color pencil, graphite, stitched thread, and gold leaf on cold pressed watercolor paper.",
+        poem: "I put some rocks around the hibiscus plant\nto stop the weeds from growing. I painted a flower,\ntook one to temple, and added several to the house\nDecoration."
+      },
+      {
+        id: "draw-by-yourself",
+        title: "By yourself",
+        medium: "graphite, oil pastels, and ink on paper",
+        dimensions: "8.5x11 inches",
+        year: "2025",
+        image: "/images/drawings/01_by yourself.jpg",
+        alt: "Drawing, By yourself, with expressive graphite marks, oil pastels, and ink on paper.",
+        poem: "I smile at the pictures they sent\nfrom the celebration from back home."
+      },
+      {
+        id: "draw-retrace",
+        title: "re:trace",
+        image: "/images/drawings/03_retrace.JPG",
+        alt: "Work on paper from the re:trace series."
+      },
+      {
+        id: "draw-script",
+        title: "Script",
+        image: "/images/drawings/04_script.jpg",
+        alt: "Linear drawing with delicate ink and pencil script-like marks on paper."
+      },
+      {
+        id: "draw-peak-trough",
+        title: "Peak and Trough",
+        image: "/images/drawings/05_peak and trough.jpg",
+        alt: "Abstract drawing with rising and falling linear contours on paper."
+      },
+      {
+        id: "draw-occupied-navigated",
+        title: "Occupied and Navigated",
+        medium: "Khadiya powder, watercolor, cotton, and thread on handmade paper",
+        dimensions: "7” × 10”",
+        year: "2019",
+        image: "/images/drawings/06_Occupied and Navigated.JPEG",
+        alt: "Drawing on handmade paper, Occupied and Navigated, with white khadiya powder, watercolor, and hand-stitched cotton thread."
+      },
+      {
+        id: "draw-space-1",
+        title: "Space 1",
+        medium: "Khadiya powder, graphite, and watercolor on paper",
+        dimensions: "9” × 12”",
+        year: "2019",
+        image: "/images/drawings/07_Space 1.JPEG",
+        alt: "Mixed-media drawing, Space 1, with subtle graphite geometry, watercolor washes, and khadiya powder on paper."
+      },
+      {
+        id: "draw-lump-in-throat",
+        title: "A Lump in the Throat",
+        medium: "Ink, gouache, and thread on handmade paper",
+        dimensions: "8” × 11”",
+        year: "2019",
+        image: "/images/drawings/08_a lump in the throat.jpg",
+        alt: "Work on handmade paper, A Lump in the Throat, featuring layered ink washes, gouache, and embedded thread."
+      },
+      {
+        id: "draw-pink",
+        title: "Pink",
+        image: "/images/drawings/09_pink.jpg",
+        alt: "Drawing study featuring soft pink washes, graphite, and textural paper surface."
+      },
+      {
+        id: "draw-10",
+        title: "Drawing 10",
+        image: "/images/drawings/10.jpg",
+        alt: "Abstract study on paper with delicate linear elements."
+      },
+      {
+        id: "draw-narrative-1",
+        title: "Narrative 1",
+        image: "/images/drawings/10_Narrative1.jpg",
+        alt: "Narrative sequence panel 1 with drawings and collected marks on paper."
+      },
+      {
+        id: "draw-narrative-2",
+        title: "Narrative 2",
+        image: "/images/drawings/10_Narrative2.jpg",
+        alt: "Narrative sequence panel 2 with expressive stitched elements and line drawings on paper."
+      },
+      {
+        id: "draw-narrative-3",
+        title: "Narrative 3",
+        image: "/images/drawings/10_Narrative3.jpg",
+        alt: "Narrative sequence panel 3 with textural pigment and linear ink drawings on paper."
+      },
+      {
+        id: "draw-narrative-4",
+        title: "Narrative 4",
+        image: "/images/drawings/10_Narrative4.jpg",
+        alt: "Narrative sequence panel 4 with layered drawings, collage, and ink on paper."
+      },
+      {
+        id: "draw-narrative-5",
+        title: "Narrative 5",
+        image: "/images/drawings/10_Narrative5.jpg",
+        alt: "Narrative sequence panel 5 with delicate mark-making on paper."
+      },
+      {
+        id: "draw-overlap",
+        title: "Overlap",
+        image: "/images/drawings/11_overlap.jpg",
+        alt: "Drawing on paper exploring overlapping translucent tones and lines."
+      },
+      {
+        id: "draw-trying-to-draw-parallels",
+        title: "Trying to Draw Parallels",
+        medium: "Watercolors, ink, and cotton thread on handmade paper",
+        dimensions: "8” × 10”",
+        year: "2019",
+        image: "/images/drawings/12_Trying to Draw Parallels.jpeg",
+        alt: "Mixed-media drawing on handmade paper, Trying to Draw Parallels, with watercolor washes, ink, and sewn thread."
+      },
+      {
+        id: "draw-13",
+        title: "Drawing 13",
+        image: "/images/drawings/13.jpg",
+        alt: "Study on paper with intricate linear markings and pigment washes."
+      },
+      {
+        id: "draw-14",
+        title: "Drawing 14",
+        image: "/images/drawings/14.jpg",
+        alt: "Work on paper with subtle tonal gradations and stitched details."
+      },
+      {
+        id: "draw-15",
+        title: "Drawing 15",
+        image: "/images/drawings/15.jpeg",
+        alt: "Paper study with delicate organic gestures and textural accents."
+      },
+      {
+        id: "draw-16",
+        title: "Drawing 16",
+        image: "/images/drawings/16.jpg",
+        alt: "Drawing on paper featuring fine lines and balanced spatial arrangement."
+      },
+      {
+        id: "draw-17",
+        title: "Drawing 17",
+        image: "/images/drawings/17.jpg",
+        alt: "Study on paper with dynamic linear marks and washed pigments."
+      },
+      {
+        id: "draw-18",
+        title: "Drawing 18",
+        image: "/images/drawings/18.jpg",
+        alt: "Work on paper exploring geometric spatial relationships and texture."
+      }
+    ]
+  },
+  {
+    id: "installation",
+    title: "Installation",
+    coverImage: "/images/installation/Collaboration with Aisling Wilson 1.jpg",
+    cropPosition: "object-center",
+    statementSnippet:
+      "Site-specific spatial interventions with suspended textiles, constructed frame planes, and light-and-shadow environments.",
+    works: [
+      {
+        id: "inst-collab-1",
+        title: "Collaboration with Aisling Wilson I",
+        image: "/images/installation/Collaboration with Aisling Wilson 1.jpg",
+        alt: "Collaborative installation with Aisling Wilson featuring suspended textiles and constructed spatial planes."
+      },
+      {
+        id: "inst-collab-2",
+        title: "Collaboration with Aisling Wilson II",
+        image: "/images/installation/Collaboration with Aisling Wilson 2.jpg",
+        alt: "Installation view of collaborative textile environment in gallery space."
+      },
+      {
+        id: "inst-collab-3",
+        title: "Collaboration with Aisling Wilson III",
+        image: "/images/installation/Collaboration with Aisling Wilson 3.jpg",
+        alt: "Wide installation perspective showing suspended dyed fabrics and spatial tension lines."
+      },
+      {
+        id: "inst-collab-3-detail",
+        title: "Collaboration with Aisling Wilson (Detail)",
+        image: "/images/installation/Collaboration with Aisling Wilson 3_detail.jpg",
+        alt: "Detail view of collaborative textile suspension highlighting seamwork and fabric texture."
+      },
+      {
+        id: "inst-collab-4",
+        title: "Collaboration with Aisling Wilson IV",
+        image: "/images/installation/Collaboration with Aisling Wilson 4.jpg",
+        alt: "Collaborative installation view with atmospheric lighting and draped fabrics."
+      },
+      {
+        id: "inst-collab-5",
+        title: "Collaboration with Aisling Wilson V",
+        image: "/images/installation/Collaboration with Aisling Wilson 5.jpg",
+        alt: "Sculptural textile environment in gallery showing intersecting suspended layers."
+      },
+      {
+        id: "inst-101a2298",
+        title: "Spatial Intervention I",
+        image: "/images/installation/101A2298.JPG",
+        alt: "Installation view with suspended translucent dyed fabric and delicate ceiling cables."
+      },
+      {
+        id: "inst-101a2299",
+        title: "Spatial Intervention II",
+        image: "/images/installation/101A2299.JPG",
+        alt: "Gallery installation perspective showing dyed textile drape and architectural lighting."
+      },
+      {
+        id: "inst-1163",
+        title: "Installation Study I",
+        image: "/images/installation/IMG_1163-1.jpg",
+        alt: "Installation shot showing fabric structures interacting with wall surfaces."
+      },
+      {
+        id: "inst-1165",
+        title: "Installation Study II",
+        image: "/images/installation/IMG_1165-1.jpg",
+        alt: "Installation view documenting draped textiles and subtle shadows in exhibition space."
+      },
+      {
+        id: "inst-1195",
+        title: "Installation Study III",
+        image: "/images/installation/IMG_1195-1.jpg",
+        alt: "Exhibition perspective showing three-dimensional fiber work suspended in open space."
+      },
+      {
+        id: "inst-shahanvi-05",
+        title: "Installation Overview",
+        image: "/images/installation/ShahAnvi_05.jpg",
+        alt: "Comprehensive gallery view showcasing spatial installation and visitor interaction."
+      }
+    ]
+  },
+  {
+    id: "remnants-of-the-everyday",
+    title: "Remnants of the Everyday",
+    coverImage: "/images/remnants/1.jpg",
+    cropPosition: "object-center",
+    statementSnippet:
+      "A photographic and material archive chronicling ordinary traces, tactile fragments, and everyday remnants.",
+    works: [
+      { id: "rem-1", title: "Remnants of the Everyday 1", image: "/images/remnants/1.jpg", alt: "Remnants of the Everyday photographic study 1." },
+      { id: "rem-2", title: "Remnants of the Everyday 2", image: "/images/remnants/2.jpg", alt: "Remnants of the Everyday photographic study 2." },
+      { id: "rem-3", title: "Remnants of the Everyday 3", image: "/images/remnants/3.jpg", alt: "Remnants of the Everyday photographic study 3." },
+      { id: "rem-4", title: "Remnants of the Everyday 4", image: "/images/remnants/4.jpg", alt: "Remnants of the Everyday photographic study 4." },
+      { id: "rem-5", title: "Remnants of the Everyday 5", image: "/images/remnants/5.jpg", alt: "Remnants of the Everyday photographic study 5." },
+      { id: "rem-6", title: "Remnants of the Everyday 6", image: "/images/remnants/6.jpg", alt: "Remnants of the Everyday photographic study 6." },
+      { id: "rem-7", title: "Remnants of the Everyday 7", image: "/images/remnants/7.jpg", alt: "Remnants of the Everyday photographic study 7." },
+      { id: "rem-8", title: "Remnants of the Everyday 8", image: "/images/remnants/8.jpg", alt: "Remnants of the Everyday photographic study 8." },
+      { id: "rem-9", title: "Remnants of the Everyday 9", image: "/images/remnants/9.jpg", alt: "Remnants of the Everyday photographic study 9." },
+      { id: "rem-10", title: "Remnants of the Everyday 10", image: "/images/remnants/10.jpg", alt: "Remnants of the Everyday photographic study 10." },
+      { id: "rem-11", title: "Remnants of the Everyday 11", image: "/images/remnants/11.jpg", alt: "Remnants of the Everyday photographic study 11." },
+      { id: "rem-12", title: "Remnants of the Everyday 12", image: "/images/remnants/12.jpg", alt: "Remnants of the Everyday photographic study 12." },
+      { id: "rem-13", title: "Remnants of the Everyday 13", image: "/images/remnants/13.jpg", alt: "Remnants of the Everyday photographic study 13." }
+    ]
+  },
+  {
+    id: "book-art",
+    title: "Book Art",
+    coverImage: "/images/book-art/new-year-poem/New Year Poem.jpg",
+    cropPosition: "object-center",
+    hasSubProjects: true,
+    statementSnippet:
+      "Artist books, hand-bound volumes, and accordion fold narratives exploring tactile prose and personal histories.",
+    subProjects: [
+      {
+        id: "her-little-black-book",
+        title: "Her Little Black Book",
+        coverImage: "/images/book-art/her-little-black-book/cover.jpg",
+        cropPosition: "object-center",
+        description: "Hand-bound artist book created with reclaimed dark textiles, delicate embroidery floss, and handwritten prose.",
+        works: [
+          { id: "hlbb-cover", title: "Her Little Black Book (Cover)", image: "/images/book-art/her-little-black-book/cover.jpg", alt: "Cover of Her Little Black Book hand-bound with dark textiles and stitching." },
+          { id: "hlbb-open", title: "Her Little Black Book (Open View)", image: "/images/book-art/her-little-black-book/open book view.jpg", alt: "Open book view showing binding and stitched textile structure." },
+          { id: "hlbb-snap-1", title: "Inside Snapshot 1", image: "/images/book-art/her-little-black-book/inside snapshot 1.jpg", alt: "Interior page snapshot 1 of Her Little Black Book." },
+          { id: "hlbb-snap-2", title: "Inside Snapshot 2", image: "/images/book-art/her-little-black-book/inside snapshot 2.jpg", alt: "Interior page snapshot 2 of Her Little Black Book." },
+          { id: "hlbb-snap-3", title: "Inside Snapshot 3", image: "/images/book-art/her-little-black-book/inside snapshot 3.jpg", alt: "Interior page snapshot 3 of Her Little Black Book." },
+          { id: "hlbb-snap-4", title: "Inside Snapshot 4", image: "/images/book-art/her-little-black-book/inside snapshot 4.jpg", alt: "Interior page snapshot 4 of Her Little Black Book." },
+          { id: "hlbb-snap-5", title: "Inside Snapshot 5", image: "/images/book-art/her-little-black-book/inside snapshot 5.jpg", alt: "Interior page snapshot 5 of Her Little Black Book." },
+          { id: "hlbb-snap-6", title: "Inside Snapshot 6", image: "/images/book-art/her-little-black-book/inside snapshot 6.jpg", alt: "Interior page snapshot 6 of Her Little Black Book." },
+          { id: "hlbb-snap-7", title: "Inside Snapshot 7", image: "/images/book-art/her-little-black-book/inside snapshot 7.jpg", alt: "Interior page snapshot 7 of Her Little Black Book." }
+        ]
+      },
+      {
+        id: "new-year-poem",
+        title: "New Year Poem",
+        coverImage: "/images/book-art/new-year-poem/New Year Poem.jpg",
+        cropPosition: "object-center",
+        description: "Artist book featuring hand-stitched poetry, delicate watercolor washes, and layered fabric collages.",
+        works: [
+          { id: "nyp-poem", title: "New Year Poem", image: "/images/book-art/new-year-poem/New Year Poem.jpg", alt: "New Year Poem artist book spread with stitched verse and textile collage." },
+          { id: "nyp-5611", title: "New Year Poem (View 1)", image: "/images/book-art/new-year-poem/IMG_5611.jpg", alt: "New Year Poem detail view 1." },
+          { id: "nyp-5612", title: "New Year Poem (View 2)", image: "/images/book-art/new-year-poem/IMG_5612.jpg", alt: "New Year Poem detail view 2." },
+          { id: "nyp-5613", title: "New Year Poem (View 3)", image: "/images/book-art/new-year-poem/IMG_5613.jpg", alt: "New Year Poem detail view 3." },
+          { id: "nyp-5614", title: "New Year Poem (View 4)", image: "/images/book-art/new-year-poem/IMG_5614.jpg", alt: "New Year Poem detail view 4." },
+          { id: "nyp-5615", title: "New Year Poem (View 5)", image: "/images/book-art/new-year-poem/IMG_5615.jpg", alt: "New Year Poem detail view 5." },
+          { id: "nyp-5621", title: "New Year Poem (View 6)", image: "/images/book-art/new-year-poem/IMG_5621.jpg", alt: "New Year Poem detail view 6." },
+          { id: "nyp-5622", title: "New Year Poem (View 7)", image: "/images/book-art/new-year-poem/IMG_5622.jpg", alt: "New Year Poem detail view 7." },
+          { id: "nyp-5623", title: "New Year Poem (View 8)", image: "/images/book-art/new-year-poem/IMG_5623.jpg", alt: "New Year Poem detail view 8." },
+          { id: "nyp-5624", title: "New Year Poem (View 9)", image: "/images/book-art/new-year-poem/IMG_5624.jpg", alt: "New Year Poem detail view 9." },
+          { id: "nyp-5625", title: "New Year Poem (View 10)", image: "/images/book-art/new-year-poem/IMG_5625.jpg", alt: "New Year Poem detail view 10." },
+          { id: "nyp-5627", title: "New Year Poem (View 11)", image: "/images/book-art/new-year-poem/IMG_5627.jpg", alt: "New Year Poem detail view 11." }
+        ]
+      },
+      {
+        id: "story-board",
+        title: "Story Board",
+        coverImage: "/images/book-art/story-board/IMG_4174.jpeg",
+        cropPosition: "object-center",
+        description: "Accordion fold narrative series on handmade paper with pigments and thread.",
+        works: [
+          { id: "sb-4174", title: "Story Board (View 1)", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Story Board accordion book view 1." },
+          { id: "sb-4176", title: "Story Board (View 2)", image: "/images/book-art/story-board/IMG_4176.jpeg", alt: "Story Board accordion book view 2." },
+          { id: "sb-4177", title: "Story Board (View 3)", image: "/images/book-art/story-board/IMG_4177.jpeg", alt: "Story Board accordion book view 3." },
+          { id: "sb-4178", title: "Story Board (View 4)", image: "/images/book-art/story-board/IMG_4178.jpeg", alt: "Story Board accordion book view 4." },
+          { id: "sb-4179", title: "Story Board (View 5)", image: "/images/book-art/story-board/IMG_4179.jpeg", alt: "Story Board accordion book view 5." }
+        ]
+      }
+    ],
+    works: [
+      { id: "ba-hlbb", title: "Her Little Black Book", image: "/images/book-art/her-little-black-book/cover.jpg", alt: "Her Little Black Book cover." },
+      { id: "ba-nyp", title: "New Year Poem", image: "/images/book-art/new-year-poem/New Year Poem.jpg", alt: "New Year Poem spread." },
+      { id: "ba-sb", title: "Story Board", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Story Board accordion view." }
     ]
   }
 ];
