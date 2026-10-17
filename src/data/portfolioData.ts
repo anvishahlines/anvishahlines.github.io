@@ -644,15 +644,15 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         cropPosition: "object-center",
         description: "Hand-bound artist book created with reclaimed dark textiles, delicate embroidery floss, and handwritten prose.",
         works: [
-          { id: "hlbb-cover", title: "Her Little Black Book (Cover)", image: "/images/book-art/her-little-black-book/cover.jpg", alt: "Cover of Her Little Black Book hand-bound with dark textiles and stitching." },
-          { id: "hlbb-open", title: "Her Little Black Book (Open View)", image: "/images/book-art/her-little-black-book/open book view.jpg", alt: "Open book view showing binding and stitched textile structure." },
-          { id: "hlbb-snap-1", title: "Inside Snapshot 1", image: "/images/book-art/her-little-black-book/inside snapshot 1.jpg", alt: "Interior page snapshot 1 of Her Little Black Book." },
-          { id: "hlbb-snap-2", title: "Inside Snapshot 2", image: "/images/book-art/her-little-black-book/inside snapshot 2.jpg", alt: "Interior page snapshot 2 of Her Little Black Book." },
-          { id: "hlbb-snap-3", title: "Inside Snapshot 3", image: "/images/book-art/her-little-black-book/inside snapshot 3.jpg", alt: "Interior page snapshot 3 of Her Little Black Book." },
-          { id: "hlbb-snap-4", title: "Inside Snapshot 4", image: "/images/book-art/her-little-black-book/inside snapshot 4.jpg", alt: "Interior page snapshot 4 of Her Little Black Book." },
-          { id: "hlbb-snap-5", title: "Inside Snapshot 5", image: "/images/book-art/her-little-black-book/inside snapshot 5.jpg", alt: "Interior page snapshot 5 of Her Little Black Book." },
-          { id: "hlbb-snap-6", title: "Inside Snapshot 6", image: "/images/book-art/her-little-black-book/inside snapshot 6.jpg", alt: "Interior page snapshot 6 of Her Little Black Book." },
-          { id: "hlbb-snap-7", title: "Inside Snapshot 7", image: "/images/book-art/her-little-black-book/inside snapshot 7.jpg", alt: "Interior page snapshot 7 of Her Little Black Book." }
+          { id: "hlbb-cover", title: "cover", image: "/images/book-art/her-little-black-book/cover.jpg", alt: "cover" },
+          { id: "hlbb-open", title: "open book view", image: "/images/book-art/her-little-black-book/open book view.jpg", alt: "open book view" },
+          { id: "hlbb-snap-1", title: "inside snapshot 1", image: "/images/book-art/her-little-black-book/inside snapshot 1.jpg", alt: "inside snapshot 1" },
+          { id: "hlbb-snap-2", title: "inside snapshot 2", image: "/images/book-art/her-little-black-book/inside snapshot 2.jpg", alt: "inside snapshot 2" },
+          { id: "hlbb-snap-3", title: "inside snapshot 3", image: "/images/book-art/her-little-black-book/inside snapshot 3.jpg", alt: "inside snapshot 3" },
+          { id: "hlbb-snap-4", title: "inside snapshot 4", image: "/images/book-art/her-little-black-book/inside snapshot 4.jpg", alt: "inside snapshot 4" },
+          { id: "hlbb-snap-5", title: "inside snapshot 5", image: "/images/book-art/her-little-black-book/inside snapshot 5.jpg", alt: "inside snapshot 5" },
+          { id: "hlbb-snap-6", title: "inside snapshot 6", image: "/images/book-art/her-little-black-book/inside snapshot 6.jpg", alt: "inside snapshot 6" },
+          { id: "hlbb-snap-7", title: "inside snapshot 7", image: "/images/book-art/her-little-black-book/inside snapshot 7.jpg", alt: "inside snapshot 7" }
         ]
       },
       {
@@ -663,17 +663,17 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         description: "Artist book featuring hand-stitched poetry, delicate watercolor washes, and layered fabric collages.",
         works: [
           { id: "nyp-poem", title: "New Year Poem", image: "/images/book-art/new-year-poem/New Year Poem.jpg", alt: "New Year Poem artist book spread with stitched verse and textile collage." },
-          { id: "nyp-5611", title: "New Year Poem (View 1)", image: "/images/book-art/new-year-poem/IMG_5611.jpg", alt: "New Year Poem detail view 1." },
-          { id: "nyp-5612", title: "New Year Poem (View 2)", image: "/images/book-art/new-year-poem/IMG_5612.jpg", alt: "New Year Poem detail view 2." },
-          { id: "nyp-5613", title: "New Year Poem (View 3)", image: "/images/book-art/new-year-poem/IMG_5613.jpg", alt: "New Year Poem detail view 3." },
-          { id: "nyp-5614", title: "New Year Poem (View 4)", image: "/images/book-art/new-year-poem/IMG_5614.jpg", alt: "New Year Poem detail view 4." },
-          { id: "nyp-5615", title: "New Year Poem (View 5)", image: "/images/book-art/new-year-poem/IMG_5615.jpg", alt: "New Year Poem detail view 5." },
-          { id: "nyp-5621", title: "New Year Poem (View 6)", image: "/images/book-art/new-year-poem/IMG_5621.jpg", alt: "New Year Poem detail view 6." },
-          { id: "nyp-5622", title: "New Year Poem (View 7)", image: "/images/book-art/new-year-poem/IMG_5622.jpg", alt: "New Year Poem detail view 7." },
-          { id: "nyp-5623", title: "New Year Poem (View 8)", image: "/images/book-art/new-year-poem/IMG_5623.jpg", alt: "New Year Poem detail view 8." },
-          { id: "nyp-5624", title: "New Year Poem (View 9)", image: "/images/book-art/new-year-poem/IMG_5624.jpg", alt: "New Year Poem detail view 9." },
-          { id: "nyp-5625", title: "New Year Poem (View 10)", image: "/images/book-art/new-year-poem/IMG_5625.jpg", alt: "New Year Poem detail view 10." },
-          { id: "nyp-5627", title: "New Year Poem (View 11)", image: "/images/book-art/new-year-poem/IMG_5627.jpg", alt: "New Year Poem detail view 11." }
+          { id: "nyp-cover-insert-1", title: "cover with insert 1", image: "/images/book-art/new-year-poem/cover with insert 1.jpg", alt: "cover with insert 1" },
+          { id: "nyp-front-cover", title: "front cover", image: "/images/book-art/new-year-poem/front cover.jpg", alt: "front cover" },
+          { id: "nyp-back-cover", title: "back cover", image: "/images/book-art/new-year-poem/back cover.jpg", alt: "back cover" },
+          { id: "nyp-cover-insert-2", title: "cover with insert 2", image: "/images/book-art/new-year-poem/cover with insert 2.jpg", alt: "cover with insert 2" },
+          { id: "nyp-cover-insert-3", title: "cover with insert 3", image: "/images/book-art/new-year-poem/cover with insert 3.jpg", alt: "cover with insert 3" },
+          { id: "nyp-detail-1", title: "detail 1", image: "/images/book-art/new-year-poem/detail 1.jpg", alt: "detail 1" },
+          { id: "nyp-detail-2", title: "detail 2", image: "/images/book-art/new-year-poem/detail 2.jpg", alt: "detail 2" },
+          { id: "nyp-detail-3", title: "detail 3", image: "/images/book-art/new-year-poem/detail 3.jpg", alt: "detail 3" },
+          { id: "nyp-detail-4", title: "detail 4", image: "/images/book-art/new-year-poem/detail 4.jpg", alt: "detail 4" },
+          { id: "nyp-detail-5", title: "detail 5", image: "/images/book-art/new-year-poem/detail 5.jpg", alt: "detail 5" },
+          { id: "nyp-detail-6", title: "detail 6", image: "/images/book-art/new-year-poem/detail 6.jpg", alt: "detail 6" }
         ]
       },
       {
@@ -683,10 +683,10 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         cropPosition: "object-center",
         description: "Accordion fold narrative series on handmade paper with pigments and thread.",
         works: [
-          { id: "sb-4174", title: "Story Board (View 1)", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Story Board accordion book view 1." },
-          { id: "sb-4176", title: "Story Board (View 2)", image: "/images/book-art/story-board/IMG_4176.jpeg", alt: "Story Board accordion book view 2." },
-          { id: "sb-4177", title: "Story Board (View 3)", image: "/images/book-art/story-board/IMG_4177.jpeg", alt: "Story Board accordion book view 3." },
-          { id: "sb-4178", title: "Story Board (View 4)", image: "/images/book-art/story-board/IMG_4178.jpeg", alt: "Story Board accordion book view 4." }
+          { id: "sb-4174", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Story Board accordion book view." },
+          { id: "sb-4176", image: "/images/book-art/story-board/IMG_4176.jpeg", alt: "Story Board accordion book view." },
+          { id: "sb-4177", image: "/images/book-art/story-board/IMG_4177.jpeg", alt: "Story Board accordion book view." },
+          { id: "sb-4178", image: "/images/book-art/story-board/IMG_4178.jpeg", alt: "Story Board accordion book view." }
         ]
       }
     ],
@@ -694,6 +694,81 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       { id: "ba-hlbb", title: "Her Little Black Book", image: "/images/book-art/her-little-black-book/cover.jpg", alt: "Her Little Black Book cover." },
       { id: "ba-nyp", title: "New Year Poem", image: "/images/book-art/new-year-poem/New Year Poem.jpg", alt: "New Year Poem spread." },
       { id: "ba-sb", title: "Story Board", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Story Board accordion view." }
+    ]
+  },
+  {
+    id: "remnants-of-the-everyday",
+    title: "Remnants of the Everyday",
+    coverImage: "/images/remnants-of-the-everyday/1.jpg",
+    cropPosition: "object-center",
+    statementSnippet:
+      "Studies and tactile assemblages documenting ephemeral fragments, salvaged fibers, and daily domestic rituals.",
+    works: [
+      {
+        id: "rem-1",
+        image: "/images/remnants-of-the-everyday/1.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-2",
+        image: "/images/remnants-of-the-everyday/2.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-3",
+        image: "/images/remnants-of-the-everyday/3.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-4",
+        image: "/images/remnants-of-the-everyday/4.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-5",
+        image: "/images/remnants-of-the-everyday/5.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-6",
+        image: "/images/remnants-of-the-everyday/6.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-7",
+        image: "/images/remnants-of-the-everyday/7.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-8",
+        image: "/images/remnants-of-the-everyday/8.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-9",
+        image: "/images/remnants-of-the-everyday/9.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-10",
+        image: "/images/remnants-of-the-everyday/10.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-11",
+        image: "/images/remnants-of-the-everyday/11.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-12",
+        image: "/images/remnants-of-the-everyday/12.jpg",
+        alt: "Work from Remnants of the Everyday."
+      },
+      {
+        id: "rem-13",
+        image: "/images/remnants-of-the-everyday/13.jpg",
+        alt: "Work from Remnants of the Everyday."
+      }
     ]
   }
 ];
