@@ -1,6 +1,6 @@
 export interface Artwork {
   id: string;
-  title: string;
+  title?: string;
   medium?: string;
   dimensions?: string;
   year?: string;

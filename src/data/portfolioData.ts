@@ -525,7 +525,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       },
       {
         id: "draw-10",
-        title: "Drawing 10",
         image: "/images/drawings/10.jpg",
         alt: "Abstract study on paper with delicate linear elements."
       },
@@ -576,37 +575,31 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       },
       {
         id: "draw-13",
-        title: "Drawing 13",
         image: "/images/drawings/13.jpg",
         alt: "Study on paper with intricate linear markings and pigment washes."
       },
       {
         id: "draw-14",
-        title: "Drawing 14",
         image: "/images/drawings/14.jpg",
         alt: "Work on paper with subtle tonal gradations and stitched details."
       },
       {
         id: "draw-15",
-        title: "Drawing 15",
         image: "/images/drawings/15.jpeg",
         alt: "Paper study with delicate organic gestures and textural accents."
       },
       {
         id: "draw-16",
-        title: "Drawing 16",
         image: "/images/drawings/16.jpg",
         alt: "Drawing on paper featuring fine lines and balanced spatial arrangement."
       },
       {
         id: "draw-17",
-        title: "Drawing 17",
         image: "/images/drawings/17.jpg",
         alt: "Study on paper with dynamic linear marks and washed pigments."
       },
       {
         id: "draw-18",
-        title: "Drawing 18",
         image: "/images/drawings/18.jpg",
         alt: "Work on paper exploring geometric spatial relationships and texture."
       }
