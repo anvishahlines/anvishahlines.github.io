@@ -50,6 +50,23 @@ export function generateSitemap() {
       xml += `    <image:image>\n      <image:loc>https://anvistevens.com${w.image}</image:loc>\n      <image:title>${wtitle} by Anvi Stevens</image:title>\n      <image:caption>${escapedCaption}.</image:caption>\n    </image:image>\n`;
     }
     xml += `  </url>\n`;
+
+    // Subproject separate webpages (e.g. for Book Art)
+    if (cat.subProjects && cat.subProjects.length > 0) {
+      for (const sp of cat.subProjects) {
+        xml += `  <!-- ${sp.title} (Book Art) Page -->\n  <url>\n    <loc>https://anvistevens.com/works/${cat.id}/${sp.id}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n`;
+        for (const w of sp.works) {
+          const wtitle = escapeXml(w.title || `${sp.title} Artwork`);
+          let caption = w.title || '';
+          if (w.year) caption += `, ${w.year}`;
+          if (w.medium) caption += `. ${w.medium}`;
+          if (w.dimensions) caption += `, ${w.dimensions}`;
+          const escapedCaption = escapeXml(caption || wtitle);
+          xml += `    <image:image>\n      <image:loc>https://anvistevens.com${w.image}</image:loc>\n      <image:title>${wtitle} by Anvi Stevens</image:title>\n      <image:caption>${escapedCaption}.</image:caption>\n    </image:image>\n`;
+        }
+        xml += `  </url>\n`;
+      }
+    }
   }
 
   xml += `</urlset>\n`;

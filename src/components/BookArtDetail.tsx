@@ -5,6 +5,7 @@ import { FormattedArtworkTitle } from './FormattedArtworkTitle';
 interface BookArtDetailProps {
   category: WorkCategory;
   initialSubProjectId?: string;
+  onSelectSubProject?: (subProjectId: string | null) => void;
   onBackToWorks: () => void;
   onOpenArtworkModal: (artwork: Artwork) => void;
 }
@@ -12,12 +13,24 @@ interface BookArtDetailProps {
 export const BookArtDetail: React.FC<BookArtDetailProps> = ({
   category,
   initialSubProjectId,
+  onSelectSubProject,
   onBackToWorks,
   onOpenArtworkModal
 }) => {
   const [selectedSubProjectId, setSelectedSubProjectId] = useState<string | null>(
     initialSubProjectId || null
   );
+
+  React.useEffect(() => {
+    setSelectedSubProjectId(initialSubProjectId || null);
+  }, [initialSubProjectId]);
+
+  const handleSelectSub = (subId: string | null) => {
+    setSelectedSubProjectId(subId);
+    if (onSelectSubProject) {
+      onSelectSubProject(subId);
+    }
+  };
 
   const subProjects = category.subProjects || [];
   const currentSubProject = subProjects.find((sp) => sp.id === selectedSubProjectId);
@@ -37,7 +50,7 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
             <span>/</span>
             {selectedSubProjectId ? (
               <button
-                onClick={() => setSelectedSubProjectId(null)}
+                onClick={() => handleSelectSub(null)}
                 className="cursor-pointer hover:text-stone-900 transition-colors"
               >
                 {category.title}
@@ -55,7 +68,7 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
 
           {selectedSubProjectId && (
             <button
-              onClick={() => setSelectedSubProjectId(null)}
+              onClick={() => handleSelectSub(null)}
               className="text-stone-500 hover:text-stone-900 transition-colors text-[11px]"
             >
               View All Books
@@ -79,7 +92,7 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
                 <div
                   key={project.id}
                   onClick={() => {
-                    setSelectedSubProjectId(project.id);
+                    handleSelectSub(project.id);
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
                   className="group cursor-pointer flex flex-col items-center text-center w-full max-w-[280px] sm:max-w-[340px]"

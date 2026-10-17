@@ -363,6 +363,88 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     ]
   },
   {
+    id: "installation",
+    title: "Installation",
+    coverImage: "/images/installation/Collaboration with Aisling Wilson 1.jpg",
+    cropPosition: "object-center",
+    statementSnippet:
+      "Site-specific spatial interventions with suspended textiles, constructed frame planes, and light-and-shadow environments.",
+    works: [
+      {
+        id: "inst-collab-1",
+        title: "Collaboration with Aisling Wilson I",
+        image: "/images/installation/Collaboration with Aisling Wilson 1.jpg",
+        alt: "Collaborative installation with Aisling Wilson featuring suspended textiles and constructed spatial planes."
+      },
+      {
+        id: "inst-collab-2",
+        title: "Collaboration with Aisling Wilson II",
+        image: "/images/installation/Collaboration with Aisling Wilson 2.jpg",
+        alt: "Installation view of collaborative textile environment in gallery space."
+      },
+      {
+        id: "inst-collab-3",
+        title: "Collaboration with Aisling Wilson III",
+        image: "/images/installation/Collaboration with Aisling Wilson 3.jpg",
+        alt: "Wide installation perspective showing suspended dyed fabrics and spatial tension lines."
+      },
+      {
+        id: "inst-collab-3-detail",
+        title: "Collaboration with Aisling Wilson (Detail)",
+        image: "/images/installation/Collaboration with Aisling Wilson 3_detail.jpg",
+        alt: "Detail view of collaborative textile suspension highlighting seamwork and fabric texture."
+      },
+      {
+        id: "inst-collab-4",
+        title: "Collaboration with Aisling Wilson IV",
+        image: "/images/installation/Collaboration with Aisling Wilson 4.jpg",
+        alt: "Collaborative installation view with atmospheric lighting and draped fabrics."
+      },
+      {
+        id: "inst-collab-5",
+        title: "Collaboration with Aisling Wilson V",
+        image: "/images/installation/Collaboration with Aisling Wilson 5.jpg",
+        alt: "Sculptural textile environment in gallery showing intersecting suspended layers."
+      },
+      {
+        id: "inst-101a2298",
+        title: "Spatial Intervention I",
+        image: "/images/installation/101A2298.JPG",
+        alt: "Installation view with suspended translucent dyed fabric and delicate ceiling cables."
+      },
+      {
+        id: "inst-101a2299",
+        title: "Spatial Intervention II",
+        image: "/images/installation/101A2299.JPG",
+        alt: "Gallery installation perspective showing dyed textile drape and architectural lighting."
+      },
+      {
+        id: "inst-1163",
+        title: "Installation Study I",
+        image: "/images/installation/IMG_1163-1.jpg",
+        alt: "Installation shot showing fabric structures interacting with wall surfaces."
+      },
+      {
+        id: "inst-1165",
+        title: "Installation Study II",
+        image: "/images/installation/IMG_1165-1.jpg",
+        alt: "Installation view documenting draped textiles and subtle shadows in exhibition space."
+      },
+      {
+        id: "inst-1195",
+        title: "Installation Study III",
+        image: "/images/installation/IMG_1195-1.jpg",
+        alt: "Exhibition perspective showing three-dimensional fiber work suspended in open space."
+      },
+      {
+        id: "inst-shahanvi-05",
+        title: "Installation Overview",
+        image: "/images/installation/ShahAnvi_05.jpg",
+        alt: "Comprehensive gallery view showcasing spatial installation and visitor interaction."
+      }
+    ]
+  },
+  {
     id: "drawings",
     title: "Drawings",
     coverImage: "/images/drawings/02_Nurture.JPG",
@@ -528,111 +610,6 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         image: "/images/drawings/18.jpg",
         alt: "Work on paper exploring geometric spatial relationships and texture."
       }
-    ]
-  },
-  {
-    id: "installation",
-    title: "Installation",
-    coverImage: "/images/installation/Collaboration with Aisling Wilson 1.jpg",
-    cropPosition: "object-center",
-    statementSnippet:
-      "Site-specific spatial interventions with suspended textiles, constructed frame planes, and light-and-shadow environments.",
-    works: [
-      {
-        id: "inst-collab-1",
-        title: "Collaboration with Aisling Wilson I",
-        image: "/images/installation/Collaboration with Aisling Wilson 1.jpg",
-        alt: "Collaborative installation with Aisling Wilson featuring suspended textiles and constructed spatial planes."
-      },
-      {
-        id: "inst-collab-2",
-        title: "Collaboration with Aisling Wilson II",
-        image: "/images/installation/Collaboration with Aisling Wilson 2.jpg",
-        alt: "Installation view of collaborative textile environment in gallery space."
-      },
-      {
-        id: "inst-collab-3",
-        title: "Collaboration with Aisling Wilson III",
-        image: "/images/installation/Collaboration with Aisling Wilson 3.jpg",
-        alt: "Wide installation perspective showing suspended dyed fabrics and spatial tension lines."
-      },
-      {
-        id: "inst-collab-3-detail",
-        title: "Collaboration with Aisling Wilson (Detail)",
-        image: "/images/installation/Collaboration with Aisling Wilson 3_detail.jpg",
-        alt: "Detail view of collaborative textile suspension highlighting seamwork and fabric texture."
-      },
-      {
-        id: "inst-collab-4",
-        title: "Collaboration with Aisling Wilson IV",
-        image: "/images/installation/Collaboration with Aisling Wilson 4.jpg",
-        alt: "Collaborative installation view with atmospheric lighting and draped fabrics."
-      },
-      {
-        id: "inst-collab-5",
-        title: "Collaboration with Aisling Wilson V",
-        image: "/images/installation/Collaboration with Aisling Wilson 5.jpg",
-        alt: "Sculptural textile environment in gallery showing intersecting suspended layers."
-      },
-      {
-        id: "inst-101a2298",
-        title: "Spatial Intervention I",
-        image: "/images/installation/101A2298.JPG",
-        alt: "Installation view with suspended translucent dyed fabric and delicate ceiling cables."
-      },
-      {
-        id: "inst-101a2299",
-        title: "Spatial Intervention II",
-        image: "/images/installation/101A2299.JPG",
-        alt: "Gallery installation perspective showing dyed textile drape and architectural lighting."
-      },
-      {
-        id: "inst-1163",
-        title: "Installation Study I",
-        image: "/images/installation/IMG_1163-1.jpg",
-        alt: "Installation shot showing fabric structures interacting with wall surfaces."
-      },
-      {
-        id: "inst-1165",
-        title: "Installation Study II",
-        image: "/images/installation/IMG_1165-1.jpg",
-        alt: "Installation view documenting draped textiles and subtle shadows in exhibition space."
-      },
-      {
-        id: "inst-1195",
-        title: "Installation Study III",
-        image: "/images/installation/IMG_1195-1.jpg",
-        alt: "Exhibition perspective showing three-dimensional fiber work suspended in open space."
-      },
-      {
-        id: "inst-shahanvi-05",
-        title: "Installation Overview",
-        image: "/images/installation/ShahAnvi_05.jpg",
-        alt: "Comprehensive gallery view showcasing spatial installation and visitor interaction."
-      }
-    ]
-  },
-  {
-    id: "remnants-of-the-everyday",
-    title: "Remnants of the Everyday",
-    coverImage: "/images/remnants/1.jpg",
-    cropPosition: "object-center",
-    statementSnippet:
-      "A photographic and material archive chronicling ordinary traces, tactile fragments, and everyday remnants.",
-    works: [
-      { id: "rem-1", title: "Remnants of the Everyday 1", image: "/images/remnants/1.jpg", alt: "Remnants of the Everyday photographic study 1." },
-      { id: "rem-2", title: "Remnants of the Everyday 2", image: "/images/remnants/2.jpg", alt: "Remnants of the Everyday photographic study 2." },
-      { id: "rem-3", title: "Remnants of the Everyday 3", image: "/images/remnants/3.jpg", alt: "Remnants of the Everyday photographic study 3." },
-      { id: "rem-4", title: "Remnants of the Everyday 4", image: "/images/remnants/4.jpg", alt: "Remnants of the Everyday photographic study 4." },
-      { id: "rem-5", title: "Remnants of the Everyday 5", image: "/images/remnants/5.jpg", alt: "Remnants of the Everyday photographic study 5." },
-      { id: "rem-6", title: "Remnants of the Everyday 6", image: "/images/remnants/6.jpg", alt: "Remnants of the Everyday photographic study 6." },
-      { id: "rem-7", title: "Remnants of the Everyday 7", image: "/images/remnants/7.jpg", alt: "Remnants of the Everyday photographic study 7." },
-      { id: "rem-8", title: "Remnants of the Everyday 8", image: "/images/remnants/8.jpg", alt: "Remnants of the Everyday photographic study 8." },
-      { id: "rem-9", title: "Remnants of the Everyday 9", image: "/images/remnants/9.jpg", alt: "Remnants of the Everyday photographic study 9." },
-      { id: "rem-10", title: "Remnants of the Everyday 10", image: "/images/remnants/10.jpg", alt: "Remnants of the Everyday photographic study 10." },
-      { id: "rem-11", title: "Remnants of the Everyday 11", image: "/images/remnants/11.jpg", alt: "Remnants of the Everyday photographic study 11." },
-      { id: "rem-12", title: "Remnants of the Everyday 12", image: "/images/remnants/12.jpg", alt: "Remnants of the Everyday photographic study 12." },
-      { id: "rem-13", title: "Remnants of the Everyday 13", image: "/images/remnants/13.jpg", alt: "Remnants of the Everyday photographic study 13." }
     ]
   },
   {

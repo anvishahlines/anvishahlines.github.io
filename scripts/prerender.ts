@@ -38,7 +38,7 @@ function generateStaticPages() {
     {
       dir: 'works',
       title: 'Works — Anvi Stevens | Contemporary Fine Art & Painting',
-      desc: 'Selected bodies of work by contemporary visual artist Anvi Stevens: Nature of Things, Landscape, and Sculptures.',
+      desc: 'Selected bodies of work by contemporary visual artist Anvi Stevens: Nature of Things, Landscape, Sculptures, Installation, Drawings, and Book Art.',
       url: 'https://anvistevens.com/works',
       image: 'https://anvistevens.com/images/01_rooted.jpg',
       body: `
@@ -134,6 +134,40 @@ function generateStaticPages() {
         </div>
       `
     });
+
+    // If category has subprojects (Book Art), also prerender separate webpages for each subproject
+    if (category.subProjects && category.subProjects.length > 0) {
+      category.subProjects.forEach((subProject) => {
+        routes.push({
+          dir: path.join('works', category.id, subProject.id),
+          title: `${subProject.title} — Book Art — Anvi Stevens`,
+          desc: `${subProject.title}: ${subProject.description || 'Handmade artist book by Anvi Stevens.'}`,
+          url: `https://anvistevens.com/works/${category.id}/${subProject.id}`,
+          image: `https://anvistevens.com${subProject.coverImage}`,
+          body: `
+            <div class="py-12 px-4 max-w-4xl mx-auto text-stone-800">
+              <nav class="text-xs uppercase tracking-widest text-stone-500 mb-6">
+                <a href="/works">Works</a> / <a href="/works/${category.id}">${category.title}</a> / <span class="text-stone-900 font-semibold">${subProject.title}</span>
+              </nav>
+              <h1 class="font-gallery text-3xl mb-4">${subProject.title}</h1>
+              <p class="text-sm text-stone-600 mb-8">${subProject.description || ''}</p>
+              <div class="space-y-12">
+                ${subProject.works.map((w: Artwork) => `
+                  <article class="text-center mb-8">
+                    <img src="${w.image}" alt="${w.alt || `${w.title || 'Artwork'} by Anvi Stevens`}" class="max-h-[600px] mx-auto mb-4" />
+                    ${w.title ? `<h2 class="text-base font-semibold">${w.title}</h2>` : ''}
+                    ${(w.year || w.medium || w.dimensions) ? `
+                      <p class="text-xs text-stone-500">${w.year ? `${w.year} · ` : ''}${w.medium || ''}${w.dimensions ? ` · ${w.dimensions}` : ''}</p>
+                    ` : ''}
+                    ${w.poem ? `<p class="mt-2 text-xs text-stone-500 italic max-w-md mx-auto whitespace-pre-line">${w.poem}</p>` : ''}
+                  </article>
+                `).join('')}
+              </div>
+            </div>
+          `
+        });
+      });
+    }
   });
 
   // Write out directories and index.html

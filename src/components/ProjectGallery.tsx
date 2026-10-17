@@ -5,12 +5,16 @@ import { FormattedArtworkTitle } from './FormattedArtworkTitle';
 
 interface ProjectGalleryProps {
   category: WorkCategory;
+  initialSubProjectId?: string;
+  onSelectSubProject?: (subProjectId: string | null) => void;
   onBackToWorks: () => void;
   onOpenArtworkModal: (artwork: Artwork) => void;
 }
 
 export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
   category,
+  initialSubProjectId,
+  onSelectSubProject,
   onBackToWorks,
   onOpenArtworkModal
 }) => {
@@ -19,6 +23,8 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
     return (
       <BookArtDetail
         category={category}
+        initialSubProjectId={initialSubProjectId}
+        onSelectSubProject={onSelectSubProject}
         onBackToWorks={onBackToWorks}
         onOpenArtworkModal={onOpenArtworkModal}
       />

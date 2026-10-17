@@ -15,7 +15,7 @@ import { ArtworkModal } from './components/ArtworkModal';
 import { WORK_CATEGORIES, ARTIST_PROFILE } from './data/portfolioData';
 import { Artwork } from './types/portfolio';
 
-function parseUrlToView(): { view: 'home' | 'works' | 'category' | 'about' | 'contact'; categoryId: string } {
+function parseUrlToView(): { view: 'home' | 'works' | 'category' | 'about' | 'contact'; categoryId: string; subProjectId?: string } {
   if (typeof window === 'undefined') return { view: 'home', categoryId: 'nature-of-things' };
   const pathname = window.location.pathname.replace(/\/$/, '') || '/';
   
@@ -24,9 +24,11 @@ function parseUrlToView(): { view: 'home' | 'works' | 'category' | 'about' | 'co
   if (pathname === '/works') return { view: 'works', categoryId: 'nature-of-things' };
   
   if (pathname.startsWith('/works/')) {
-    const catId = pathname.replace('/works/', '');
+    const parts = pathname.replace('/works/', '').split('/');
+    const catId = parts[0];
+    const subId = parts[1];
     const found = WORK_CATEGORIES.some(c => c.id === catId);
-    if (found) return { view: 'category', categoryId: catId };
+    if (found) return { view: 'category', categoryId: catId, subProjectId: subId };
   }
 
   // Also support hash fallback e.g. #/about or ?page=about if redirected
@@ -35,8 +37,10 @@ function parseUrlToView(): { view: 'home' | 'works' | 'category' | 'about' | 'co
   if (hash === 'contact') return { view: 'contact', categoryId: 'nature-of-things' };
   if (hash === 'works') return { view: 'works', categoryId: 'nature-of-things' };
   if (hash.startsWith('works/')) {
-    const catId = hash.replace('works/', '');
-    if (WORK_CATEGORIES.some(c => c.id === catId)) return { view: 'category', categoryId: catId };
+    const parts = hash.replace('works/', '').split('/');
+    const catId = parts[0];
+    const subId = parts[1];
+    if (WORK_CATEGORIES.some(c => c.id === catId)) return { view: 'category', categoryId: catId, subProjectId: subId };
   }
 
   return { view: 'home', categoryId: 'nature-of-things' };
@@ -57,7 +61,7 @@ export default function App() {
     return () => window.removeEventListener('popstate', onPopState);
   }, []);
 
-  const updateUrl = (url: string, newRoute: { view: 'home' | 'works' | 'category' | 'about' | 'contact'; categoryId: string }) => {
+  const updateUrl = (url: string, newRoute: { view: 'home' | 'works' | 'category' | 'about' | 'contact'; categoryId: string; subProjectId?: string }) => {
     try {
       window.history.pushState({}, '', url);
     } catch {
@@ -83,6 +87,15 @@ export default function App() {
 
   const handleSelectCategory = (categoryId: string) => {
     updateUrl(`/works/${categoryId}`, { view: 'category', categoryId });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleSelectSubProject = (subProjectId: string | null) => {
+    if (subProjectId) {
+      updateUrl(`/works/book-art/${subProjectId}`, { view: 'category', categoryId: 'book-art', subProjectId });
+    } else {
+      updateUrl('/works/book-art', { view: 'category', categoryId: 'book-art' });
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -112,6 +125,8 @@ export default function App() {
         {currentView === 'category' && (
           <ProjectGallery
             category={activeCategory}
+            initialSubProjectId={route.subProjectId}
+            onSelectSubProject={handleSelectSubProject}
             onBackToWorks={() => handleNavigate('works')}
             onOpenArtworkModal={(artwork) => setModalArtwork(artwork)}
           />
