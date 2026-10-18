@@ -14,8 +14,15 @@ function generateStaticPages() {
 
   const baseHtml = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8');
 
-  // Helper to construct pre-rendered HTML wrapper
-  const buildPageHtml = (title: string, desc: string, url: string, ogImage: string, contentBody: string) => {
+  // Helper to construct pre-rendered HTML wrapper with complete metadata
+  const buildPageHtml = (
+    title: string,
+    desc: string,
+    url: string,
+    ogImage: string,
+    jsonLd: Record<string, unknown>,
+    contentBody: string
+  ) => {
     let html = baseHtml;
     // Replace title
     html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
@@ -23,24 +30,58 @@ function generateStaticPages() {
     html = html.replace(/<meta name="description" content=".*?" \/>/, `<meta name="description" content="${desc}" />`);
     // Replace canonical URL
     html = html.replace(/<link rel="canonical" href=".*?" \/>/, `<link rel="canonical" href="${url}" />`);
-    // Replace OG tags
+    // Replace OpenGraph tags
     html = html.replace(/<meta property="og:title" content=".*?" \/>/, `<meta property="og:title" content="${title}" />`);
     html = html.replace(/<meta property="og:description" content=".*?" \/>/, `<meta property="og:description" content="${desc}" />`);
     html = html.replace(/<meta property="og:url" content=".*?" \/>/, `<meta property="og:url" content="${url}" />`);
     html = html.replace(/<meta property="og:image" content=".*?" \/>/, `<meta property="og:image" content="${ogImage}" />`);
+    // Replace Twitter Card tags
+    html = html.replace(/<meta name="twitter:title" content=".*?" \/>/, `<meta name="twitter:title" content="${title}" />`);
+    html = html.replace(/<meta name="twitter:description" content=".*?" \/>/, `<meta name="twitter:description" content="${desc}" />`);
+    html = html.replace(/<meta name="twitter:image" content=".*?" \/>/, `<meta name="twitter:image" content="${ogImage}" />`);
+
+    // Replace Schema.org JSON-LD structured data
+    const jsonLdString = `<script type="application/ld+json">\n${JSON.stringify(jsonLd, null, 2)}\n    </script>`;
+    html = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, jsonLdString);
 
     // Inject crawler-readable pre-rendered body inside root as initial content
     html = html.replace('<div id="root"></div>', `<div id="root">${contentBody}</div>`);
     return html;
   };
 
-  const routes: { dir: string; title: string; desc: string; url: string; image: string; body: string }[] = [
+  const routes: {
+    dir: string;
+    title: string;
+    desc: string;
+    url: string;
+    image: string;
+    jsonLd: Record<string, unknown>;
+    body: string;
+  }[] = [
     {
       dir: 'works',
-      title: 'Works — Anvi Stevens | Contemporary Fine Art & Painting',
+      title: 'Selected Works — Anvi Stevens | Contemporary Fine Art & Painting',
       desc: 'Selected bodies of work by contemporary visual artist Anvi Stevens: Nature of Things, Landscape, Sculptures, Installation, Drawings, and Book Art.',
       url: 'https://anvistevens.com/works',
-      image: 'https://anvistevens.com/images/01_rooted.jpg',
+      image: `https://anvistevens.com${encodeURI(WORK_CATEGORIES[0].coverImage)}`,
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: 'Selected Works — Anvi Stevens',
+        url: 'https://anvistevens.com/works',
+        description: 'Selected bodies of work by contemporary visual artist Anvi Stevens.',
+        creator: {
+          '@type': 'VisualArtist',
+          '@id': 'https://anvistevens.com/#artist',
+          name: ARTIST_PROFILE.name
+        },
+        hasPart: WORK_CATEGORIES.map((cat: WorkCategory) => ({
+          '@type': 'CreativeWork',
+          name: cat.title,
+          url: `https://anvistevens.com/works/${cat.id}`,
+          image: `https://anvistevens.com${encodeURI(cat.coverImage)}`
+        }))
+      },
       body: `
         <div class="py-12 px-4 max-w-5xl mx-auto text-stone-800">
           <h1 class="font-gallery text-3xl mb-8">Selected Works</h1>
@@ -62,6 +103,31 @@ function generateStaticPages() {
       desc: 'Artist biography, statement, education, and exhibition history of Boston and Massachusetts painter Anvi Stevens (MFA Boston University).',
       url: 'https://anvistevens.com/about',
       image: 'https://anvistevens.com/images/profile_pic.jpg',
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'AboutPage',
+        name: 'About Anvi Stevens',
+        url: 'https://anvistevens.com/about',
+        mainEntity: {
+          '@type': 'VisualArtist',
+          '@id': 'https://anvistevens.com/#artist',
+          name: ARTIST_PROFILE.name,
+          jobTitle: 'Visual Artist & Contemporary Painter',
+          description: ARTIST_PROFILE.bioParagraph,
+          alumniOf: [
+            {
+              '@type': 'CollegeOrUniversity',
+              name: 'Boston University',
+              department: 'College of Fine Arts (MFA in Painting)'
+            },
+            {
+              '@type': 'CollegeOrUniversity',
+              name: 'Maharaja Sayajirao University of Baroda',
+              department: 'Faculty of Fine Arts (BVA in Painting)'
+            }
+          ]
+        }
+      },
       body: `
         <div class="py-12 px-4 max-w-4xl mx-auto text-stone-800">
           <h1 class="font-gallery text-3xl mb-6">About Anvi Stevens</h1>
@@ -93,10 +159,22 @@ function generateStaticPages() {
     },
     {
       dir: 'contact',
-      title: 'Contact — Anvi Stevens',
-      desc: 'Inquire about artwork, exhibitions, and commissions with visual artist Anvi Stevens.',
+      title: 'Contact & Inquiries — Anvi Stevens | Visual Artist',
+      desc: 'Inquire about artwork, exhibitions, and commissions with contemporary visual artist Anvi Stevens in the Boston area.',
       url: 'https://anvistevens.com/contact',
       image: 'https://anvistevens.com/images/profile_pic.jpg',
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'ContactPage',
+        name: 'Contact Anvi Stevens',
+        url: 'https://anvistevens.com/contact',
+        mainEntity: {
+          '@type': 'VisualArtist',
+          '@id': 'https://anvistevens.com/#artist',
+          name: ARTIST_PROFILE.name,
+          email: ARTIST_PROFILE.email
+        }
+      },
       body: `
         <div class="py-12 px-4 max-w-xl mx-auto text-stone-800 text-center">
           <h1 class="font-gallery text-3xl mb-4">Contact Anvi Stevens</h1>
@@ -107,18 +185,49 @@ function generateStaticPages() {
     }
   ];
 
-  // Also generate Category pages: /works/nature-of-things, /works/landscape, /works/sculptures
+  // Generate Category pages: /works/nature-of-things, /works/landscape, etc.
   WORK_CATEGORIES.forEach((category: WorkCategory) => {
+    const categoryTitle = category.title;
+    const categorySnippet = category.statementSnippet || `${category.title} by contemporary artist Anvi Stevens.`;
+    const categoryUrl = `https://anvistevens.com/works/${category.id}`;
+    const categoryImage = `https://anvistevens.com${encodeURI(category.coverImage)}`;
+
     routes.push({
       dir: path.join('works', category.id),
-      title: `${category.title} — Anvi Stevens`,
-      desc: `${category.title}: ${category.statementSnippet || 'Paintings and artwork by Anvi Stevens.'}`,
-      url: `https://anvistevens.com/works/${category.id}`,
-      image: `https://anvistevens.com${category.coverImage}`,
+      title: `${categoryTitle} — Anvi Stevens | Contemporary Fine Art`,
+      desc: `${categoryTitle}: ${categorySnippet}`,
+      url: categoryUrl,
+      image: categoryImage,
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: `${categoryTitle} — Anvi Stevens`,
+        url: categoryUrl,
+        description: categorySnippet,
+        creator: {
+          '@type': 'VisualArtist',
+          '@id': 'https://anvistevens.com/#artist',
+          name: ARTIST_PROFILE.name
+        },
+        hasPart: category.works.map((w: Artwork) => ({
+          '@type': 'VisualArtwork',
+          name: w.title || categoryTitle,
+          image: `https://anvistevens.com${encodeURI(w.image)}`,
+          creator: {
+            '@type': 'VisualArtist',
+            name: ARTIST_PROFILE.name
+          },
+          ...(w.medium ? { artMedium: w.medium } : {}),
+          ...(w.year ? { dateCreated: w.year } : {})
+        }))
+      },
       body: `
         <div class="py-12 px-4 max-w-4xl mx-auto text-stone-800">
-          <h1 class="font-gallery text-3xl mb-4">${category.title}</h1>
-          <p class="text-sm text-stone-600 mb-8">${category.statementSnippet || ''}</p>
+          <nav class="text-xs uppercase tracking-widest text-stone-500 mb-6">
+            <a href="/works">Works</a> / <span class="text-stone-900 font-semibold">${categoryTitle}</span>
+          </nav>
+          <h1 class="font-gallery text-3xl mb-4">${categoryTitle}</h1>
+          <p class="text-sm text-stone-600 mb-8">${categorySnippet}</p>
           <div class="space-y-12">
             ${category.works.map((w: Artwork) => `
               <article class="text-center mb-8">
@@ -135,15 +244,42 @@ function generateStaticPages() {
       `
     });
 
-    // If category has subprojects (Book Art), also prerender separate webpages for each subproject
+    // If category has subprojects (e.g. Book Art), also prerender separate webpages for each subproject
     if (category.subProjects && category.subProjects.length > 0) {
       category.subProjects.forEach((subProject) => {
+        const subProjectUrl = `https://anvistevens.com/works/${category.id}/${subProject.id}`;
+        const subProjectImage = `https://anvistevens.com${encodeURI(subProject.coverImage)}`;
+        const subProjectDesc = `${subProject.title}: ${subProject.description || 'Handmade artist book series by Anvi Stevens.'}`;
+
         routes.push({
           dir: path.join('works', category.id, subProject.id),
           title: `${subProject.title} — Book Art — Anvi Stevens`,
-          desc: `${subProject.title}: ${subProject.description || 'Handmade artist book by Anvi Stevens.'}`,
-          url: `https://anvistevens.com/works/${category.id}/${subProject.id}`,
-          image: `https://anvistevens.com${subProject.coverImage}`,
+          desc: subProjectDesc,
+          url: subProjectUrl,
+          image: subProjectImage,
+          jsonLd: {
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: `${subProject.title} — Book Art`,
+            url: subProjectUrl,
+            description: subProject.description || '',
+            creator: {
+              '@type': 'VisualArtist',
+              '@id': 'https://anvistevens.com/#artist',
+              name: ARTIST_PROFILE.name
+            },
+            hasPart: subProject.works.map((w: Artwork) => ({
+              '@type': 'VisualArtwork',
+              name: w.title || subProject.title,
+              image: `https://anvistevens.com${encodeURI(w.image)}`,
+              creator: {
+                '@type': 'VisualArtist',
+                name: ARTIST_PROFILE.name
+              },
+              ...(w.medium ? { artMedium: w.medium } : {}),
+              ...(w.year ? { dateCreated: w.year } : {})
+            }))
+          },
           body: `
             <div class="py-12 px-4 max-w-4xl mx-auto text-stone-800">
               <nav class="text-xs uppercase tracking-widest text-stone-500 mb-6">
@@ -171,12 +307,19 @@ function generateStaticPages() {
   });
 
   // Write out directories and index.html
-  routes.forEach(route => {
+  routes.forEach((route) => {
     const targetDir = path.join(distDir, route.dir);
     if (!fs.existsSync(targetDir)) {
       fs.mkdirSync(targetDir, { recursive: true });
     }
-    const html = buildPageHtml(route.title, route.desc, route.url, route.image, route.body);
+    const html = buildPageHtml(
+      route.title,
+      route.desc,
+      route.url,
+      route.image,
+      route.jsonLd,
+      route.body
+    );
     fs.writeFileSync(path.join(targetDir, 'index.html'), html, 'utf-8');
   });
 
@@ -187,4 +330,3 @@ function generateStaticPages() {
 }
 
 generateStaticPages();
-

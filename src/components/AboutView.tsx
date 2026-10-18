@@ -11,7 +11,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ profile }) => {
       <div className="max-w-4xl mx-auto">
         {/* 1. Horizontal Paragraph that contains her Biography */}
         <div className="max-w-3xl mx-auto">
-          <p className="text-[15px] sm:text-[16px] text-stone-800 leading-relaxed sm:leading-[1.8] font-normal tracking-normal text-justify sm:text-left">
+          <p className="text-[15px] sm:text-[16px] text-stone-800 leading-relaxed sm:leading-[1.8] font-normal tracking-normal text-left">
             {profile.bioParagraph}
           </p>
         </div>
@@ -29,7 +29,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ profile }) => {
 
             <div className="space-y-5 text-[14px] sm:text-[15px] text-stone-700 leading-relaxed font-light">
               {profile.statementParagraphs.map((para, index) => (
-                <p key={index} className="text-justify sm:text-left">
+                <p key={index} className="text-left">
                   {para}
                 </p>
               ))}

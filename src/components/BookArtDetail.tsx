@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { WorkCategory, SubProject, Artwork } from '../types/portfolio';
 import { FormattedArtworkTitle } from './FormattedArtworkTitle';
+import { GalleryArtworkImage } from './GalleryArtworkImage';
 
 interface BookArtDetailProps {
   category: WorkCategory;
@@ -86,9 +87,9 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
               </h2>
             </div>
 
-            {/* Photo links to separate projects: "Her Little Black Book", "Story Board", and "New York Poem" */}
+            {/* Photo links to separate projects: "Her Little Black Book", "Story Board", and "New Year Poem" */}
             <div className="w-full flex flex-col items-center gap-14">
-              {subProjects.map((project) => (
+              {subProjects.map((project, index) => (
                 <div
                   key={project.id}
                   onClick={() => {
@@ -103,7 +104,7 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
                       src={project.coverImage}
                       alt={project.title}
                       className="w-full h-full object-cover scale-[1.26] transition-transform duration-700 ease-out group-hover:scale-[1.34]"
-                      loading="lazy"
+                      loading={index === 0 ? "eager" : "lazy"}
                       decoding="async"
                     />
                     <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/[0.04] transition-colors" />
@@ -136,24 +137,18 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
 
             {/* Center-aligned stack of full artwork images with equal scaling */}
             <div className="w-full flex flex-col items-center gap-16 sm:gap-24">
-              {currentSubProject.works.map((artwork) => (
+              {currentSubProject.works.map((artwork, index) => (
                 <div
                   key={artwork.id}
                   className="flex flex-col items-center text-center w-full max-w-[460px] sm:max-w-[540px]"
                 >
                   {/* Full image viewer container with equal scaling and uncropped presentation */}
-                  <div
+                  <GalleryArtworkImage
+                    src={artwork.image}
+                    alt={artwork.alt || artwork.title || 'Artwork by Anvi Stevens'}
+                    priority={index === 0}
                     onClick={() => onOpenArtworkModal(artwork)}
-                    className="group cursor-zoom-in w-full transition-all"
-                  >
-                    <img
-                      src={artwork.image}
-                      alt={artwork.alt || artwork.title}
-                      className="w-full max-h-[500px] object-contain mx-auto transition-transform duration-300 group-hover:scale-[1.01]"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </div>
+                  />
 
                   {/* Text below relevant photo: bold title · year · medium · dimensions, center-aligned */}
                   {(artwork.title || artwork.year || artwork.medium || artwork.dimensions || artwork.poem) && (

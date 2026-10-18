@@ -14,6 +14,7 @@ import { HomeView } from './components/HomeView';
 import { ArtworkModal } from './components/ArtworkModal';
 import { WORK_CATEGORIES, ARTIST_PROFILE } from './data/portfolioData';
 import { Artwork } from './types/portfolio';
+import { getPageMetadata, updatePageHead } from './utils/seo';
 
 function parseUrlToView(): { view: 'home' | 'works' | 'category' | 'about' | 'contact'; categoryId: string; subProjectId?: string } {
   if (typeof window === 'undefined') return { view: 'home', categoryId: 'nature-of-things' };
@@ -52,6 +53,12 @@ export default function App() {
 
   const currentView = route.view;
   const selectedCategoryId = route.categoryId;
+
+  // Dynamically update document title, OpenGraph, Twitter Cards, canonical URL & JSON-LD schema
+  useEffect(() => {
+    const meta = getPageMetadata(route.view, route.categoryId, route.subProjectId);
+    updatePageHead(meta);
+  }, [route.view, route.categoryId, route.subProjectId]);
 
   useEffect(() => {
     const onPopState = () => {

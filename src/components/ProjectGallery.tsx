@@ -2,6 +2,7 @@ import React from 'react';
 import { WorkCategory, Artwork } from '../types/portfolio';
 import { BookArtDetail } from './BookArtDetail';
 import { FormattedArtworkTitle } from './FormattedArtworkTitle';
+import { GalleryArtworkImage } from './GalleryArtworkImage';
 
 interface ProjectGalleryProps {
   category: WorkCategory;
@@ -61,24 +62,18 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
 
         {/* Center-aligned stack of images of her works (full images now, but still equal scaling) */}
         <div className="w-full flex flex-col items-center gap-16 sm:gap-24">
-          {category.works.map((artwork) => (
+          {category.works.map((artwork, index) => (
             <div
               key={artwork.id}
               className="flex flex-col items-center text-center w-full max-w-[460px] sm:max-w-[540px]"
             >
               {/* Full artwork container with equal scaling and uncropped presentation */}
-              <div
+              <GalleryArtworkImage
+                src={artwork.image}
+                alt={artwork.alt || artwork.title || 'Artwork by Anvi Stevens'}
+                priority={index === 0}
                 onClick={() => onOpenArtworkModal(artwork)}
-                className="group cursor-zoom-in w-full transition-all"
-              >
-                <img
-                  src={artwork.image}
-                  alt={artwork.alt || artwork.title}
-                  className="w-full max-h-[500px] object-contain mx-auto transition-transform duration-300 group-hover:scale-[1.01]"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
+              />
 
               {/* Text goes below each relevant photo: bold title · year · medium · dimensions, center-aligned */}
               {(artwork.title || artwork.year || artwork.medium || artwork.dimensions || artwork.poem) && (

@@ -27,12 +27,13 @@ export const WorksList: React.FC<WorksListProps> = ({ categories, onSelectCatego
               >
                 {/* Artwork thumbnail container showcasing the actual work contained in this category */}
                 <div className="relative w-full aspect-[4/3] overflow-hidden bg-stone-100 transition-all duration-300">
-                  <img
-                    src={headerImage}
-                    alt={category.title}
-                    className={`w-full h-full object-cover ${category.cropPosition || 'object-center'} transition-transform duration-500 ease-out group-hover:scale-[1.03]`}
-                    loading="lazy"
-                  />
+                    <img
+                      src={headerImage}
+                      alt={category.title}
+                      className={`w-full h-full object-cover ${category.cropPosition || 'object-center'} transition-transform duration-500 ease-out group-hover:scale-[1.03]`}
+                      loading={category.id === categories[0]?.id ? "eager" : "lazy"}
+                      decoding="async"
+                    />
                   
                   {/* Subtle vignette/sheen on hover */}
                   <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/[0.04] transition-colors" />
