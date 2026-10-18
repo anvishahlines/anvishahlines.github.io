@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Artwork } from '../types/portfolio';
 import { FormattedArtworkTitle } from './FormattedArtworkTitle';
+import { getWebpSrcSet, getJpegSrcSet } from '../utils/imageUtils';
 
 interface ArtworkModalProps {
   artwork: Artwork | null;
@@ -49,12 +50,23 @@ export const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose }) 
 
         {/* High-Resolution Artwork Image */}
         <div className="w-full flex items-center justify-center max-h-[72vh]">
-          <img
-            src={artwork.image}
-            alt={artwork.alt || artwork.title}
-            className="max-h-[70vh] max-w-full object-contain mx-auto"
-            decoding="async"
-          />
+          <picture>
+            <source
+              type="image/webp"
+              srcSet={getWebpSrcSet(artwork.image)}
+              sizes="(max-width: 768px) 100vw, 1200px"
+            />
+            <source
+              srcSet={getJpegSrcSet(artwork.image)}
+              sizes="(max-width: 768px) 100vw, 1200px"
+            />
+            <img
+              src={artwork.image}
+              alt={artwork.alt || artwork.title}
+              className="max-h-[70vh] max-w-full object-contain mx-auto"
+              decoding="async"
+            />
+          </picture>
         </div>
 
         {/* Artwork Details & Captions */}

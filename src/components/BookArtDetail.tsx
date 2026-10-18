@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { WorkCategory, SubProject, Artwork } from '../types/portfolio';
 import { FormattedArtworkTitle } from './FormattedArtworkTitle';
 import { GalleryArtworkImage } from './GalleryArtworkImage';
+import { getWebpSrcSet, getJpegSrcSet } from '../utils/imageUtils';
 
 interface BookArtDetailProps {
   category: WorkCategory;
@@ -100,13 +101,24 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
                 >
                   {/* Cropped photo link container */}
                   <div className="relative w-full aspect-[4/3] overflow-hidden bg-stone-100 transition-all duration-300">
-                    <img
-                      src={project.coverImage}
-                      alt={project.title}
-                      className="w-full h-full object-cover scale-[1.26] transition-transform duration-700 ease-out group-hover:scale-[1.34]"
-                      loading={index === 0 ? "eager" : "lazy"}
-                      decoding="async"
-                    />
+                    <picture>
+                      <source
+                        type="image/webp"
+                        srcSet={getWebpSrcSet(project.coverImage)}
+                        sizes="(max-width: 640px) 280px, 340px"
+                      />
+                      <source
+                        srcSet={getJpegSrcSet(project.coverImage)}
+                        sizes="(max-width: 640px) 280px, 340px"
+                      />
+                      <img
+                        src={project.coverImage}
+                        alt={project.title}
+                        className="w-full h-full object-cover scale-[1.26] transition-transform duration-700 ease-out group-hover:scale-[1.34]"
+                        loading={index === 0 ? "eager" : "lazy"}
+                        decoding="async"
+                      />
+                    </picture>
                     <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/[0.04] transition-colors" />
                   </div>
 

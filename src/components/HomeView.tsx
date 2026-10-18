@@ -1,4 +1,5 @@
 import React from 'react';
+import { getWebpSrcSet, getJpegSrcSet } from '../utils/imageUtils';
 
 interface HomeViewProps {
   onNavigateToWorks: () => void;
@@ -16,12 +17,23 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigateToWorks }) => {
           onClick={onNavigateToWorks}
           className="group cursor-pointer w-full aspect-[3/4] overflow-hidden bg-stone-100 transition-all duration-500"
         >
-          <img
-            src="/images/profile_pic.jpg"
-            alt="Anvi Stevens in her studio"
-            className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-            loading="eager"
-          />
+          <picture>
+            <source
+              type="image/webp"
+              srcSet={getWebpSrcSet('/images/profile_pic.jpg')}
+              sizes="(max-width: 640px) 340px, 460px"
+            />
+            <source
+              srcSet={getJpegSrcSet('/images/profile_pic.jpg')}
+              sizes="(max-width: 640px) 340px, 460px"
+            />
+            <img
+              src="/images/profile_pic.jpg"
+              alt="Anvi Stevens in her studio"
+              className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+              loading="eager"
+            />
+          </picture>
         </div>
       </div>
     </section>

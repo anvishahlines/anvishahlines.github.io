@@ -1,5 +1,6 @@
 import React from 'react';
 import { WorkCategory } from '../types/portfolio';
+import { getWebpSrcSet, getJpegSrcSet } from '../utils/imageUtils';
 
 interface WorksListProps {
   categories: WorkCategory[];
@@ -27,6 +28,16 @@ export const WorksList: React.FC<WorksListProps> = ({ categories, onSelectCatego
               >
                 {/* Artwork thumbnail container showcasing the actual work contained in this category */}
                 <div className="relative w-full aspect-[4/3] overflow-hidden bg-stone-100 transition-all duration-300">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcSet={getWebpSrcSet(headerImage)}
+                      sizes="(max-width: 640px) 280px, 340px"
+                    />
+                    <source
+                      srcSet={getJpegSrcSet(headerImage)}
+                      sizes="(max-width: 640px) 280px, 340px"
+                    />
                     <img
                       src={headerImage}
                       alt={category.title}
@@ -34,6 +45,7 @@ export const WorksList: React.FC<WorksListProps> = ({ categories, onSelectCatego
                       loading={category.id === categories[0]?.id ? "eager" : "lazy"}
                       decoding="async"
                     />
+                  </picture>
                   
                   {/* Subtle vignette/sheen on hover */}
                   <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/[0.04] transition-colors" />

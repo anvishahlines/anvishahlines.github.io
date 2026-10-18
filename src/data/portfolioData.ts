@@ -635,7 +635,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     cropPosition: "object-center",
     hasSubProjects: true,
     statementSnippet:
-      "Artist books, hand-bound volumes, and accordion fold narratives exploring tactile prose and personal histories.",
+      "Artist books, hand-bound volumes, and etching narratives exploring tactile prose and personal histories.",
     subProjects: [
       {
         id: "her-little-black-book",
@@ -681,12 +681,36 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         title: "Story Board",
         coverImage: "/images/book-art/story-board/IMG_4174.jpeg",
         cropPosition: "object-center",
-        description: "Accordion fold narrative series on handmade paper with pigments and thread.",
+        description: "Etching print series on handmade paper with pigments and thread.",
         works: [
-          { id: "sb-4174", image: "/images/book-art/story-board/IMG_4174.jpeg", alt: "Etching print on cream paper showing a pale blue rectangular ground with a dense cloud of small blue ink flecks clustered on the right side, labeled '2/3 Etching Storyboard #1' in pencil." },
-          { id: "sb-4176", image: "/images/book-art/story-board/IMG_4176.jpeg", alt: "Etching print on cream paper showing a pale blue rectangular ground with a small solid dark blue cluster on the left and a larger pink and gray cloud of dense ink stippling on the right, labeled '2/3 Etching Storyboard #3' in pencil." },
-          { id: "sb-4177", image: "/images/book-art/story-board/IMG_4177.jpeg", alt: "Etching print on cream paper showing a dark blue cluster and a larger pink stippled cloud, encircled by intersecting continuous and dashed loop lines, labeled '2/3 Etching Storyboard #4' in pencil." },
-          { id: "sb-4178", image: "/images/book-art/story-board/IMG_4178.jpeg", alt: "Etching print on cream paper with a woven textile texture pressed into the lower blue background, a dark blue cluster, a rose-pink stippled form, and intersecting dashed loops, labeled '2/3 Etching Storyboard #5' in pencil." }
+          {
+            id: "sb-4174",
+            title: "Storyboard #1",
+            medium: "Etching on handmade paper with pigments and thread",
+            image: "/images/book-art/story-board/IMG_4174.jpeg",
+            alt: "Etching print on cream paper showing a pale blue rectangular ground with a dense cloud of small blue ink flecks clustered on the right side, labeled '2/3 Etching Storyboard #1' in pencil."
+          },
+          {
+            id: "sb-4176",
+            title: "Storyboard #3",
+            medium: "Etching on handmade paper with pigments and thread",
+            image: "/images/book-art/story-board/IMG_4176.jpeg",
+            alt: "Etching print on cream paper showing a pale blue rectangular ground with a small solid dark blue cluster on the left and a larger pink and gray cloud of dense ink stippling on the right, labeled '2/3 Etching Storyboard #3' in pencil."
+          },
+          {
+            id: "sb-4177",
+            title: "Storyboard #4",
+            medium: "Etching on handmade paper with pigments and thread",
+            image: "/images/book-art/story-board/IMG_4177.jpeg",
+            alt: "Etching print on cream paper showing a dark blue cluster and a larger pink stippled cloud, encircled by intersecting continuous and dashed loop lines, labeled '2/3 Etching Storyboard #4' in pencil."
+          },
+          {
+            id: "sb-4178",
+            title: "Storyboard #5",
+            medium: "Etching on handmade paper with pigments and thread",
+            image: "/images/book-art/story-board/IMG_4178.jpeg",
+            alt: "Etching print on cream paper with a woven textile texture pressed into the lower blue background, a dark blue cluster, a rose-pink stippled form, and intersecting dashed loops, labeled '2/3 Etching Storyboard #5' in pencil."
+          }
         ]
       }
     ],
@@ -706,66 +730,92 @@ export const WORK_CATEGORIES: WorkCategory[] = [
     works: [
       {
         id: "rem-1",
+        title: "Remnants of the Everyday 1",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/1.jpg",
         alt: "Grid of 6 small mixed-media assemblages on canvas on a linen wall: fabric swatches with orange yarn fringe, weathered wood bark with white thread loop, coiled dark hair ring on canvas, white garment in clear plastic bag, terracotta painted clay fragment, and bright orange felt triangle with 'ORANGE' text, with a red-net basket filled with dried seed pods below right."
       },
       {
         id: "rem-2",
+        title: "Remnants of the Everyday 2",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/2.jpg",
         alt: "Grid of 7 small assemblages on white canvas and paper on linen: newspaper clippings, crumpled cellophane wrapper, torn white paper envelope with blue star stamp, stenciled text 'M47F86 / you have requested a special service.', painted gradient canvas with circular element, plain white square canvas, and yellow sticky note numbered '381' with a dried leaf."
       },
       {
         id: "rem-3",
+        title: "Remnants of the Everyday 3",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/3.jpg",
         alt: "Grid of 7 small assemblages on linen: rusted paper clips on canvas, knot of multicolored threads, dark seaweed or bark with a 'YAMAMOTO YAMA' tea label, bent wire with birch bark piece labeled 'Rule Book', white gesso relief with looping cord and small shells, smooth green rounded lens or glass, and a tangled ball of dark charcoal-gray thread."
       },
       {
         id: "rem-4",
+        title: "Remnants of the Everyday 4",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/4.jpg",
         alt: "Grid of 7 small assemblages on linen: pink canvas with orange cellophane wrapper, densely stitched neon-orange embroidery thread forming an open oval ring, painted green hexagonal pattern, dried open seed pod on canvas, overlapping fabric discs with a pink bead, ink contour drawing of an upturned face, and foil blister pack containing one amber gel capsule."
       },
       {
         id: "rem-5",
+        title: "Remnants of the Everyday 5",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/5.jpg",
         alt: "Grid of 7 small assemblages on linen: empty foil pill blisters on yellow canvas behind a patterned cardboard sleeve, fibrous handmade paper with string loop, yellow ticket reading 'ARE YOU LUCKY? HOLD THIS COUPON No 22865', white canvas with twine handle and metal peephole lens stamped with date code, lime-green stippled circular print, and two rows of pistachio shell halves on white canvas."
       },
       {
         id: "rem-6",
+        title: "Remnants of the Everyday 6",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/6.jpg",
         alt: "Grid of 7 small assemblages on linen: dried magenta flowers on canvas, painted characters '21H' in green, sage, and pink, mauve watercolor wash labeled 'SPILL', hollowed dried citrus peel showing segmented interior, cotton cloth scrap with burned holes and scorched edges, earth powder with a vertical silver metallic strip, and graphite rubbings on paper labeled '2ND ATTEMP.'."
       },
       {
         id: "rem-7",
+        title: "Remnants of the Everyday 7",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/7.jpg",
         alt: "Grid of 7 small assemblages on linen: white plaster form labeled 'decay on #19', yellow lined note reading 'Make cookies / Make cookies (but nicely)' under a striped roof shape, color photograph of four people in costume masks, clear zip pouch with potting soil and succulent leaves, miniature white plastic clothing hanger on canvas, magazine cutouts of colorful round chocolate gems labeled 'te gems', and gold discs with yellow fabric rosettes."
       },
       {
         id: "rem-8",
+        title: "Remnants of the Everyday 8",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/8.jpg",
         alt: "Grid of 7 small assemblages on linen: illustrated instructions booklet in a pocket, ribbed red knit swatch with button, ink line drawing of a slice of bread in a zip-top plastic bag, dense pencil scribbles on canvas, Christmas card reading 'HAPPY HOLIDAYS' in gold glitter with cursive inscription 'Anvi Love from...', festive burst made of shredded colorful paper, and four pieces of dry rotini spiral pasta on canvas."
       },
       {
         id: "rem-9",
+        title: "Remnants of the Everyday 9",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/9.jpg",
         alt: "Grid of 7 small assemblages on linen: teal button labeled 'PORTABELLA', joker playing card with burned left edge, colored pencil shavings with pastel marks, blue printed circle grid with taped address label, white canvas wrapped with tied white cloth ribbon, coiled twisted twine labeled 'Abstract design in Fur', and small glazed ceramic trumpet shape with red seed beads."
       },
       {
         id: "rem-10",
+        title: "Remnants of the Everyday 10",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/10.jpg",
         alt: "Grid of 7 small assemblages on linen: black plastic strap buckle on canvas, crinkled gold foil with wrapped triangular chocolate, white card labeled 'MONKEY' with a fish hook illustration on black tape, drawn orange sunglasses with mounted black eyeglass frame, arranged colorful patterned shoelace strips, seven purple cabochon droplets on white canvas, and tied red twill ribbon bow."
       },
       {
         id: "rem-11",
+        title: "Remnants of the Everyday 11",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/11.jpg",
         alt: "Grid of 28 small mixed-media assemblages arranged in 4 rows of 7 columns on linen: includes a printed toiletry list, paper bowl with wooden spoon, Sheth Opticals eyeglass cloth, contour line drawing of legs, mitten labeled 'STEALER', painted fish on yellow, embroidered mirrored textile, dried marigold flowers, lightbulb, and red envelope labeled 'Trent and family'."
       },
       {
         id: "rem-12",
+        title: "Remnants of the Everyday 12",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/12.jpg",
         alt: "Grid of 28 small mixed-media assemblages arranged in 4 rows of 7 columns on linen: includes block-printed fabric swatches, small terracotta pot with white crystalline mass, cowrie shell, ink line drawing of an elephant, denim teardrop, stick figure made of toothpicks, cotton tassels on blue, sugar sachet, row of matchsticks, sequins spelling '100', and Indian postal card."
       },
       {
         id: "rem-13",
+        title: "Remnants of the Everyday 13",
+        medium: "Mixed-media assemblage on linen and canvas",
         image: "/images/remnants-of-the-everyday/13.jpg",
         alt: "Grid of 35 small mixed-media assemblages arranged in 5 rows of 7 columns on linen: includes green bouncy ball, washer labeled 'Refresher?', black leather glove spanning two rows, miniature toy car, spiral spring, thread heart bordered by numbers '100', orange tree labeled 'MAGIC POWERS', pink elastic labeled 'It broke', pig drawing labeled 'Introducing GORDO FULLER', and brass key."
       }
