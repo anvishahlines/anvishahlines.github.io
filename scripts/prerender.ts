@@ -139,7 +139,10 @@ function generateStaticPages() {
               ${ARTIST_PROFILE.statementParagraphs.map((p: string) => `<p class="mb-4 leading-relaxed">${p}</p>`).join('')}
             </div>
             <div>
-              <h2 class="text-lg font-semibold uppercase tracking-widest mb-4">Curriculum Vitae</h2>
+              <div class="flex items-center justify-between mb-4">
+                <h2 class="text-lg font-semibold uppercase tracking-widest">Curriculum Vitae</h2>
+                <a href="/cv/Anvi_Stevens_CV.pdf" download="Anvi_Stevens_CV.pdf" class="text-xs uppercase tracking-wider underline">Download CV (PDF)</a>
+              </div>
               ${ARTIST_PROFILE.cvSections.map((sec: CVSection) => `
                 <div class="mb-6">
                   <h3 class="text-xs uppercase tracking-wider text-stone-500 mb-2">${sec.title}</h3>

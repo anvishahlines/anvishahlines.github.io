@@ -21,7 +21,7 @@ export const GalleryArtworkImage: React.FC<GalleryArtworkImageProps> = ({
   return (
     <div
       onClick={onClick}
-      className={`group cursor-zoom-in w-full relative overflow-hidden bg-stone-100/50 rounded-[2px] transition-all ${className}`}
+      className={`group cursor-zoom-in w-full relative overflow-hidden bg-stone-100/40 rounded-[2px] min-h-[280px] sm:min-h-[360px] flex items-center justify-center transition-all ${className}`}
     >
       <picture>
         <source

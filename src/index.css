@@ -29,3 +29,22 @@
 .hairline-r {
   border-right: 1px solid rgba(0, 0, 0, 0.08);
 }
+
+@media print {
+  header, footer, button, .no-print, [role="dialog"] {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt;
+    line-height: 1.4;
+  }
+  .print-only {
+    display: block !important;
+  }
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}

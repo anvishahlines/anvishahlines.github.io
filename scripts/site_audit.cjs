@@ -139,7 +139,7 @@ function checkHtmlFile(filePath) {
   while ((hrefMatch = hrefRegex.exec(html)) !== null) {
     const href = hrefMatch[1];
     if (href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('#') || href.startsWith('tel:')) continue;
-    if (href.endsWith('.css') || href.endsWith('.xml') || href.endsWith('.txt') || href.endsWith('.pdf')) {
+    if (/\.(css|xml|txt|pdf|svg|ico|png|jpe?g|webp|webmanifest|json)$/i.test(href)) {
       const checkDocs = path.join('docs', decodeURI(href.replace(/^\//, '')));
       if (!fs.existsSync(checkDocs)) {
         issues.push(`Broken asset link: ${href}`);

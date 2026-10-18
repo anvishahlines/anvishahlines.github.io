@@ -9,7 +9,7 @@ interface BookArtDetailProps {
   initialSubProjectId?: string;
   onSelectSubProject?: (subProjectId: string | null) => void;
   onBackToWorks: () => void;
-  onOpenArtworkModal: (artwork: Artwork) => void;
+  onOpenArtworkModal: (artwork: Artwork, list?: Artwork[]) => void;
 }
 
 export const BookArtDetail: React.FC<BookArtDetailProps> = ({
@@ -169,7 +169,7 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
                     src={artwork.image}
                     alt={artwork.alt || artwork.title || 'Artwork by Anvi Stevens'}
                     priority={index === 0}
-                    onClick={() => onOpenArtworkModal(artwork)}
+                    onClick={() => onOpenArtworkModal(artwork, currentSubProject.works)}
                   />
 
                   {/* Text below relevant photo: bold title · year · medium · dimensions, center-aligned */}

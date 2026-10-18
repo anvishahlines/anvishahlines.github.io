@@ -38,9 +38,35 @@ export const AboutView: React.FC<AboutViewProps> = ({ profile }) => {
 
           {/* Right Column: CV */}
           <div>
-            <h3 className="text-xs tracking-[0.25em] uppercase font-semibold text-stone-900 mb-6 pb-2 border-b border-stone-200/60 inline-block">
-              Curriculum Vitae
-            </h3>
+            <div className="flex items-center justify-between mb-6 pb-2 border-b border-stone-200/60 flex-wrap gap-2">
+              <h3 className="text-xs tracking-[0.25em] uppercase font-semibold text-stone-900">
+                Curriculum Vitae
+              </h3>
+              <div className="flex items-center gap-3">
+                <a
+                  href="/cv/Anvi_Stevens_CV.pdf"
+                  download="Anvi_Stevens_CV.pdf"
+                  className="inline-flex items-center gap-1.5 text-[11px] tracking-wider uppercase text-stone-600 hover:text-stone-950 font-medium transition-colors border border-stone-300 hover:border-stone-900 px-2.5 py-1 bg-white cursor-pointer shadow-xs"
+                  title="Download Anvi Stevens CV as PDF"
+                >
+                  <svg className="w-3.5 h-3.5 text-stone-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.75}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                  </svg>
+                  <span>Download PDF</span>
+                </a>
+                <button
+                  type="button"
+                  onClick={() => window.print()}
+                  className="hidden sm:inline-flex items-center gap-1.5 text-[11px] tracking-wider uppercase text-stone-500 hover:text-stone-900 transition-colors cursor-pointer"
+                  title="Print CV"
+                >
+                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.75}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                  </svg>
+                  <span>Print</span>
+                </button>
+              </div>
+            </div>
 
             <div className="space-y-8">
               {profile.cvSections.map((section, idx) => (

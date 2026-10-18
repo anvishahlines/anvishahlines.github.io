@@ -12,6 +12,7 @@ import { AboutView } from './components/AboutView';
 import { ContactView } from './components/ContactView';
 import { HomeView } from './components/HomeView';
 import { ArtworkModal } from './components/ArtworkModal';
+import { BackToTop } from './components/BackToTop';
 import { WORK_CATEGORIES, ARTIST_PROFILE } from './data/portfolioData';
 import { Artwork } from './types/portfolio';
 import { getPageMetadata, updatePageHead } from './utils/seo';
@@ -50,6 +51,7 @@ function parseUrlToView(): { view: 'home' | 'works' | 'category' | 'about' | 'co
 export default function App() {
   const [route, setRoute] = useState(() => parseUrlToView());
   const [modalArtwork, setModalArtwork] = useState<Artwork | null>(null);
+  const [modalArtworksList, setModalArtworksList] = useState<Artwork[]>([]);
 
   const currentView = route.view;
   const selectedCategoryId = route.categoryId;
@@ -135,7 +137,10 @@ export default function App() {
             initialSubProjectId={route.subProjectId}
             onSelectSubProject={handleSelectSubProject}
             onBackToWorks={() => handleNavigate('works')}
-            onOpenArtworkModal={(artwork) => setModalArtwork(artwork)}
+            onOpenArtworkModal={(artwork, list) => {
+              setModalArtwork(artwork);
+              setModalArtworksList(list || activeCategory.works || []);
+            }}
           />
         )}
 
@@ -151,10 +156,15 @@ export default function App() {
         )}
       </main>
 
-      {/* Artwork Inspection Lightbox Modal */}
+      {/* Floating Back to Top Navigation Pill */}
+      <BackToTop />
+
+      {/* Artwork Inspection Lightbox Modal with Full Next/Previous & Swipe Support */}
       <ArtworkModal
         artwork={modalArtwork}
+        artworks={modalArtworksList}
         onClose={() => setModalArtwork(null)}
+        onNavigate={(artwork) => setModalArtwork(artwork)}
       />
 
       {/* Footer */}

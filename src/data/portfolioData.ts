@@ -161,6 +161,34 @@ export const ARTIST_PROFILE: ArtistProfile = {
           url: "https://www.createmagazine.co/artists/anvi-stevens"
         }
       ]
+    },
+    {
+      title: "Teaching Experience",
+      items: [
+        {
+          year: "2024–2026",
+          primary: "Art | Grades 9-12",
+          secondary: "Mystic Valley Regional Charter School",
+          details: "Malden, MA"
+        },
+        {
+          year: "2021–2022",
+          primary: "Art | Grades 4-8",
+          secondary: "Mystic Valley Regional Charter School",
+          details: "Malden, MA"
+        }
+      ]
+    },
+    {
+      title: "Archives & Collections Experience",
+      items: [
+        {
+          year: "2022–2023",
+          primary: "Danvers Historical Society, Historic Beverly, Amesbury Carriage Museum, Lawrence Historical Museum",
+          secondary: "Volunteering & Part-time Collection Management",
+          details: "MA"
+        }
+      ]
     }
   ]
 };

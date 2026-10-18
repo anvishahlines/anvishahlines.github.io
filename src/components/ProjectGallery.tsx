@@ -9,7 +9,7 @@ interface ProjectGalleryProps {
   initialSubProjectId?: string;
   onSelectSubProject?: (subProjectId: string | null) => void;
   onBackToWorks: () => void;
-  onOpenArtworkModal: (artwork: Artwork) => void;
+  onOpenArtworkModal: (artwork: Artwork, list?: Artwork[]) => void;
 }
 
 export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
@@ -72,7 +72,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({
                 src={artwork.image}
                 alt={artwork.alt || artwork.title || 'Artwork by Anvi Stevens'}
                 priority={index === 0}
-                onClick={() => onOpenArtworkModal(artwork)}
+                onClick={() => onOpenArtworkModal(artwork, category.works)}
               />
 
               {/* Text goes below each relevant photo: bold title · year · medium · dimensions, center-aligned */}
