@@ -23,24 +23,12 @@ foreach ($file in $files) {
     $origSize = $file.Length
     $totalOldBytes += $origSize
 
-    # If file is already small (e.g. < 300KB), check dimensions first
     try {
         $bytes = [System.IO.File]::ReadAllBytes($path)
         $ms = New-Object System.IO.MemoryStream(,$bytes)
         $img = [System.Drawing.Image]::FromStream($ms)
 
-        $w = $img.Width
-        $h = $img.Height
-
-        # If already <= 1800 on both sides and < 350KB, skip re-encoding
-        if ($w -le 1800 -and $h -le 1800 -and $origSize -lt 350 * 1024) {
-            $img.Dispose()
-            $ms.Dispose()
-            $totalNewBytes += $origSize
-            continue
-        }
-
-        # Handle EXIF orientation
+        # Handle EXIF orientation FIRST before measuring dimensions!
         $propId = 0x0112
         if ($img.PropertyIdList -contains $propId) {
             $prop = $img.GetPropertyItem($propId)
@@ -56,6 +44,14 @@ foreach ($file in $files) {
             }
             $img.RemovePropertyItem($propId)
         }
+
+        # NOW read true oriented width and height!
+        $w = $img.Width
+        $h = $img.Height
+
+        # If already <= 1800 on both sides and < 350KB, skip re-encoding (unless it had EXIF orientation to bake in)
+        # Note: if it had EXIF orientation > 1, we DO want to re-encode to permanently bake the upright orientation
+        $hadExifRotation = ($img.PropertyIdList -notcontains $propId) # we removed it if present
 
         $MaxDim = 1800
         $scale = [Math]::Min(1.0, [Math]::Min([double]$MaxDim / $w, [double]$MaxDim / $h))
@@ -78,17 +74,12 @@ foreach ($file in $files) {
         $ms.Dispose()
 
         $tempOut = "$path.opt_tmp.jpg"
-        if ($file.Extension -match '^\.png$') {
-            # Save PNG as PNG if transparent, or JPEG if no transparency needed. For art photographs, JPEG is much smaller.
-            $bmp.Save($tempOut, $jpegCodec, $encoderParams)
-        } else {
-            $bmp.Save($tempOut, $jpegCodec, $encoderParams)
-        }
+        $bmp.Save($tempOut, $jpegCodec, $encoderParams)
         $bmp.Dispose()
 
         $newSize = (Get-Item $tempOut).Length
 
-        if ($newSize -lt $origSize) {
+        if ($newSize -lt $origSize -or $val -gt 1) {
             # Replace original
             Move-Item -Path $tempOut -Destination $path -Force
             $totalNewBytes += $newSize

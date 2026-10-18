@@ -1,0 +1,17 @@
+const { execSync } = require('child_process');
+const token = process.env.GITHUB_TOKEN;
+if (!token) {
+  console.error('GITHUB_TOKEN not found in environment');
+  process.exit(1);
+}
+const remoteUrl = `https://anvishahlines:${token}@github.com/anvishahlines/anvishahlines.github.io.git`;
+const gitPath = 'C:\\Users\\Trent\\AppData\\Local\\Programs\\PortableGit\\cmd\\git.exe';
+const env = Object.assign({}, process.env, { GIT_TERMINAL_PROMPT: '0' });
+
+console.log('Pushing main to GitHub...');
+execSync(`"${gitPath}" -c credential.helper= push "${remoteUrl}" main`, {
+  cwd: 'C:\\Users\\Trent\\anvi-portfolio',
+  env,
+  stdio: 'inherit'
+});
+console.log('Successfully pushed main!');
