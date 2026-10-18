@@ -222,7 +222,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "40x16 inches",
         year: "2026",
         image: "/images/nature-of-things/05_Adorned.JPG",
-        alt: "Painting on canvas divided into two sections: left side shows mottled periwinkle blue with a linear axonometric wireframe outline of a table or chair; right side shows a green wall with an arched blue niche holding wooden shelves displaying a green vase, coral fan, dark teapot, and pottery vessels.",
+        alt: "Vertical painting on canvas divided into two sections: the lower half shows a mottled periwinkle blue wall with a white and gold axonometric line outline of a table; the upper half shows an olive green wall with an arched blue alcove containing wooden shelves displaying a green vase, coral specimen, dark teapot, and pottery vessels.",
         poem: "I prepared the table\nDecorated the shelves;\nI cooked the food\nArranged the flowers;\nRemind me again,\nWhat we talked about that day?"
       },
       {
@@ -315,7 +315,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "108x36 inches",
         year: "2019",
         image: "/images/landscape/07_notes.jpg",
-        alt: "Long vertical off-white cotton scroll suspended from ceiling pipes, showing scattered pale amber and rust watercolor stains and multiple spaced horizontal lines of hand-embroidered black thread resembling abstract text or script.",
+        alt: "Long vertical off-white cotton scroll suspended from ceiling pipes, showing scattered pale amber and rust watercolor stains and multiple spaced horizontal lines of hand-embroidered black thread dashes and linear marks.",
       }
     ]
   },
@@ -415,7 +415,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         id: "inst-collab-3",
         title: "Collaboration with Aisling Wilson 3",
         image: "/images/installation/Collaboration with Aisling Wilson 3.jpg",
-        alt: "Gallery view: large rectangular cream linen fabric panel hung on wall with a roughly rectangular stitched graphite outline suggesting a room; a large circular wreath made of dense dark brown pine cones or seed pods overlaps the fabric and extends off the right edge. Two wooden wall-mounted shelves at right hold small dark brown stones lined along their rims."
+        alt: "Gallery view: large rectangular cream linen fabric panel hung on wall with a roughly rectangular stitched graphite outline; a large circular wreath made of dense dark brown pine cones and seed pods overlaps the fabric and extends off the right edge. Two wooden wall-mounted shelves at right hold small dark brown stones lined along their rims."
       },
       {
         id: "inst-collab-3-detail",
@@ -433,12 +433,12 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         id: "inst-collab-5",
         title: "Collaboration with Aisling Wilson 5",
         image: "/images/installation/Collaboration with Aisling Wilson 5.jpg",
-        alt: "Detail of a wall installation in an L-shape: a vertical natural-wood batten fixed to the wall, studded with approximately 15 small silver bell-like forms at regular intervals. Below: a horizontal row of small mixed-media assemblage panels laid flat along the wall base, each showing small found-object clusters including red fabric scraps, wire, thread, rolled materials, and knotted objects on paper and card squares."
+        alt: "Gallery wall installation: a horizontal light-wood shelf mounted low on a white wall holds ten silver acorn-shaped bells spaced along its top surface; on the right, a vertical column of small stacked white paper cards extends upward along the wall, each card holding a string-wrapped mulch wood fragment with ink markings."
       },
       {
         id: "inst-101a2298",
         image: "/images/installation/101A2298.JPG",
-        alt: "Installation view looking up toward a ceiling corner: a long braided cord runs from a cluster of small colorful objects pinned at the upper-left corner, extending diagonally across the wall to the right; below is a framed drawing or print on white paper mounted on the wall."
+        alt: "Vertical interior wall corner: a knotted multi-strand thread assemblage hangs straight down vertically along the corner seam from top to bottom, pooling into a pile on a lower surface, with the edge of an unframed drawing on paper pinned to the wall on the right."
       },
       {
         id: "inst-101a2299",
@@ -448,22 +448,22 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       {
         id: "inst-1163",
         image: "/images/installation/IMG_1163-1.jpg",
-        alt: "Gallery corner installation: a green shredded-plastic wreath or sculpture hangs on the left wall beside a faint green painted mark. A translucent curved mesh or net form leans against the wall, and a thin line of sand or powder trails across the concrete floor from the mesh."
+        alt: "Low-angle gallery floor view: a low white wooden plinth on a gray concrete floor holds a tangled multicolored textile and thread bundle beside a shaded graphite oval; in the background, a white tied parcel bound with cord sits on the floor near a vertical wooden dowel."
       },
       {
         id: "inst-1165",
         image: "/images/installation/IMG_1165-1.jpg",
-        alt: "Full gallery installation view: in the foreground a floor plinth holds a tangled textile mass and oval drawing; in the midground a yellow wooden rod sculpture leans against the wall with a white fabric bundle; on the wall are a large black brushstroke arc, mixed-media panels including mauve dyed cloth and stitched linen, and a green shredded-plastic wreath at far left."
+        alt: "Gallery wall and floor installation: a vertical green wash painted low on a white wall is overlaid with a green shredded-plastic fringed hanging, beside an upright curved strip of metal mesh on the floor with a straight line of sand trailing forward along the floor seam."
       },
       {
         id: "inst-1195",
         image: "/images/installation/IMG_1195-1.jpg",
-        alt: "Close-up of a studio wall with a long natural linen cord or rope running between pinned points, dense with small found-object attachments including beads, wire, thread, fabric scraps, and paper. A partial view of another work on paper is visible below."
+        alt: "Wide corner gallery installation view: left wall has green shredded plastic fringe with floor mesh, an ochre paper polygon, a dark green stripe, and pencil marks; a taut diagonal cord connects from the left wall to a freestanding vertical dowel weighted by a tied white parcel; the floor has a white plinth with a thread bundle; back wall has a brown paper baseline strip; right wall features a painted black crescent arc and a mauve-to-tan fabric banner."
       },
       {
         id: "inst-shahanvi-05",
         image: "/images/installation/ShahAnvi_05.jpg",
-        alt: "Studio or gallery space: a white plinth on the floor holds a tangled colored textile mass and a graphite oval drawing. A yellow wooden rod leans against the wall with a white fabric bundle. The right wall features a large curved black brushstroke, a mauve dip-dyed hanging cloth, and linen hanging pieces with small attached found-object elements."
+        alt: "Front-facing gallery wall view: a painted black crescent arc on the left, a small brown paper square with white and blue markings, a vertical dip-dyed mauve-to-tan fabric banner, a large pinned cream fabric hanging with a dark rectangular outline and green arc mark, and a brown paper fragment at the bottom left."
       }    ]
   },
   {
@@ -537,7 +537,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         dimensions: "8” × 11”",
         year: "2019",
         image: "/images/drawings/08_a lump in the throat.jpg",
-        alt: "Drawing on off-white paper with curved pencil contour lines suggesting a neck profile, a large solid terracotta-pink bean-shaped gouache form in the center, and handwritten pencil text 'A LUMP IN THE THROAT.' in the lower right."
+        alt: "Drawing on off-white paper with curved pencil contour lines around a large solid terracotta-pink kidney-shaped gouache form in the center, with handwritten pencil text 'A LUMP IN THE THROAT.' in the lower right."
       },
       {
         id: "draw-pink",
@@ -647,12 +647,12 @@ export const WORK_CATEGORIES: WorkCategory[] = [
           { id: "hlbb-cover", title: "cover", image: "/images/book-art/her-little-black-book/cover.jpg", alt: "Hand-held worn dark navy notebook with elastic strap; the cover has text 'my her little black book.' with 'my' struck through and 'her' written in yellow crayon above it." },
           { id: "hlbb-open", title: "open book view", image: "/images/book-art/her-little-black-book/open book view.jpg", alt: "The book fanned open showing kraft paper pages densely filled with ink drawings and handwriting; visible text includes 'ONLY TO', 'NEXT DAY', and 'trying to crawl...'." },
           { id: "hlbb-snap-1", title: "inside snapshot 1", image: "/images/book-art/her-little-black-book/inside snapshot 1.jpg", alt: "Open spread: left page has a window drawing with text 'THE CROWD LOOKED INVITING FROM HER WINDOW'; right page shows a black silhouette in a yellow oval with text 'AND SHE STARTED WALKING AGAIN'." },
-          { id: "hlbb-snap-2", title: "inside snapshot 2", image: "/images/book-art/her-little-black-book/inside snapshot 2.jpg", alt: "Open spread: left page reads 'SEMI-CIRCLED' with a TV-rectangle shape and pink stitched dotted lines; right page reads 'AND BUGGED' with a beetle illustration and stitched lines." },
+          { id: "hlbb-snap-2", title: "inside snapshot 2", image: "/images/book-art/her-little-black-book/inside snapshot 2.jpg", alt: "Open notebook spread on kraft paper: left page features a bold black rounded-rectangle outline containing hand-drawn text 'SEMI-CIRCLED', diagonal radiating lines at upper right, and two intersecting pink dashed lines arching across the gutter onto the right page, which shows an irregular contoured field with a black beetle silhouette and text 'AND \'BUGGED\''." },
           { id: "hlbb-snap-3", title: "inside snapshot 3", image: "/images/book-art/her-little-black-book/inside snapshot 3.jpg", alt: "Open spread: left page has a pencil sketch of a perspective room or box; right page has an ochre wash with a curved arch shape and the text 'AN ATTEMPT MADE TO REDEFINE THE TERRITORY'." },
           { id: "hlbb-snap-4", title: "inside snapshot 4", image: "/images/book-art/her-little-black-book/inside snapshot 4.jpg", alt: "Open spread: left page has a gestural red rectangle and black contour lines; right page reads 'INDECISIVE.' with a black grid of vertical bars and an arc outline." },
-          { id: "hlbb-snap-5", title: "inside snapshot 5", image: "/images/book-art/her-little-black-book/inside snapshot 5.jpg", alt: "Open spread with abstract ink marks flowing across both pages like a flock of birds or scattered marks; text at the bottom reads 'ACCUMULATED AND SUSPENDED.'." },
-          { id: "hlbb-snap-6", title: "inside snapshot 6", image: "/images/book-art/her-little-black-book/inside snapshot 6.jpg", alt: "Open spread: left page has light pencil grid or graph lines; right page has a large bold black painted abstract shape resembling a seated or hunched figure, with a smaller abstract rectangular shape in the top-right corner." },
-          { id: "hlbb-snap-7", title: "inside snapshot 7", image: "/images/book-art/her-little-black-book/inside snapshot 7.jpg", alt: "Open spread with a large dark painted circle spanning both pages resembling a planet or celestial body, with a small rectangular outline at the bottom of the circle. Text in the lower-right reads in pink 'THE TABLE WAS BIGGER ON HER SIDE.'." }
+          { id: "hlbb-snap-5", title: "inside snapshot 5", image: "/images/book-art/her-little-black-book/inside snapshot 5.jpg", alt: "Open notebook spread on kraft paper: a horizontal band of black ink squiggles, flecks, washes, and scribbled gestures spans across both pages in the upper half; handwritten text at the bottom reads 'ACCUMULATED AND SUSPENDED.'." },
+          { id: "hlbb-snap-6", title: "inside snapshot 6", image: "/images/book-art/her-little-black-book/inside snapshot 6.jpg", alt: "Open notebook spread on kraft paper: left page features an angled pencil grid spanning toward the gutter; right page has a bold black painted shape with an angular head and a long sweeping horizontal tail across the lower page, and a small black angular loop motif in the upper-right corner." },
+          { id: "hlbb-snap-7", title: "inside snapshot 7", image: "/images/book-art/her-little-black-book/inside snapshot 7.jpg", alt: "Open notebook spread on kraft paper: a dark painted circular shape spans across the center fold, with the right semicircular portion larger than the left and supported below by a drawn rectangular leg outline; a solid black stroke runs along the lower-left edge, and handwritten pink text in the lower right reads 'THE TABLE WAS BIGGER ON HER SIDE.'." }
         ]
       },
       {
@@ -663,11 +663,11 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         description: "Artist book featuring hand-stitched poetry, delicate watercolor washes, and layered fabric collages.",
         works: [
           { id: "nyp-poem", title: "New Year Poem", image: "/images/book-art/new-year-poem/New Year Poem.jpg", alt: "Large textile artwork hung flat on wall with white silk-like ground, eco-printed beige left panel, pink wash center, blue woodgrain-printed right panel with vertical handwritten poem text, dark navy moth motif stitched with antennae, and scattered oval cut-outs." },
-          { id: "nyp-cover-insert-1", title: "cover with insert 1", image: "/images/book-art/new-year-poem/cover with insert 1.jpg", alt: "Close-up of textile on carpet showing a jar outline stitched in black running stitch on white fabric on the left, and the jar form in magenta thread on dusty rose fabric with three small oval cut-holes on the right." },
-          { id: "nyp-front-cover", title: "front cover", image: "/images/book-art/new-year-poem/front cover.jpg", alt: "Full view of white scripted cover laid flat, densely covered with yellow rick-rack strips hand-stitched with black text in horizontal rows." },
+          { id: "nyp-cover-insert-1", title: "cover with insert 1", image: "/images/book-art/new-year-poem/cover with insert 1.jpg", alt: "Folded textile piece laid flat atop the stitched white cover on beige carpet: the top fabric panel has a pale beige and dusty rose watercolor ground with a large stitched black running-stitch outline of a canning jar in the center, a horizontal magenta line crossing beneath it, and small circular cut holes in the lower right." },
+          { id: "nyp-front-cover", title: "front cover", image: "/images/book-art/new-year-poem/front cover.jpg", alt: "Rectangular white textile laid flat on beige carpet, featuring eighteen parallel vertical strips of frayed off-white fabric stitched down with straight rows of black running stitches." },
           { id: "nyp-back-cover", title: "back cover", image: "/images/book-art/new-year-poem/back cover.jpg", alt: "Full poem text handwritten in pencil on white fabric and paper, opening with 'When no one is looking, the new year arrives like a black moth & settles on the windowsill...'." },
-          { id: "nyp-cover-insert-2", title: "cover with insert 2", image: "/images/book-art/new-year-poem/cover with insert 2.jpg", alt: "Two fabric panels partially unrolled on carpet: white fabric with yellow rick-rack trim and fine handwritten script lines alongside a dusty rose panel with magenta stitched jar outline and oval holes." },
-          { id: "nyp-cover-insert-3", title: "cover with insert 3", image: "/images/book-art/new-year-poem/cover with insert 3.jpg", alt: "Fabric partially rolled and curled showing the white rick-rack-trimmed cover with handwritten text draped over the rose and mauve panel with stitched jar outline." },
+          { id: "nyp-cover-insert-2", title: "cover with insert 2", image: "/images/book-art/new-year-poem/cover with insert 2.jpg", alt: "Textile piece partially folded on beige carpet: the white stitched cover with stitched off-white fabric strips is gathered and draped on the right over the dusty rose dyed fabric panel showing the stitched jar outline and small cut holes on the left." },
+          { id: "nyp-cover-insert-3", title: "cover with insert 3", image: "/images/book-art/new-year-poem/cover with insert 3.jpg", alt: "Textile piece partially folded on beige carpet: the white stitched cover with vertical frayed cloth strips is gathered at the top, revealing the underlying dyed fabric panel with a black running-stitch jar outline and folded lower corner." },
           { id: "nyp-detail-1", title: "detail 1", image: "/images/book-art/new-year-poem/detail 1.jpg", alt: "Close-up detail of a rust and mauve eco-printed fabric fragment appliquéd with black running stitch beside a white oval patch with mauve spots and trailing magenta thread." },
           { id: "nyp-detail-2", title: "detail 2", image: "/images/book-art/new-year-poem/detail 2.jpg", alt: "Close-up of blue woodgrain-print panel with handwritten poem text running diagonally, featuring a small mauve oval patch stitched with gold and khaki dashes on creased white silk." },
           { id: "nyp-detail-3", title: "detail 3", image: "/images/book-art/new-year-poem/detail 3.jpg", alt: "Detail of scattered oval cut-holes and appliquéd mauve scraps with orange and blue running stitch, anchored by a large rust-toned patchwork piece and bisecting magenta thread line." },
@@ -717,57 +717,57 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       {
         id: "rem-3",
         image: "/images/remnants-of-the-everyday/3.jpg",
-        alt: "Grid of 7 small assemblages on linen: rusted safety pins on canvas, knot of multicolored threads, dark seaweed or bark with a 'YAMAMOTO YAMA' tea label, bent wire stem with birch piece labeled 'Rule Book', white gesso relief with looping cord, smooth green oval stone, and a tangled ball of dark charcoal-grey thread."
+        alt: "Grid of 7 small assemblages on linen: rusted paper clips on canvas, knot of multicolored threads, dark seaweed or bark with a 'YAMAMOTO YAMA' tea label, bent wire with birch bark piece labeled 'Rule Book', white gesso relief with looping cord and small shells, smooth green rounded lens or glass, and a tangled ball of dark charcoal-gray thread."
       },
       {
         id: "rem-4",
         image: "/images/remnants-of-the-everyday/4.jpg",
-        alt: "Grid of 7 small assemblages on linen: painted canvas with wrapped orange candy, densely stitched orange embroidery floss forming an oval ring, painted green hexagonal mosaic pattern, single brown seed pod form, overlapping felt pieces with pink bead, ink line drawing of a reclining face, and foil blister pack with two orange capsule pills."
+        alt: "Grid of 7 small assemblages on linen: pink canvas with orange cellophane wrapper, densely stitched neon-orange embroidery thread forming an open oval ring, painted green hexagonal pattern, dried open seed pod on canvas, overlapping fabric discs with a pink bead, ink contour drawing of an upturned face, and foil blister pack containing one amber gel capsule."
       },
       {
         id: "rem-5",
         image: "/images/remnants-of-the-everyday/5.jpg",
-        alt: "Grid of small assemblages on white linen: yellow and gold package with pill blister packs, thick textured handmade paper with twine loop and metal peephole lens stamped with date code, yellow door coupon 'ARE YOU LUCKY? HOLD THIS COUPON No 22865', fine pen dandelion illustration, and an arched row of hollow pistachio shell halves."
+        alt: "Grid of 7 small assemblages on linen: empty foil pill blisters on yellow canvas behind a patterned cardboard sleeve, fibrous handmade paper with string loop, yellow ticket reading 'ARE YOU LUCKY? HOLD THIS COUPON No 22865', white canvas with twine handle and metal peephole lens stamped with date code, lime-green stippled circular print, and two rows of pistachio shell halves on white canvas."
       },
       {
         id: "rem-6",
         image: "/images/remnants-of-the-everyday/6.jpg",
-        alt: "Grid of 6 assemblages laid flat on white linen: dried pink flower heads, embroidered letters '21H', mauve watercolor wash labeled 'SPILL', halved dried grapefruit revealing coral interior, torn beige cotton with burn holes, earth powder with silver strip, and graphite brush strokes labeled '2ND ATTEMPT'."
+        alt: "Grid of 7 small assemblages on linen: dried magenta flowers on canvas, painted characters '21H' in green, sage, and pink, mauve watercolor wash labeled 'SPILL', hollowed dried citrus peel showing segmented interior, cotton cloth scrap with burned holes and scorched edges, earth powder with a vertical silver metallic strip, and graphite rubbings on paper labeled '2ND ATTEMP.'."
       },
       {
         id: "rem-7",
         image: "/images/remnants-of-the-everyday/7.jpg",
-        alt: "Grid of 6 assemblages on linen: white plaster rock fragments labeled 'decay on #19', yellow note reading 'make cookies / Make cookies (but nicely)' with red striped envelope flap, photobooth photo of four people, clear bag with soil and green seedlings, white plastic hanger over line drawing, open plastic gem-egg magazine cutout, and crinkled candy wrappers in a bag."
+        alt: "Grid of 7 small assemblages on linen: white plaster form labeled 'decay on #19', yellow lined note reading 'Make cookies / Make cookies (but nicely)' under a striped roof shape, color photograph of four people in costume masks, clear zip pouch with potting soil and succulent leaves, miniature white plastic clothing hanger on canvas, magazine cutouts of colorful round chocolate gems labeled 'te gems', and gold discs with yellow fabric rosettes."
       },
       {
         id: "rem-8",
         image: "/images/remnants-of-the-everyday/8.jpg",
-        alt: "Grid of 6 assemblages on white linen: teal painted button labeled 'PORTABELLA', worn joker playing card with burned edges, wagon wheel pasta shapes in a horseshoe with pastel scribbles, blue oval stitching with prescription sticker strip, tied white cloth parcel, coiled twine labeled 'Abstract design in Fur', and a rolled ceramic tube form."
+        alt: "Grid of 7 small assemblages on linen: illustrated instructions booklet in a pocket, ribbed red knit swatch with button, ink line drawing of a slice of bread in a zip-top plastic bag, dense pencil scribbles on canvas, Christmas card reading 'HAPPY HOLIDAYS' in gold glitter with cursive inscription 'Anvi Love from...', festive burst made of shredded colorful paper, and four pieces of dry rotini spiral pasta on canvas."
       },
       {
         id: "rem-9",
         image: "/images/remnants-of-the-everyday/9.jpg",
-        alt: "Grid of 7 assemblages on linen: black binder clip on canvas, crinkled gold foil with packaged object, 'MONKEY' label with fishing hook sketch, drawn orange glasses with attached black plastic frame, shibori-dyed fabric strips in indigo and yellow-olive, lavender resin dot cabochons, and a tied red grosgrain ribbon bow."
+        alt: "Grid of 7 small assemblages on linen: teal button labeled 'PORTABELLA', joker playing card with burned left edge, colored pencil shavings with pastel marks, blue printed circle grid with taped address label, white canvas wrapped with tied white cloth ribbon, coiled twisted twine labeled 'Abstract design in Fur', and small glazed ceramic trumpet shape with red seed beads."
       },
       {
         id: "rem-10",
         image: "/images/remnants-of-the-everyday/10.jpg",
-        alt: "Grid of 7 assemblages on linen: white canvas with dried magenta composite flowers, embroidered '21H' letters, mauve wash inscribed 'SPILL', halved dried pomelo, scorched cloth scrap with charred edges, column of graphite powder with silver strip, and graphite smear study marked '2ND ATTEMPT'."
+        alt: "Grid of 7 small assemblages on linen: black plastic strap buckle on canvas, crinkled gold foil with wrapped triangular chocolate, white card labeled 'MONKEY' with a fish hook illustration on black tape, drawn orange sunglasses with mounted black eyeglass frame, arranged colorful patterned shoelace strips, seven purple cabochon droplets on white canvas, and tied red twill ribbon bow."
       },
       {
         id: "rem-11",
         image: "/images/remnants-of-the-everyday/11.jpg",
-        alt: "Dense wall installation of approximately 24 mixed-media assemblages on linen: painted panel with toiletry list 'SHAMPOO / CONDITIONER / LOTION...', white bowl with spoon and seed, tissue butterfly with scissors, 'Sheth Opticals' fabric scrap, body silhouette drawing, embroidered Gujarati textile square, and cut-letter alphabet grid across multiple rows."
+        alt: "Grid of 28 small mixed-media assemblages arranged in 4 rows of 7 columns on linen: includes a printed toiletry list, paper bowl with wooden spoon, Sheth Opticals eyeglass cloth, contour line drawing of legs, mitten labeled 'STEALER', painted fish on yellow, embroidered mirrored textile, dried marigold flowers, lightbulb, and red envelope labeled 'Trent and family'."
       },
       {
         id: "rem-12",
         image: "/images/remnants-of-the-everyday/12.jpg",
-        alt: "Wall installation of approximately 28 small assemblages in 4 rows on linen: floral block-printed fabric, terracotta pot with cotton bolls, cowrie shell on canvas, ink-drawn elephant, denim teardrop, twisted rope, crossed twigs, sugar sachet collage, bundle of matchsticks, sequined blue stitched box, flower wreath ring, rhinoceros contour drawing, and parasol charm."
+        alt: "Grid of 28 small mixed-media assemblages arranged in 4 rows of 7 columns on linen: includes block-printed fabric swatches, small terracotta pot with white crystalline mass, cowrie shell, ink line drawing of an elephant, denim teardrop, stick figure made of toothpicks, cotton tassels on blue, sugar sachet, row of matchsticks, sequins spelling '100', and Indian postal card."
       },
       {
         id: "rem-13",
         image: "/images/remnants-of-the-everyday/13.jpg",
-        alt: "Large wall installation of approximately 35 small mixed-media assemblages on pale linen in 5 rows: rubber bouncy ball, rusted ring with 'Refresher?' label, black leather glove, toy plastic car, coiled metal spring, thread fringe with repetitive numbers, postmarked Champion envelope, pig drawing labeled 'Introducing GORDO FULLER', brass key, and charred paper scraps."
+        alt: "Grid of 35 small mixed-media assemblages arranged in 5 rows of 7 columns on linen: includes green bouncy ball, washer labeled 'Refresher?', black leather glove spanning two rows, miniature toy car, spiral spring, thread heart bordered by numbers '100', orange tree labeled 'MAGIC POWERS', pink elastic labeled 'It broke', pig drawing labeled 'Introducing GORDO FULLER', and brass key."
       }
     ]
   }
