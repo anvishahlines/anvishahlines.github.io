@@ -20,50 +20,40 @@ export const ContactView: React.FC<ContactViewProps> = ({
   });
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [copied, setCopied] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const subjectLine = formData.subject.trim() || `Inquiry from ${formData.name.trim()} (via anvistevens.com)`;
+  const bodyContent = `From: ${formData.name.trim()} (${formData.email.trim()})\nSubject: ${subjectLine}\n\nMessage:\n${formData.message.trim()}`;
+
+  const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(bodyContent)}`;
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(bodyContent)}`;
+
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.name || !formData.email || !formData.message) return;
+    if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) return;
+
     setLoading(true);
 
-    try {
-      const response = await fetch(`https://formsubmit.co/ajax/${email}`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          _replyto: formData.email,
-          subject: formData.subject || `Inquiry from ${formData.name} (via anvistevens.com)`,
-          message: formData.message,
-          _template: 'table'
-        })
-      });
-
-      if (response.ok) {
-        setSubmitted(true);
-      } else {
-        // Fallback to mailto
-        window.location.href = `mailto:${email}?subject=${encodeURIComponent(
-          formData.subject || 'Artwork Inquiry'
-        )}&body=${encodeURIComponent(
-          `From: ${formData.name} (${formData.email})\n\n${formData.message}`
-        )}`;
-        setSubmitted(true);
+    // Promptly launch mailto and present the confirmation state in ~350ms
+    setTimeout(() => {
+      try {
+        window.location.href = mailtoUrl;
+      } catch {
+        // Handled by the fallback buttons on the confirmation screen
       }
-    } catch {
-      // Direct mailto fallback
-      window.location.href = `mailto:${email}?subject=${encodeURIComponent(
-        formData.subject || 'Artwork Inquiry'
-      )}&body=${encodeURIComponent(
-        `From: ${formData.name} (${formData.email})\n\n${formData.message}`
-      )}`;
-      setSubmitted(true);
-    } finally {
       setLoading(false);
+      setSubmitted(true);
+    }, 350);
+  };
+
+  const handleCopy = async () => {
+    const fullText = `To: ${email}\n${bodyContent}`;
+    try {
+      await navigator.clipboard.writeText(fullText);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 3000);
+    } catch {
+      // Fallback
     }
   };
 
@@ -103,20 +93,54 @@ export const ContactView: React.FC<ContactViewProps> = ({
         {/* Form Container */}
         <div className="w-full bg-white p-6 sm:p-8 border border-stone-200/90 shadow-[0_1px_4px_rgba(0,0,0,0.03)]">
           {submitted ? (
-            <div className="text-center py-8">
-              <h4 className="font-gallery text-xl text-stone-900 mb-2">Thank you for your message</h4>
-              <p className="text-xs text-stone-500 font-light max-w-sm mx-auto leading-relaxed">
-                Your message has been sent directly to {email}. Anvi will respond to your inquiry shortly.
+            <div className="text-center py-6">
+              <div className="w-10 h-10 rounded-full bg-stone-100 flex items-center justify-center mx-auto mb-4 text-stone-700">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <h4 className="font-gallery text-xl sm:text-2xl text-stone-900 mb-2">Inquiry Ready to Send</h4>
+              <p className="text-xs sm:text-[13px] text-stone-600 font-light max-w-md mx-auto leading-relaxed mb-6">
+                Your message has been prepared for <strong className="font-medium text-stone-900">{email}</strong>. If your email application did not launch automatically, choose an option below:
               </p>
-              <button
-                onClick={() => {
-                  setSubmitted(false);
-                  setFormData({ name: '', email: '', subject: '', message: '' });
-                }}
-                className="mt-6 text-xs uppercase tracking-widest text-stone-700 hover:text-stone-950 underline underline-offset-4 cursor-pointer"
-              >
-                Send another message
-              </button>
+
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
+                <a
+                  href={mailtoUrl}
+                  className="w-full sm:w-auto px-4 py-2.5 bg-stone-900 text-white text-xs uppercase tracking-wider font-medium hover:bg-stone-800 transition-colors inline-flex items-center justify-center gap-1.5"
+                >
+                  <span>Open in Mail App</span>
+                  <span>↗</span>
+                </a>
+                <a
+                  href={gmailUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto px-4 py-2.5 bg-white border border-stone-300 text-stone-800 text-xs uppercase tracking-wider font-medium hover:border-stone-900 hover:text-stone-950 transition-colors inline-flex items-center justify-center gap-1.5"
+                >
+                  <span>Open in Gmail</span>
+                  <span>↗</span>
+                </a>
+                <button
+                  type="button"
+                  onClick={handleCopy}
+                  className="w-full sm:w-auto px-4 py-2.5 bg-stone-100 hover:bg-stone-200 text-stone-700 text-xs uppercase tracking-wider font-medium transition-colors cursor-pointer"
+                >
+                  {copied ? '✓ Copied!' : 'Copy Message'}
+                </button>
+              </div>
+
+              <div className="pt-4 border-t border-stone-100">
+                <button
+                  onClick={() => {
+                    setSubmitted(false);
+                    setFormData({ name: '', email: '', subject: '', message: '' });
+                  }}
+                  className="text-xs uppercase tracking-widest text-stone-500 hover:text-stone-900 underline underline-offset-4 cursor-pointer"
+                >
+                  Send another inquiry
+                </button>
+              </div>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-5">
@@ -179,9 +203,19 @@ export const ContactView: React.FC<ContactViewProps> = ({
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full py-3 bg-stone-900 text-white text-xs uppercase tracking-[0.2em] font-medium hover:bg-stone-800 transition-colors cursor-pointer disabled:opacity-50"
+                  className="w-full py-3 bg-stone-900 text-white text-xs uppercase tracking-[0.2em] font-medium hover:bg-stone-800 transition-colors cursor-pointer disabled:opacity-50 flex items-center justify-center gap-2"
                 >
-                  {loading ? 'Sending...' : 'Send Inquiry'}
+                  {loading ? (
+                    <>
+                      <svg className="animate-spin h-3.5 w-3.5 text-white" viewBox="0 0 24 24" fill="none">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+                      </svg>
+                      <span>Opening email...</span>
+                    </>
+                  ) : (
+                    'Send Inquiry'
+                  )}
                 </button>
               </div>
             </form>
