@@ -122,6 +122,16 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
                 </div>
               ))}
             </div>
+
+            {/* Back to Works Footer link */}
+            <div className="mt-20 pt-8 border-t border-stone-200 w-full flex items-center justify-center text-xs uppercase tracking-widest text-stone-500">
+              <button
+                onClick={onBackToWorks}
+                className="hover:text-stone-950 transition-colors cursor-pointer"
+              >
+                ← Return to Works
+              </button>
+            </div>
           </div>
         )}
 
@@ -187,13 +197,20 @@ export const BookArtDetail: React.FC<BookArtDetailProps> = ({
               ))}
             </div>
 
-            {/* Bottom Navigation for other books */}
+            {/* Bottom Navigation for other books & Return to Works */}
             <div className="mt-20 pt-8 border-t border-stone-200 w-full flex items-center justify-center gap-6 text-xs uppercase tracking-widest text-stone-500">
               <button
-                onClick={() => setSelectedSubProjectId(null)}
-                className="hover:text-stone-950 transition-colors"
+                onClick={() => handleSelectSub(null)}
+                className="hover:text-stone-950 transition-colors cursor-pointer"
               >
                 ← All Book Art Projects
+              </button>
+              <span className="text-stone-300">·</span>
+              <button
+                onClick={onBackToWorks}
+                className="hover:text-stone-950 transition-colors cursor-pointer"
+              >
+                Return to Works →
               </button>
             </div>
           </div>

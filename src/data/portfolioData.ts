@@ -421,7 +421,7 @@ export const WORK_CATEGORIES: WorkCategory[] = [
         id: "inst-collab-3-detail",
         title: "Collaboration with Aisling Wilson 3 (Detail)",
         image: "/images/installation/Collaboration with Aisling Wilson 3_detail.jpg",
-        alt: "Close-up of a linen fabric panel with a graphite-drawn rectangle on wrinkled natural fabric. A dark pod and pinecone wreath forms a large open circle overlapping the panel, with a fine green painted zigzag line crossing the wreath. A wooden clothespin and small sculpted form are visible at lower-left corner."
+        alt: "Close-up detail of a vertical linen panel hung by top corner pins with a peach fabric strip along the bottom and a graphite outline of a table. A large dark textured oval wreath overlaps the right side of the fabric, connected at top left by a green painted arc, with a small wooden shelf holding dark sculpted forms in the lower right."
       },
       {
         id: "inst-collab-4",
