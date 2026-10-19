@@ -21,7 +21,10 @@ function generateStaticPages() {
     url: string,
     ogImage: string,
     jsonLd: Record<string, unknown>,
-    contentBody: string
+    contentBody: string,
+    imageWidth?: string,
+    imageHeight?: string,
+    imageAlt?: string
   ) => {
     let html = baseHtml;
     // Replace title
@@ -35,10 +38,14 @@ function generateStaticPages() {
     html = html.replace(/<meta property="og:description" content=".*?" \/>/, `<meta property="og:description" content="${desc}" />`);
     html = html.replace(/<meta property="og:url" content=".*?" \/>/, `<meta property="og:url" content="${url}" />`);
     html = html.replace(/<meta property="og:image" content=".*?" \/>/, `<meta property="og:image" content="${ogImage}" />`);
+    html = html.replace(/<meta property="og:image:width" content=".*?" \/>/, `<meta property="og:image:width" content="${imageWidth || '1200'}" />`);
+    html = html.replace(/<meta property="og:image:height" content=".*?" \/>/, `<meta property="og:image:height" content="${imageHeight || '1200'}" />`);
+    html = html.replace(/<meta property="og:image:alt" content=".*?" \/>/, `<meta property="og:image:alt" content="${imageAlt || title}" />`);
     // Replace Twitter Card tags
     html = html.replace(/<meta name="twitter:title" content=".*?" \/>/, `<meta name="twitter:title" content="${title}" />`);
     html = html.replace(/<meta name="twitter:description" content=".*?" \/>/, `<meta name="twitter:description" content="${desc}" />`);
     html = html.replace(/<meta name="twitter:image" content=".*?" \/>/, `<meta name="twitter:image" content="${ogImage}" />`);
+    html = html.replace(/<meta name="twitter:image:alt" content=".*?" \/>/, `<meta name="twitter:image:alt" content="${imageAlt || title}" />`);
 
     // Replace Schema.org JSON-LD structured data
     const jsonLdString = `<script type="application/ld+json">\n${JSON.stringify(jsonLd, null, 2)}\n    </script>`;
@@ -55,6 +62,9 @@ function generateStaticPages() {
     desc: string;
     url: string;
     image: string;
+    imageWidth?: string;
+    imageHeight?: string;
+    imageAlt?: string;
     jsonLd: Record<string, unknown>;
     body: string;
   }[] = [
@@ -321,7 +331,10 @@ function generateStaticPages() {
       route.url,
       route.image,
       route.jsonLd,
-      route.body
+      route.body,
+      route.imageWidth,
+      route.imageHeight,
+      route.imageAlt
     );
     fs.writeFileSync(path.join(targetDir, 'index.html'), html, 'utf-8');
   });

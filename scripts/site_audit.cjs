@@ -93,7 +93,7 @@ function checkHtmlFile(filePath) {
   }
 
   // Check OpenGraph tags
-  const ogTags = ['og:title', 'og:description', 'og:url', 'og:image'];
+  const ogTags = ['og:title', 'og:description', 'og:url', 'og:image', 'og:image:width', 'og:image:height'];
   for (const tag of ogTags) {
     if (!html.includes(`property="${tag}"`)) {
       issues.push(`Missing OpenGraph tag: ${tag}`);
@@ -101,7 +101,7 @@ function checkHtmlFile(filePath) {
   }
 
   // Check Twitter Cards
-  const twitterTags = ['twitter:card', 'twitter:title', 'twitter:description', 'twitter:image'];
+  const twitterTags = ['twitter:card', 'twitter:title', 'twitter:description', 'twitter:image', 'twitter:image:alt'];
   for (const tag of twitterTags) {
     if (!html.includes(`name="${tag}"`)) {
       issues.push(`Missing Twitter tag: ${tag}`);

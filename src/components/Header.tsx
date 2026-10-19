@@ -19,11 +19,13 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onNavigate }) => {
           <button
             onClick={() => handleNav('home')}
             className="group cursor-pointer text-center focus:outline-none focus-visible:ring-1 focus-visible:ring-stone-400"
-            aria-label="Anvi Stevens - Return to Home"
+            aria-label="Artist | Boston, MA"
+            title="Artist | Boston, MA"
           >
             <h1 className="font-gallery text-2xl sm:text-3xl md:text-4xl uppercase tracking-[0.22em] font-normal text-stone-900 group-hover:text-stone-600 transition-colors">
               ANVI STEVENS
             </h1>
+            <span className="sr-only">Artist | Boston, MA</span>
           </button>
 
           {/* Unified Navigation: Works · About · Contact (synced on both mobile & desktop) */}

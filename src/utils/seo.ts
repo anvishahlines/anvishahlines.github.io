@@ -5,6 +5,10 @@ export interface PageMetadata {
   description: string;
   url: string;
   image: string;
+  imageType?: string;
+  imageWidth?: string;
+  imageHeight?: string;
+  imageAlt?: string;
   type: string;
   jsonLd: Record<string, unknown>;
 }
@@ -176,10 +180,14 @@ export function getPageMetadata(
 
   // Default Home
   return {
-    title: 'Anvi Stevens — Contemporary Fine Artist & Painter | Boston, MA',
-    description: 'Official art portfolio of Anvi Stevens, an Indian-American Boston & Massachusetts contemporary visual artist and painter exploring textiles, sculpture, and abstract mark-making.',
+    title: 'Anvi Stevens — Artist | Boston, MA',
+    description: 'Artist | Boston, MA',
     url: `${BASE_URL}/`,
     image: `${BASE_URL}/images/profile_pic.jpg`,
+    imageType: 'image/jpeg',
+    imageWidth: '896',
+    imageHeight: '1040',
+    imageAlt: 'Anvi Stevens — Artist | Boston, MA',
     type: 'website',
     jsonLd: {
       '@context': 'https://schema.org',
@@ -189,7 +197,7 @@ export function getPageMetadata(
           '@id': `${BASE_URL}/#website`,
           name: 'Anvi Stevens',
           url: `${BASE_URL}/`,
-          description: 'Official art portfolio of contemporary painter and visual artist Anvi Stevens.'
+          description: 'Artist | Boston, MA'
         },
         {
           '@type': 'VisualArtist',
@@ -198,8 +206,8 @@ export function getPageMetadata(
           alternateName: 'Anvi Shah',
           url: BASE_URL,
           image: `${BASE_URL}/images/profile_pic.jpg`,
-          jobTitle: 'Visual Artist & Contemporary Painter',
-          description: ARTIST_PROFILE.bioParagraph,
+          jobTitle: 'Artist | Boston, MA',
+          description: 'Artist | Boston, MA',
           address: {
             '@type': 'PostalAddress',
             addressLocality: 'Wakefield',
@@ -252,6 +260,10 @@ export function updatePageHead(meta: PageMetadata): void {
   setMeta('property', 'og:description', meta.description);
   setMeta('property', 'og:url', meta.url);
   setMeta('property', 'og:image', meta.image);
+  setMeta('property', 'og:image:type', meta.imageType || 'image/jpeg');
+  setMeta('property', 'og:image:width', meta.imageWidth || '1200');
+  setMeta('property', 'og:image:height', meta.imageHeight || '1200');
+  setMeta('property', 'og:image:alt', meta.imageAlt || meta.title);
   setMeta('property', 'og:type', meta.type);
   setMeta('property', 'og:site_name', 'Anvi Stevens');
 
@@ -260,6 +272,7 @@ export function updatePageHead(meta: PageMetadata): void {
   setMeta('name', 'twitter:title', meta.title);
   setMeta('name', 'twitter:description', meta.description);
   setMeta('name', 'twitter:image', meta.image);
+  setMeta('name', 'twitter:image:alt', meta.imageAlt || meta.title);
 
   // Schema JSON-LD
   let jsonLdScript = document.getElementById('route-jsonld') as HTMLScriptElement | null;
