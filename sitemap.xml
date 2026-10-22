@@ -4,39 +4,39 @@
   <!-- Core Pages -->
   <url>
     <loc>https://anvistevens.com/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://anvistevens.com/works</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://anvistevens.com/about</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://anvistevens.com/contact</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Curriculum Vitae (PDF) -->
   <url>
     <loc>https://anvistevens.com/cv/Anvi_Stevens_CV.pdf</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Nature of Things Category Page -->
   <url>
     <loc>https://anvistevens.com/works/nature-of-things</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -113,7 +113,7 @@
   <!-- Landscape Category Page -->
   <url>
     <loc>https://anvistevens.com/works/landscape</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -190,7 +190,7 @@
   <!-- Sculptures Category Page -->
   <url>
     <loc>https://anvistevens.com/works/sculptures</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -267,7 +267,7 @@
   <!-- Installation Category Page -->
   <url>
     <loc>https://anvistevens.com/works/installation</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -394,7 +394,7 @@
   <!-- Drawings Category Page -->
   <url>
     <loc>https://anvistevens.com/works/drawings</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -631,7 +631,7 @@
   <!-- Book Art Category Page -->
   <url>
     <loc>https://anvistevens.com/works/book-art</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -668,7 +668,7 @@
   <!-- Her Little Black Book (Book Art) Page -->
   <url>
     <loc>https://anvistevens.com/works/book-art/her-little-black-book</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -765,7 +765,7 @@
   <!-- New Year Poem (Book Art) Page -->
   <url>
     <loc>https://anvistevens.com/works/book-art/new-year-poem</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -892,7 +892,7 @@
   <!-- Story Board (Book Art) Page -->
   <url>
     <loc>https://anvistevens.com/works/book-art/story-board</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -939,7 +939,7 @@
   <!-- Remnants of the Everyday Category Page -->
   <url>
     <loc>https://anvistevens.com/works/remnants-of-the-everyday</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
