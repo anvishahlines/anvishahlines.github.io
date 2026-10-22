@@ -46,7 +46,7 @@ async function run() {
 
   // 5. site.webmanifest
   const manifest = {
-    name: "Anvi Stevens — Contemporary Fine Artist & Painter",
+    name: "Anvi Stevens — Artist | Boston, MA",
     short_name: "Anvi Stevens",
     start_url: "/",
     display: "standalone",

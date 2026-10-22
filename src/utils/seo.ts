@@ -22,7 +22,7 @@ export function getPageMetadata(
 ): PageMetadata {
   if (view === 'about') {
     return {
-      title: 'About & CV — Anvi Stevens | Boston Contemporary Painter',
+      title: 'About & CV — Anvi Stevens | Artist | Boston, MA',
       description: 'Artist biography, statement, education, and exhibition history of Boston and Massachusetts painter Anvi Stevens (MFA Boston University).',
       url: `${BASE_URL}/about`,
       image: `${BASE_URL}/images/profile_pic.jpg`,
@@ -36,7 +36,7 @@ export function getPageMetadata(
           '@type': 'VisualArtist',
           '@id': `${BASE_URL}/#artist`,
           name: ARTIST_PROFILE.name,
-          jobTitle: 'Visual Artist & Contemporary Painter',
+          jobTitle: 'Artist | Boston, MA',
           description: ARTIST_PROFILE.bioParagraph,
           alumniOf: [
             {
@@ -77,7 +77,7 @@ export function getPageMetadata(
 
   if (view === 'works') {
     return {
-      title: 'Selected Works — Anvi Stevens | Contemporary Fine Art & Painting',
+      title: 'Selected Works — Anvi Stevens | Artist | Boston, MA',
       description: 'Selected bodies of work by contemporary visual artist Anvi Stevens: Nature of Things, Landscape, Sculptures, Installation, Drawings, and Book Art.',
       url: `${BASE_URL}/works`,
       image: `${BASE_URL}/images/nature-of-things/02_Pull%20the%20curtain.JPG`,
@@ -147,7 +147,7 @@ export function getPageMetadata(
     const categoryTitle = category.title;
     const categorySnippet = category.statementSnippet || `${category.title} by contemporary artist Anvi Stevens.`;
     return {
-      title: `${categoryTitle} — Anvi Stevens | Contemporary Fine Art`,
+      title: `${categoryTitle} — Anvi Stevens | Artist | Boston, MA`,
       description: `${categoryTitle}: ${categorySnippet}`,
       url: `${BASE_URL}/works/${category.id}`,
       image: `${BASE_URL}${encodeURI(category.coverImage)}`,

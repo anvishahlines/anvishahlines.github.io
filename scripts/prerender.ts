@@ -70,7 +70,7 @@ function generateStaticPages() {
   }[] = [
     {
       dir: 'works',
-      title: 'Selected Works — Anvi Stevens | Contemporary Fine Art & Painting',
+      title: 'Selected Works — Anvi Stevens | Artist | Boston, MA',
       desc: 'Selected bodies of work by contemporary visual artist Anvi Stevens: Nature of Things, Landscape, Sculptures, Installation, Drawings, and Book Art.',
       url: 'https://anvistevens.com/works',
       image: `https://anvistevens.com${encodeURI(WORK_CATEGORIES[0].coverImage)}`,
@@ -109,7 +109,7 @@ function generateStaticPages() {
     },
     {
       dir: 'about',
-      title: 'About & CV — Anvi Stevens | Boston Contemporary Painter',
+      title: 'About & CV — Anvi Stevens | Artist | Boston, MA',
       desc: 'Artist biography, statement, education, and exhibition history of Boston and Massachusetts painter Anvi Stevens (MFA Boston University).',
       url: 'https://anvistevens.com/about',
       image: 'https://anvistevens.com/images/profile_pic.jpg',
@@ -122,7 +122,7 @@ function generateStaticPages() {
           '@type': 'VisualArtist',
           '@id': 'https://anvistevens.com/#artist',
           name: ARTIST_PROFILE.name,
-          jobTitle: 'Visual Artist & Contemporary Painter',
+          jobTitle: 'Artist | Boston, MA',
           description: ARTIST_PROFILE.bioParagraph,
           alumniOf: [
             {
@@ -207,7 +207,7 @@ function generateStaticPages() {
 
     routes.push({
       dir: path.join('works', category.id),
-      title: `${categoryTitle} — Anvi Stevens | Contemporary Fine Art`,
+      title: `${categoryTitle} — Anvi Stevens | Artist | Boston, MA`,
       desc: `${categoryTitle}: ${categorySnippet}`,
       url: categoryUrl,
       image: categoryImage,

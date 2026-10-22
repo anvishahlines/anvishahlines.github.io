@@ -40,7 +40,7 @@ function buildCVPdf() {
     .font('Helvetica')
     .fontSize(10)
     .fillColor('#57534e')
-    .text('Visual Artist & Contemporary Painter  •  Wakefield, MA (Boston Area)', { characterSpacing: 0.5 });
+    .text('Artist | Boston, MA  •  Wakefield, MA', { characterSpacing: 0.5 });
 
   doc.moveDown(0.2);
 
