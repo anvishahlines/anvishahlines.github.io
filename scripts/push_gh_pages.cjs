@@ -8,8 +8,8 @@ const remoteUrl = `https://anvishahlines:${token}@github.com/anvishahlines/anvis
 const gitPath = 'C:\\Users\\Trent\\AppData\\Local\\Programs\\PortableGit\\cmd\\git.exe';
 const env = Object.assign({}, process.env, { GIT_TERMINAL_PROMPT: '0' });
 
-console.log('Generating subtree split for docs directory...');
-const splitCommit = execSync(`"${gitPath}" subtree split --prefix docs main`, {
+console.log('Generating commit from docs tree...');
+const splitCommit = execSync(`"${gitPath}" commit-tree -p main -m "Deploy docs to gh-pages" main:docs`, {
   cwd: 'C:\\Users\\Trent\\anvi-portfolio',
   env
 }).toString().trim();
