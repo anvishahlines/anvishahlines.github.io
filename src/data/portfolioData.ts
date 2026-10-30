@@ -503,6 +503,16 @@ export const WORK_CATEGORIES: WorkCategory[] = [
       "Works on paper examining personal memory, natural gestures, delicate hand-stitching, and organic linear contours.",
     works: [
       {
+        id: "draw-untitled",
+        title: "Untitled",
+        medium: "watercolor, acrylic, graphite and khadiya powder on wasli paper",
+        dimensions: "8.25x11.75 inches",
+        year: "2026",
+        image: "/images/drawings/Untitled.jpg",
+        alt: "Vertical deckle-edged wasli paper with a reddish-brown painted arch at the top and a brown line drawing of a ceiling fan; below, a smaller armchair filled with gold scrollwork patterns stands to the left of a larger mottled blue armchair silhouette over a pink circular wash bordered by graphite zigzag lines, with fine horizontal and vertical graphite lines crossing the background.",
+        poem: "Memories are faded\nThe present is attractive\nIt is time for a\nConfrontation."
+      },
+      {
         id: "draw-nurture",
         title: "Nurture",
         medium: "watercolor, color pencil, oil pastel, graphite, thread, gesso, and gold leaf on cold pressed archival watercolor paper",
